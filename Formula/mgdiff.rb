@@ -3,7 +3,6 @@ class Mgdiff < Formula
   homepage "https://x11cp.org/apps/mgdiff"
   url "https://marceljj.org/pkg/mgdiff-1.0.tgz"
   sha256 "3fe48cfcf4d016c5409d2fb6c0664ceb05d6c62227d6af9b6884c8e801ac1ea9"
-  license "MIT"
 
   depends_on arch: :arm64
   depends_on :macos
