@@ -14,5 +14,4 @@ class Mgdiff < Formula
     (etc/"X11/app-defaults").install "Mgdiff.ad" => "Mgdiff"
   end
 
-  end
 end
