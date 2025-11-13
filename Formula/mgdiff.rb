@@ -1,4 +1,4 @@
-class mgdiff < Formula
+class Mgdiff < Formula
   desc "A graphical frontend to the diff command, written using motif"
   homepage "https://x11cp.org/apps/mgdiff"
   url "https://marceljj.org/pkg/mgdiff.tgz"
