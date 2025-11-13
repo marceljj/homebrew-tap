@@ -1,5 +1,5 @@
 class Mgdiff < Formula
-  desc "A graphical frontend to the diff command, written using motif"
+  desc "A graphical frontend to the diff command, written using Motif"
   homepage "https://x11cp.org/apps/mgdiff"
   url "https://marceljj.org/pkg/mgdiff-1.0.tgz"
   sha256 "3fe48cfcf4d016c5409d2fb6c0664ceb05d6c62227d6af9b6884c8e801ac1ea9"
