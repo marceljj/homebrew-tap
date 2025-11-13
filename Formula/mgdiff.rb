@@ -1,7 +1,7 @@
 class Mgdiff < Formula
   desc "A graphical frontend to the diff command, written using motif"
   homepage "https://x11cp.org/apps/mgdiff"
-  url "https://marceljj.org/pkg/mgdiff.tgz"
+  url "https://github.com/marceljj/homebrew-tap/raw/refs/heads/main/pkg/mgdiff.tgz"
   sha256 "3fe48cfcf4d016c5409d2fb6c0664ceb05d6c62227d6af9b6884c8e801ac1ea9"
   license "MIT"
   revision 1
