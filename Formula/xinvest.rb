@@ -3,7 +3,7 @@ class Xinvest < Formula
   homepage "https://x11cp.org/apps/xinvest"
   url "https://marceljj.org/pkg/xinvest-2.5.1.tar.gz"
   version "2.5.1"
-  sha256 "64b74481e319906cd109e294fda3def256a2af8c8f1b9f711c571d591e9ec864"
+  sha256 "91296f8c44ad8cc26c6bd0909fc027dd5737f2cb6a0be864ac06cb26e49874c7"
 
   depends_on "make"
   depends_on "imake"
@@ -11,7 +11,7 @@ class Xinvest < Formula
 
   def install
     system "xmkmf"
-    system "make -s 2>/dev/null"
+    system "./build.sh"
     bin.install "Xinvest"
     (lib/"X11/app-defaults").install "Xinvest.ad" => "Xinvest"
   end
