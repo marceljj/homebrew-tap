@@ -7,9 +7,9 @@ class Mgdiff < Formula
 
   depends_on arch: :arm64
   depends_on :macos
-  depends_on "openmotif"
-  depends_on "imake"
   depends_on "make"
+  depends_on "imake"
+  depends_on "openmotif"
 
   def install
     system "xmkmf"
