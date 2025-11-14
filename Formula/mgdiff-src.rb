@@ -8,6 +8,7 @@ class Mgdiff < Formula
   depends_on :macos
   depends_on "openmotif"
   depends_on "imake"
+  depends_on "make"
 
   def install
     system "xmkmf"
