@@ -5,8 +5,6 @@ class Xinvest < Formula
   version "2.5.1"
   sha256 "64b74481e319906cd109e294fda3def256a2af8c8f1b9f711c571d591e9ec864"
 
-  depends_on arch: :arm64
-  depends_on :macos
   depends_on "make"
   depends_on "imake"
   depends_on "openmotif"
