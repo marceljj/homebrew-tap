@@ -1,14 +1,17 @@
 class Mgdiff < Formula
   desc "A graphical frontend to the diff command, written using Motif"
   homepage "https://x11cp.org/apps/mgdiff"
-  url "https://marceljj.org/pkg/mgdiff-1.0.tgz"
-  sha256 "3fe48cfcf4d016c5409d2fb6c0664ceb05d6c62227d6af9b6884c8e801ac1ea9"
+  url "https://codeberg.org/x11cp/x11cp/archive/main:src/mgdiff.tar.gz"
+  sha256 "ab3db2cf618e3d914dbd3dad3ecc7cfe370fdd1970a9e13c938a4c37be794c86"
 
   depends_on arch: :arm64
   depends_on :macos
   depends_on "openmotif"
+  depends_on "imake"
 
   def install
+    system "xmkmf"
+    system "make"
     bin.install "mgdiff"
     man1.install "mgdiff.man" => "mgdiff.1"
     (etc/"X11/app-defaults").install "Mgdiff.ad" => "Mgdiff"
