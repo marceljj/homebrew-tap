@@ -11,7 +11,7 @@ class Xinvest < Formula
 
   def install
     system "xmkmf"
-    system "make"
+    system "make 2>/dev/null"
     bin.install "Xinvest"
     (lib/"X11/app-defaults").install "Xinvest.ad" => "Xinvest"
   end
