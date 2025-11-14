@@ -10,8 +10,7 @@ class Xinvest < Formula
   depends_on "openmotif"
 
   def install
-    system "xmkmf"
-    system "./build.sh"
+    system "xmkmf && ./build.sh"
     bin.install "Xinvest"
     (lib/"X11/app-defaults").install "Xinvest.ad" => "Xinvest"
   end
