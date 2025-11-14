@@ -5,8 +5,6 @@ class Mgdiff < Formula
   version "1.0"
   sha256 "ab3db2cf618e3d914dbd3dad3ecc7cfe370fdd1970a9e13c938a4c37be794c86"
 
-  depends_on arch: :arm64
-  depends_on :macos
   depends_on "make"
   depends_on "imake"
   depends_on "openmotif"
