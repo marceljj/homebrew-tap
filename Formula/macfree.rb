@@ -9,7 +9,7 @@ class Macfree< Formula
 
   def install
     bin.install "macfree.sh" => "macfree"
-    man1.install "manfree.man" => "manfree.1"
+    man1.install "doc/macfree.man" => "manfree.1"
     share("doc/macfree").install "README.md"
     share("doc/macfree").install "LICENSE"
   end
