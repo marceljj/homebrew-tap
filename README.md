@@ -1,4 +1,4 @@
-## Marcel's UNIX Repository (and more)##
+## Marcel's UNIX Repository (and more) ##
 
 _currently providing [homebrew](https://brew.sh) packages for ancient UNIX software, alongside various other software (mainly for macOS)_
 - [mgdiff](https://x11cp.org/apps/mgdiff)* - version 1.0, (c) Daniel Williams, 1994
