@@ -9,6 +9,7 @@ class Macfree< Formula
 
   def install
     bin.install "macfree.sh" => "macfree"
+    man1.install "doc/manfree.man" => "manfree.1"
   end
 
   test do
