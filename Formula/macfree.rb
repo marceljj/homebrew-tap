@@ -8,7 +8,7 @@ class Macfree< Formula
   depends_on :macos
 
   def install
-    bin.install "macfree"
+    bin.install "macfree.sh" => "macfree"
   end
 
   test do
