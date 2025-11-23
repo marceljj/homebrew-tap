@@ -10,7 +10,7 @@ class Libtoxcore < Formula
   option "with-daemon", "Builds the bootstrap server daemon"
   option "without-shared", "Build without shared (dynamic) libraries for all modules"
 
-  depends_on "cmake" => :build
+  depends_on "cmake-app" => :build
   depends_on "pkg-config" => :build
 
   if build.with? "daemon"
