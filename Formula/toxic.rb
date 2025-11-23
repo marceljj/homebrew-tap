@@ -1,7 +1,8 @@
 class Toxic < Formula
   desc "An ncurses-based Tox client"
   homepage "https://tox.chat"
-  head "git://github.com/Tox/toxic"
+  url "https://github.com/Tox/toxic.git", branch: "main"
+  version "0.16.1"
 
   option "with-notifications", "Build with desktop notifications"
 
@@ -14,24 +15,14 @@ class Toxic < Formula
   depends_on "libpng"
   depends_on "curl"
   depends_on "openal-soft"
-  depends_on "python" => :optional
-
-  if build.with? "notifications"
-    depends_on "libnotify"
-  end
+  depends_on "python"
+  depends_on "libnotify"
 
   def install
     args = []
     args << "PREFIX='#{prefix}'"
     args << "DISABLE_X11=YES"
-
-    unless build.with? "notifications"
-      args << "DISABLE_DESKTOP_NOTIFY=YES"
-    end
-
-    if build.with? "python"
-      args << "ENABLE_PYTHON=YES"
-    end
+    args << "ENABLE_PYTHON=YES"
 
     ENV.append "CFLAGS", "-DPACKAGE_DATADIR=\\\"#{share}\\\""
 
