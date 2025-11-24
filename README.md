@@ -3,7 +3,7 @@
 _currently providing [homebrew](https://brew.sh) packages for ancient UNIX software, alongside various other software (mainly for macOS)_
 - [mgdiff](https://x11cp.org/apps/mgdiff)* - version 1.0, (c) Daniel Williams, 1994
 - [xtt](https://x11cp.org/apps/xtt)* - version 1.0, (c) Matthew Chapman, 1995
-- [xmtoolbar](https://x11cp.org/apps/xmtoolbar)* - version 1.2, (c) Spiff, 1996
+- [xmtoolbar](https://x11cp.org/apps/xmtoolbar)* - version 1.2, (c) Thomas Zwettler, 1996
 - [Xinvest](https://x11cp.org/apps/xinvest)* - version 2.5.1, (c) Mark Buser, 1997
 - [macfree](https://github.com/marceljj/macfree) - version 0.1, GNU GPL 3.0, written by Marcel Jagielko, 2025
 
