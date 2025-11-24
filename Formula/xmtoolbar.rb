@@ -1,9 +1,9 @@
 class Xmtoolbar < Formula
-  desc "A graphical frontend to the diff command, written using Motif"
+  desc "An ancient Motif-based toolbar for X11"
   homepage "https://x11cp.org/apps/xmtoolbar"
   url "https://marceljj.org/pkg/xmtoolbar-1.2.tar.gz"
-  version "1.0"
-  sha256 "57ed1d1e0e43eff34fb57aabec60e12103e85a2735d856fbe723c0a41b9516a8"
+  version "1.2"
+  sha256 "6a9dfc23e5a774bdfabeafcff9a432aff3445ed6251a982624ffc27a38370375"
 
   depends_on "make"
   depends_on "openmotif"
@@ -11,6 +11,7 @@ class Xmtoolbar < Formula
   def install
     system "make"
     bin.install "xmtoolbar"
+    (share/"xmtoolbar").install "default.xpm"
     (etc/"X11/app-defaults").install "Xmtoolbar.ad" => "Xmtoolbar"
   end
 
