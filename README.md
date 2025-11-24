@@ -6,7 +6,7 @@ _currently providing [homebrew](https://brew.sh) packages for ancient UNIX softw
 - [Xinvest](https://x11cp.org/apps/xinvest)* - version 2.5.1, (c) Mark Buser, 1997
 - [macfree](https://github.com/marceljj/macfree) - version 0.1, GNU GPL 3.0, written by Marcel Jagielko, 2025
 
-\* Source code provided by the [X11 Conservancy Project](https://x11cp.org).
+\* Source code provided by the [X11 Conservancy Project](https://x11cp.org). Provided code may differ slightly in order to ensure compatibility with modern systems.
 
 ## Add repository to Homebrew
 
