@@ -25,10 +25,15 @@ class GnomeCalculator < Formula
         -Ddoc=false
         ]
 
-        system "meson", "setup", "build", *args, *std_meson_args
-        system "meson", "compile", "-C", "build", "--verbose"
-        system "meson", "install", "-C", "build"
-        system "rm", HOMEBREW_PREFIX/"share/glib-2.0/schemas"
+    system "meson", "setup", "build", *args, *std_meson_args
+    system "meson", "compile", "-C", "build", "--verbose"
+    system "meson", "install", "-C", "build"
+    system "rm", HOMEBREW_PREFIX/"share/glib-2.0/schemas/gschemas.compiled"
+  end
+
+  def post_install
+    system Formula["glib"].opt_bin/"glib-compile-schemas", HOMEBREW_PREFIX/"share/glib-2.0/schemas"
+    system Formula["gtk4"].opt_bin/"gtk4-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
   end
 
   test do
