@@ -28,6 +28,7 @@ class GnomeCalculator < Formula
         system "meson", "setup", "build", *args, *std_meson_args
         system "meson", "compile", "-C", "build", "--verbose"
         system "meson", "install", "-C", "build"
+        (share/"glib-2.0/schemas").rm "gschemas.compiled"
   end
 
   test do
