@@ -11,6 +11,7 @@ class GnomeCalculator < Formula
   depends_on "libmpc"
   depends_on "mpfr"
   depends_on "libsoup"
+  depends_on "libgee"
   depends_on "itstool"
   depends_on "gettext"
   depends_on "glib"
