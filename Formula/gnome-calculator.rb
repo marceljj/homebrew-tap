@@ -21,6 +21,7 @@ class GnomeCalculator < Formula
   depends_on "gtksourceview5"
 
   def install
+    ENV["DESTDIR"] = "/"
     args = %w[
         -Ddoc=false
         ]
@@ -28,7 +29,6 @@ class GnomeCalculator < Formula
     system "meson", "setup", "build", *args, *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
-    system "rm", HOMEBREW_PREFIX/"share/glib-2.0/schemas/gschemas.compiled"
   end
 
   def post_install
