@@ -3,10 +3,10 @@ _currently providing [homebrew](https://brew.sh) packages for ancient UNIX softw
 
 ## Old UNIX software
 _Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org) (may slightly differ to ensure compatibility with modern systems)_
-- [mgdiff](https://x11cp.org/apps/mgdiff)* - version 1.0, (c) Daniel Williams, 1994
-- [xtt](https://x11cp.org/apps/xtt)* - version 1.0, (c) Matthew Chapman, 1995
-- [xmtoolbar](https://x11cp.org/apps/xmtoolbar)* - version 1.2, (c) Thomas Zwettler, 1996
-- [Xinvest](https://x11cp.org/apps/xinvest)* - version 2.5.1, (c) Mark Buser, 1997
+- [mgdiff](https://x11cp.org/apps/mgdiff) - version 1.0, (c) Daniel Williams, 1994
+- [xtt](https://x11cp.org/apps/xtt) - version 1.0, (c) Matthew Chapman, 1995
+- [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - version 1.2, (c) Thomas Zwettler, 1996
+- [Xinvest](https://x11cp.org/apps/xinvest) - version 2.5.1, (c) Mark Buser, 1997
 
 ## Modern software
 _Contains formulae for common software, alongside my own work_
