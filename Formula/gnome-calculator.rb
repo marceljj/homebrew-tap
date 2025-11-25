@@ -21,7 +21,6 @@ class GnomeCalculator < Formula
   depends_on "gtksourceview5"
 
   def install
-    ENV["DESTDIR"] = "/"
     args = %w[
         -Ddoc=false
         ]
