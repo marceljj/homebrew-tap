@@ -2,7 +2,7 @@
 _currently providing [homebrew](https://brew.sh) packages for ancient UNIX software, alongside various other software (mainly for macOS)_
 
 ## Old UNIX software
-_Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org) (may slightly differ to ensure compatibility with modern systems)_
+_Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org) (code may slightly differ to ensure compatibility with modern systems)_
 - [mgdiff](https://x11cp.org/apps/mgdiff) - version 1.0, (c) Daniel Williams, 1994
 - [xtt](https://x11cp.org/apps/xtt) - version 1.0, (c) Matthew Chapman, 1995
 - [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - version 1.2, (c) Thomas Zwettler, 1996
