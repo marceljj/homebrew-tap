@@ -6,6 +6,7 @@ class GnomeLorem < Formula
   license "GPL-3.0-or-later"
   version "1.6.0"
 
+  depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "libadwaita"
