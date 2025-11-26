@@ -27,7 +27,7 @@ class GnomeLorem < Formula
   
   def caveats
       <<~EOS
-        Lorem has been installed as gnome-lorem to avoid conflict with the 'lorem' package.
+        The binary has been installed as gnome-lorem to avoid conflict with the 'lorem' package.
       EOS
   end
 
