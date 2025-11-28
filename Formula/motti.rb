@@ -9,7 +9,7 @@ class Motti < Formula
   depends_on "make"
 
   def install
-    system "./configure", "--bindir=#{bindir}", "--prefix=#{prefix}", "--libdir=#{libdir}", "--disable-debug", "--disable-dependency-tracking", "--disable-silent-rules"
+    system "./configure", std_configure_args
     system "make"
     system "make install"
     bin.install_symlink games/"motti"
