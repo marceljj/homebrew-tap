@@ -10,7 +10,7 @@ class Udu < Formula
   depends_on "make"
 
   def install
-    system "gmake", "CC=clang", "-B"
+    system "gmake CC=clang -B"
     bin.install "udu"
     man1.install "udu.1"
     (share/"doc/udu").install "COPYING"
