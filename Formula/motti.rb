@@ -9,7 +9,7 @@ class Motti < Formula
   depends_on "make"
 
   def install
-    system "./configure", *std_configure_args, "--bindir=#{bindir}", "--disable-silent-rules"
+    system "./configure", "--bindir=#{bindir}", "--prefix=#{prefix}", "--libdir=#{libdir}", "--disable-debug", "--disable-dependency-tracking", "--disable-silent-rules"
     system "make"
     system "make install"
   end
