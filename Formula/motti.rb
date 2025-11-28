@@ -9,7 +9,7 @@ class Motti < Formula
   depends_on "make"
 
   def install
-    system "./configure --prefix=$HOMEBREW_PREFIX"
+    system "./configure", *std_configure_args, "--disable-silent-rules"
     system "make"
     system "make install"
   end
