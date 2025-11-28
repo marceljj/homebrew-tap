@@ -1,11 +1,11 @@
-cask "xquartz-beta" do
+cask "xquartz@beta" do
   version "2.8.6_beta2"
   sha256 "7a39e67d5ab45ebf417535c5877bcce6792b57c06ebe3f9627cc72ab60c6f48d"
 
   url "https://github.com/XQuartz/XQuartz/releases/download/XQuartz-#{version}/XQuartz-#{version}.pkg",
       verified: "github.com/XQuartz/XQuartz/"
   name "XQuartz"
-  desc "Open-source version of the X.Org X Window System (beta)"
+  desc "Open-source version of the X.Org X Window System (beta version)"
   homepage "https://www.xquartz.org/"
 
   livecheck do
