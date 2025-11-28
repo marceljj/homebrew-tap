@@ -12,8 +12,8 @@ class Motti < Formula
     system "./configure", *std_configure_args
     system "make"
     system "make install"
-    bin.install_symlink bin/"games/motti"
-    bin.install_symlink bin/"games/testmotti"
+    bin.install_symlink "bin/games/motti"
+    bin.install_symlink "bin/games/testmotti"
   end
 
   test do
