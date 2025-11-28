@@ -9,7 +9,7 @@ class Motti < Formula
   depends_on "make"
 
   def install
-    system "./configure"
+    system "./configure --prefix=$HOMEBREW_PREFIX"
     system "make"
     system "make install"
   end
