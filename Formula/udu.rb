@@ -6,7 +6,7 @@ class Udu < Formula
   version "0.6.6"
 
   depends_on "gcc"
-  depends_on "libomp"
+  depends_on "gmp"
   depends_on "make"
 
   def install
