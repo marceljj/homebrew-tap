@@ -16,9 +16,10 @@ class Udu < Formula
         "ac_cv_prog_c_openmp=-Xpreprocessor -fopenmp",
         "ac_cv_prog_cxx_openmp=-Xpreprocessor -fopenmp",
         "LDFLAGS=-lomp",
+        "CC=gcc-15 -B"
       ]
     end
-    system "gmake CC=gcc-15 -B"
+    system "gmake"
     bin.install "udu"
     man1.install "udu.1"
     (share/"doc/udu").install "COPYING"
