@@ -4,7 +4,7 @@ cask "uzdoom" do
 
   url "https://github.com/UZDoom/UZDoom/releases/download/#{version}/macOS-UZDoom-#{version}.zip"
   name "UZDoom"
-  desc "Adds an OpenGL renderer to the ZDoom source port"
+  desc "A feature centric port for all Doom engine games, based on GZDoom"
   homepage "https://github.com/UZDoom/UZDoom"
 
   app "UZDoom.app"
