@@ -10,6 +10,7 @@ class Udu < Formula
   depends_on "make"
 
   def install
+    ENV["PATH"] = "/opt/homebrew/opt/llvm/bin:$PATH"
     system "gmake CC=clang -B"
     bin.install "udu"
     man1.install "udu.1"
