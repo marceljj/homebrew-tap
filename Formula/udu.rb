@@ -5,8 +5,8 @@ class Udu < Formula
   license "GPL-3.0"
   version "0.6.6"
 
-  depends_on "llvm"
   depends_on "libomp"
+  depends_on "llvm"
   depends_on "make"
 
   def install
