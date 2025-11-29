@@ -14,6 +14,7 @@ _Formulae for common software, alongside my own work_
 - [GNOME Lorem](https://apps.gnome.org/Lorem) - version 1.6.0, (c) Maximiliano Sandoval, 2025
 - [GNU Motti](https://www.gnu.org/software/motti) - version 3.1.1, (c) Sebastien Diaz, 2019
 - [macfree](https://github.com/marceljj/macfree) - version 0.1, (c) Marcel Jagielko, 2025
+- [UZDoom](https://github.com/UZDoom/UZDoom) - version 4.14.3, (c) UZDoom Team, 2025
 - [XQuartz](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - version 2.8.6_beta2, (c) Jeremy Huddleston Sequoia, 2023
 
 ## Add repository to Homebrew
