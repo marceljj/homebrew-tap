@@ -6,11 +6,12 @@ class Udu < Formula
   version "0.6.6"
 
   depends_on "gcc"
-  depends_on "gmp"
+  depends_on "libomp"
   depends_on "make"
 
   def install
-    system "gmake CC=gcc-15 -B"
+    ENV["CC"] = bin/"gcc-15"
+    system "gmake"
     bin.install "udu"
     man1.install "udu.1"
     (share/"doc/udu").install "COPYING"
