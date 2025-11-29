@@ -5,8 +5,8 @@ class Udu < Formula
   license "GPL-3.0"
   version "0.6.6"
 
+  depends_on "gcc"
   depends_on "libomp"
-  depends_on "llvm"
   depends_on "make"
 
   def install
@@ -18,7 +18,7 @@ class Udu < Formula
         "LDFLAGS=-lomp",
       ]
     end
-    system "gmake"
+    system "gmake CC=gcc-15 -B"
     bin.install "udu"
     man1.install "udu.1"
     (share/"doc/udu").install "COPYING"
