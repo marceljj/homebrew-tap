@@ -6,6 +6,7 @@ class GnomeRobots < Formula
   license "GPL-3.0"
   version "41.2"
 
+  depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "itstool"
