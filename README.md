@@ -12,6 +12,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 _Formulae for common software, alongside my own work_
 - [GNOME Calculator](https://apps.gnome.org/Calculator) - version 49.2, (c) Robert Roth, 2025
 - [GNOME Lorem](https://apps.gnome.org/Lorem) - version 1.6.0, (c) Maximiliano Sandoval, 2025
+- [GNOME Robots](https://gitlab.gnome.org/GNOME/gnome-robots) - version 41.2, (c) Mark Rae, 2014
 - [GNU Motti](https://www.gnu.org/software/motti) - version 3.1.1, (c) Sebastien Diaz, 2019
 - [macfree](https://github.com/marceljj/macfree) - version 0.1, (c) Marcel Jagielko, 2025
 - [UZDoom](https://github.com/UZDoom/UZDoom) - version 4.14.3, (c) UZDoom Team, 2025
