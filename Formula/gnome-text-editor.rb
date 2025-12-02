@@ -12,6 +12,7 @@ class GnomeTextEditor < Formula
   depends_on "gtksourceview5"
   depends_on "itstool"
   depends_on "libadwaita"
+  depends_on "libspelling"
   depends_on "meson"
 
   def install
