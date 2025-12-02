@@ -6,6 +6,7 @@ class GnomeTour < Formula
   license "GPL-3.0"
   version "49.0"
 
+  depends_on "cmake" => :build
   depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
