@@ -7,6 +7,7 @@ class GnomeTextEditor < Formula
   version "49.0"
 
   depends_on "desktop-file-utils"
+  depends_on "editorconfig"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "gtksourceview5"
