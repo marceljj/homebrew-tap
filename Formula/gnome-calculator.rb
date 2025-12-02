@@ -1,4 +1,5 @@
 class GnomeCalculator < Formula
+  version "49.2"
   desc "Calculator for solving mathematical equations"
   homepage "https://apps.gnome.org/Calculator"
   url "https://gitlab.gnome.org/GNOME/gnome-calculator/-/archive/#{version}/gnome-calculator-#{version}.tar.gz"
