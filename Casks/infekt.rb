@@ -7,5 +7,5 @@ cask "infekt" do
   desc "The ultimate best NFO viewer, ever"
   homepage "https://github.com/UZDoom/UZDoom"
 
-  app "Infekt.app"
+  app "iNFekt.app"
 end
