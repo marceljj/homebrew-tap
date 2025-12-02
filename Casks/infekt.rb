@@ -8,5 +8,4 @@ cask "infekt" do
   homepage "https://infekt.ws"
 
   app "iNFekt.app"
-  binary "#{appdir}/iNFekt.app/Contents/bin/infekt-nfo-viewer"
 end
