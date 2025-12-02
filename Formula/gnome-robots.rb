@@ -1,10 +1,10 @@
 class GnomeRobots < Formula
+  version "41.2"
   desc "A game where you try and avoid a band of marauding robots which are trying to kill you"
   homepage "https://gitlab.gnome.org/GNOME/gnome-robots"
-  url "https://gitlab.gnome.org/GNOME/gnome-robots/-/archive/41.2/gnome-robots-41.2.tar.gz"
+  url "https://gitlab.gnome.org/GNOME/gnome-robots/-/archive/#{version}/gnome-robots-#{version}.tar.gz"
   sha256 "4bc651ab3da16fbd519f262885523b5e93bca4c5e0d3e4a289628df5a0a7762d"
   license "GPL-3.0"
-  version "41.2"
 
   depends_on "desktop-file-utils"
   depends_on "glib"
