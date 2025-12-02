@@ -24,9 +24,9 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## GNU Software
 - [Motti](https://www.gnu.org/software/motti) - version 3.1.1, (c) Sebastien Diaz, 2019
 
-# macOS Casks
+## macOS Casks
 - [UZDoom](https://github.com/UZDoom/UZDoom) - version 4.14.3, (c) UZDoom Team, 2025
 - [XQuartz](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - version 2.8.6_beta2, (c) Jeremy Huddleston Sequoia, 2023
 
-# Marcel's Software
+## Marcel's Software
 - [macfree](https://github.com/marceljj/macfree) - version 0.1, (c) Marcel Jagielko, 2025
