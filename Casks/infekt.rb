@@ -5,7 +5,7 @@ cask "infekt" do
   url "https://github.com/syndicodefront/infekt/releases/download/v#{version}/iNFekt-v#{version}-macos-aarch64.dmg"
   name "Infekt"
   desc "The ultimate best NFO viewer, ever"
-  homepage "https://github.com/UZDoom/UZDoom"
+  homepage "https://infekt.ws"
 
   app "iNFekt.app"
 end
