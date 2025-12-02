@@ -1,4 +1,4 @@
-class GnomeRobots < Formula
+class GnomeTextEditor < Formula
   desc "A simple text editor focused on a pleasing default experience"
   homepage "https://apps.gnome.org/TextEditor"
   url "https://gitlab.gnome.org/GNOME/gnome-text-editor/-/archive/49.0/gnome-text-editor-49.0.tar.gz"
