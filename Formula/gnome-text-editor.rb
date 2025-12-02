@@ -9,6 +9,7 @@ class GnomeTextEditor < Formula
   depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
+  depends_on "gtksourceview5"
   depends_on "itstool"
   depends_on "meson"
 
