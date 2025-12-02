@@ -6,14 +6,8 @@ class GnomeFontViewer < Formula
   license "GPL-2.0"
   version "49.0"
 
-  depends_on "desktop-file-utils"
-  depends_on "editorconfig"
   depends_on "glib"
   depends_on "gtk4"
-  depends_on "gtksourceview5"
-  depends_on "itstool"
-  depends_on "libadwaita"
-  depends_on "libspelling"
   depends_on "meson"
 
   def install
