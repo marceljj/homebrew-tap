@@ -1,8 +1,8 @@
 class Xmtoolbar < Formula
+  version "1.2"
   desc "An ancient Motif-based toolbar for X11"
   homepage "https://x11cp.org/apps/xmtoolbar"
-  url "https://marceljj.org/pkg/xmtoolbar-1.2.tar.gz"
-  version "1.2"
+  url "https://marceljj.org/pkg/xmtoolbar-#{version}.tar.gz"
   sha256 "2607ed97ffe640d775d098bad1d1bfe2673c09d8b4749ae7229aae3cbbdd25a9"
 
   depends_on arch: :arm64
