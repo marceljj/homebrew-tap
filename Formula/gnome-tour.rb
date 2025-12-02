@@ -15,7 +15,7 @@ class GnomeTour < Formula
     ENV["DESTDIR"] = "/"
 
     system "meson", "setup", "build", *std_meson_args
-    system "meson", "compile", "-C", "build", "--verbose"
+    system "meson", "-C", "build"
     system "meson", "install", "-C", "build"
   end
 
