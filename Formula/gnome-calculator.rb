@@ -7,7 +7,6 @@ class GnomeCalculator < Formula
   version "49.2"
 
   depends_on "blueprint-compiler"
-  depends_on "gettext"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "gtksourceview5"
