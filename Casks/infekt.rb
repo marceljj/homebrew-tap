@@ -8,4 +8,5 @@ cask "infekt" do
   homepage "https://infekt.ws"
 
   app "iNFekt.app"
+  binary "#{appdir}/iNFekt.app/Contents/MacOS/infekt-nfo-viewer"
 end
