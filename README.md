@@ -25,6 +25,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
 ## macOS Casks
+- [iNFekt](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
 - [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Team
 - [XQuartz](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, Jeremy Huddleston Sequoia
 
