@@ -9,13 +9,14 @@ class GnomeTour < Formula
   depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
+  depends_on "meson"
   depends_on "rust"
 
   def install
     ENV["DESTDIR"] = "/"
 
     system "meson", "setup", "build", *std_meson_args
-    system "meson", "-C", "build"
+    system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
 
