@@ -15,14 +15,14 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [xtt](https://x11cp.org/apps/xtt) - version 1.0, (c) Matthew Chapman, 1995
 
 ## GNOME Software
-- [GNOME Calculator](https://apps.gnome.org/Calculator) - version 49.2, (c) Robert Roth, 2025
-- [GNOME Fonts](https://apps.gnome.org/FontViewer) - version 49.0, (c) Christopher Davis and Evan Welsh, 2025
-- [GNOME Lorem](https://apps.gnome.org/Lorem) - version 1.6.0, (c) Maximiliano Sandoval, 2025
-- [GNOME Robots](https://gitlab.gnome.org/GNOME/gnome-robots) - version 41.2, (c) Mark Rae, 2014
-- [GNOME Tour](https://apps.gnome.org/Tour) - version 49.0, (c) Bilal Elmoussaoui, 2025
+- [Calculator](https://apps.gnome.org/Calculator) - version 49.2, (c) Robert Roth, 2025
+- [Fonts](https://apps.gnome.org/FontViewer) - version 49.0, (c) Christopher Davis and Evan Welsh, 2025
+- [Lorem](https://apps.gnome.org/Lorem) - version 1.6.0, (c) Maximiliano Sandoval, 2025
+- [Robots](https://gitlab.gnome.org/GNOME/gnome-robots) - version 41.2, (c) Mark Rae, 2014
+- [Tour](https://apps.gnome.org/Tour) - version 49.0, (c) Bilal Elmoussaoui, 2025
 
 ## GNU Software
-- [GNU Motti](https://www.gnu.org/software/motti) - version 3.1.1, (c) Sebastien Diaz, 2019
+- [Motti](https://www.gnu.org/software/motti) - version 3.1.1, (c) Sebastien Diaz, 2019
 
 # macOS Casks
 - [UZDoom](https://github.com/UZDoom/UZDoom) - version 4.14.3, (c) UZDoom Team, 2025
