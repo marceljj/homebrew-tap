@@ -11,6 +11,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## Modern software
 _Formulae for common software, alongside my own work_
 - [GNOME Calculator](https://apps.gnome.org/Calculator) - version 49.2, (c) Robert Roth, 2025
+- [GNOME Fonts](https://apps.gnome.org/FontViewer) - version 49.0, (c) Christopher Davis and Evan Welsh, 2025
 - [GNOME Lorem](https://apps.gnome.org/Lorem) - version 1.6.0, (c) Maximiliano Sandoval, 2025
 - [GNOME Robots](https://gitlab.gnome.org/GNOME/gnome-robots) - version 41.2, (c) Mark Rae, 2014
 - [GNOME Tour](https://apps.gnome.org/Tour) - version 49.0, (c) Bilal Elmoussaoui, 2025
