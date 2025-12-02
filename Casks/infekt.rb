@@ -9,6 +9,4 @@ cask "infekt" do
 
   app "iNFekt.app"
   binary "#{appdir}/iNFekt.app/Contents/MacOS/infekt-nfo-viewer"
-
-  caveats 'Binary installed as "infekt-nfo-viewer"'
 end
