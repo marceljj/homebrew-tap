@@ -1,10 +1,10 @@
 class GnomeFontViewer < Formula
+  version "49.0"
   desc "View fonts on your system"
   homepage "https://apps.gnome.org/FontViewer"
-  url "https://gitlab.gnome.org/GNOME/gnome-font-viewer/-/archive/49.0/gnome-font-viewer-49.0.tar.gz"
+  url "https://gitlab.gnome.org/GNOME/gnome-font-viewer/-/archive/#{version}/gnome-font-viewer-#{version}.tar.gz"
   sha256 "dd20a3bcef0cea9681dbe0b078075e23a8b46b32cda6e0342a4089b49edfb64d"
   license "GPL-2.0"
-  version "49.0"
 
   depends_on "glib"
   depends_on "gtk4"
