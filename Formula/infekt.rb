@@ -10,7 +10,7 @@ class Infekt < Formula
 
   def install
 
-    system "cargo", "build", *std_cargo_args
+    system "cargo", "build", "--locked", "--path=#{path}"
   end
 
   test do
