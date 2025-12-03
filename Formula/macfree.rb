@@ -3,7 +3,7 @@ class Macfree< Formula
   desc "Disable Gatekeeper protection for a given macOS application"
   homepage "https://github.com/marceljj/macfree"
   url "https://github.com/marceljj/macfree/archive/refs/tags/macfree-#{version}.tar.gz"
-  sha256 "4b494f534101741e8cfdb0dc1d1bdee65d8f13161008d75ed3ccfc51650a6ad6"
+  sha256 "e785a63fb794bd164cc2fc530036105334d333523c4981a54602a3bd07b10e06"
   license "GPL-3.0"
 
   depends_on :macos
