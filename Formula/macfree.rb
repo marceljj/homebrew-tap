@@ -1,9 +1,10 @@
 class Macfree< Formula
+  version "1.0"
   desc "Disable Gatekeeper protection for a given macOS application"
   homepage "https://github.com/marceljj/macfree"
-  url "https://github.com/marceljj/macfree.git", branch: "main"
+  url "https://github.com/marceljj/macfree/archive/refs/tags/#{version}.tar.gz"
+  sha256 "3d0f856fd2e81d42748eac75a8854f5bf9a7f04ce73c6832a3c203d98864a52b"
   license "GPL-3.0"
-  version "0.1"
 
   depends_on :macos
 
