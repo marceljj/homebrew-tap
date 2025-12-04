@@ -9,6 +9,7 @@ class GnomeConsole < Formula
   depends_on "glib"
   depends_on "gtk4"
   depends_on "libadwaita"
+  depends_on "libgtop"
   depends_on "meson"
   depends_on "vte3"
 
