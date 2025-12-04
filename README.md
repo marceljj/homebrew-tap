@@ -31,5 +31,5 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Team
 - [XQuartz](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
 
-## My Software
+## My software
 - [macfree](https://github.com/marceljj/macfree) - version 1.0, (c) Marcel Jagielko, 2025
