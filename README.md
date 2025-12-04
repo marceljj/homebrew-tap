@@ -16,8 +16,10 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 
 ## GNOME Software
 - [Calculator](https://apps.gnome.org/Calculator) - v49.2, (c) 2025, Robert Roth
+- [Console](https://apps.gnome.org/Console) -v49.1, (c) 2025, Zander Brown
 - [Fonts](https://apps.gnome.org/FontViewer) - v49.0, (c) 2025, Christopher Davis and Evan Welsh
 - [Lorem](https://apps.gnome.org/Lorem) - v1.6.0, (c) 2025, Maximiliano Sandoval
+- [Ptyxis](https://gitlab.gnome.org/chergert/ptyxis) - v49.2, (c) 2023, Christian Hergert
 - [Robots](https://gitlab.gnome.org/GNOME/gnome-robots) - v41.2, (c) 2014, Mark Rae
 - [Tour](https://apps.gnome.org/Tour) - v49.0, (c) 2025, Bilal Elmoussaoui
 
@@ -29,5 +31,5 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Team
 - [XQuartz](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
 
-## Marcel's Software
-- [macfree](https://github.com/marceljj/macfree) - version 0.1, (c) Marcel Jagielko, 2025
+## My Software
+- [macfree](https://github.com/marceljj/macfree) - version 1.0, (c) Marcel Jagielko, 2025
