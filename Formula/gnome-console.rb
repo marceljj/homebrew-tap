@@ -6,6 +6,7 @@ class GnomeConsole < Formula
   sha256 "fdfe020889b220c9521982977d000a30ce57658ba80c8fece70ba76613cdc154"
   license "GPL-3.0"
 
+  depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "libadwaita"
