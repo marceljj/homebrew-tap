@@ -11,6 +11,7 @@ class Ptyxis < Formula
   depends_on "json-glib"
   depends_on "libadwaita"
   depends_on "meson"
+  depends_on "vte3"
 
   def install
     ENV["DESTDIR"] = "/"
