@@ -2,7 +2,7 @@ class GnomeConsole < Formula
   version "49.1"
   desc "A simple user-friendly terminal emulator for the GNOME desktop"
   homepage "https://wiki.gnome.org/Apps/Terminal"
-  url "https://gitlab.gnome.org/GNOME/console/-/archive/#{archive}/console-#{archive}.tar.gz"
+  url "https://gitlab.gnome.org/GNOME/console/-/archive/#{version}/console-#{version}.tar.gz"
   sha256 "fdfe020889b220c9521982977d000a30ce57658ba80c8fece70ba76613cdc154"
   license "GPL-3.0"
 
