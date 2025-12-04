@@ -1,4 +1,4 @@
-cask "infekt-nfo-viewer" do
+cask "infekt" do
   arch arm: "aarch64", intel: "intel"
   version "2.0.0-alpha1"
   sha256 arm: "06cb4cdaacd5e0784087be3dd6def5552282fdb36d5928639addb535b568c9d0",
