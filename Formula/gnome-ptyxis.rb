@@ -1,4 +1,4 @@
-class Ptyxis < Formula
+class GnomePtyxis < Formula
   version "49.2"
   desc "A terminal for a container-oriented desktop"
   homepage "https://gitlab.gnome.org/chergert/ptyxis"
