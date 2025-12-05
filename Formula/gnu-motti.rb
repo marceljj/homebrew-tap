@@ -1,4 +1,4 @@
-class Motti < Formula
+class GnuMotti < Formula
   version "3.1.1"
   desc "Conquer enemies' capitals by occupying and encircling their territories. The game map is an array of square cells."
   homepage "https://www.gnu.org/software/motti"
@@ -14,6 +14,8 @@ class Motti < Formula
     system "make install"
     bin.install_symlink bin/"games/motti"
     bin.install_symlink bin/"games/testmotti"
+    bin.install_symlink bin/"games/motti" => "gmotti"
+    bin.install_symlink bin/"games/testmotti" => "gtestmotti"
   end
 
   test do
