@@ -6,12 +6,11 @@ class Galculator < Formula
 
   depends_on "autoconf"
   depends_on "automake"
+  depends_on "coreutils"
   depends_on "gtk+3"
   depends_on "intltool"
   depends_on "libtool"
   depends_on "make"
-
-  uses_from_macos "lex"
   
   def install
     system "glibtoolize", "--force", "--copy"
