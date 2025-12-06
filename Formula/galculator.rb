@@ -6,7 +6,7 @@ class Galculator < Formula
 
   depends_on "autoconf"
   depends_on "automake"
-  depends_on "coreutils"
+  depends_on "flex"
   depends_on "gtk+3"
   depends_on "intltool"
   depends_on "libtool"
