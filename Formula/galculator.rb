@@ -11,6 +11,8 @@ class Galculator < Formula
   depends_on "libtool"
   depends_on "make"
 
+  uses_from_macos "perl"
+  
   def install
     system "glibtoolize", "--force", "--copy"
     system "intltoolize", "--force", "--copy", "--automake"
