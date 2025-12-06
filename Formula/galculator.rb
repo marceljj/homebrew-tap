@@ -5,6 +5,7 @@ class Galculator < Formula
   url "https://github.com/galculator/galculator.git", branch: "master"
 
   depends_on "autoconf"
+  depends_on "automake"
   depends_on "gtk+3"
   depends_on "intltool"
   depends_on "libtool"
