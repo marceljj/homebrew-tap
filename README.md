@@ -27,10 +27,10 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
 ## Miscellaneous
-- [emu2](https://github.com/dmsc/emu2) - version 2025.11, (c) 2025, DMSC
-- [fet.sh](https://github.com/eepykate/fet.sh) - version 1.0, (c) 2022, Eepykate
-- [macfree](https://github.com/marceljj/macfree) - version 1.0, (c) 2025, Marcel Jagielko
-- [uemacs](https://github.com/torvalds/uemacs) - version 4.0, (c) 2018, Linus Torvalds
+- [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, DMSC
+- [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, Eepykate
+- [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
+- [uemacs](https://github.com/torvalds/uemacs) - v4.0, (c) 2018, Linus Torvalds
 
 ## macOS Casks
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
