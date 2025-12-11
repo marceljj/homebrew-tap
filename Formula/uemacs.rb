@@ -6,9 +6,9 @@ class Uemacs < Formula
 
   def install
     system "make", "BINDIR=#{prefix}/bin", "LIBDIR=#{lib}"
-    bin.install "em" => "uem"
-    lib.install "emacs.rc" => ".emacsrc"
+    bin.install "em"
     lib.install "emacs.hlp"
+    lib.install "emacs.rc" => ".emacsrc"
   end
 
   test do
