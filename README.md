@@ -27,9 +27,9 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
 ## Miscellaneous
-- [fet.sh](https://github.com/eepykate/fet.sh) - version 1.0, (c) Eepykate, 2022
-- [macfree](https://github.com/marceljj/macfree) - version 1.0, (c) Marcel Jagielko, 2025
-- [uemacs](https://github.com/torvalds/uemacs) - version 4.0, (c) Linus Torvalds, 2018
+- [fet.sh](https://github.com/eepykate/fet.sh) - version 1.0, (c) 2022, Eepykate
+- [macfree](https://github.com/marceljj/macfree) - version 1.0, (c) 2025, Marcel Jagielko
+- [uemacs](https://github.com/torvalds/uemacs) - version 4.0, (c) 2018, Linus Torvalds
 
 ## macOS Casks
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
