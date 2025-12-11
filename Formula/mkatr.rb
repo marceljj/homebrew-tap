@@ -6,8 +6,7 @@ class Mkatr < Formula
   license "GPL-2.0"
 
   def install
-    system "make", "PREFIX=#{prefix}"
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make"
     bin.install "mkatr"
     bin.install "lsatr"
     (share/"doc").install "LICENSE"
