@@ -9,8 +9,8 @@ class Mkatr < Formula
     system "make"
     bin.install "mkatr"
     bin.install "lsatr"
-    (share/"doc").install "LICENSE"
-    (share/"doc").install "README.md"
+    (share/"doc/mkatr").install "LICENSE"
+    (share/"doc/mkatr").install "README.md"
   end
 
   test do
