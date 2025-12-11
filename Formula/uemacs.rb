@@ -5,8 +5,8 @@ class Uemacs < Formula
   url "https://github.com/torvalds/uemacs.git", branch: "master"
 
   def install
-    system "make", "BINDIR=#{prefix}/bin", "LIBDIR=#{lib}"
-    system "make", "install"
+    system "make", "BINDIR=#{prefix}/bin", "LIBDIR=#{prefix}/lib"
+    system "make", "BINDIR=#{prefix}/bin", "LIBDIR=#{prefix}/lib", "install"
   end
 
   test do
