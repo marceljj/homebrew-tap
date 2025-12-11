@@ -5,10 +5,10 @@ class Uemacs < Formula
   url "https://github.com/torvalds/uemacs.git", branch: "master"
 
   def install
-    system "make", "BINDIR=#{prefix}/bin", "LIBDIR=#{lib}"
+    system "make", "BINDIR=#{bin}", "LIBDIR=#{share}"
     bin.install "em"
-    lib.install "emacs.hlp"
-    lib.install "emacs.rc" => ".emacsrc"
+    share.install "emacs.hlp"
+    share.install "emacs.rc" => ".emacsrc"
   end
 
   test do
