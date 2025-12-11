@@ -1,5 +1,5 @@
 class Mkatr < Formula
-  version "git-2024.9"
+  version "git-2024.09"
   desc "ATR disk image creation tool"
   homepage "https://github.com/dmsc/mkatr"
   url "https://github.com/dmsc/mkatr.git", branch: "master"
