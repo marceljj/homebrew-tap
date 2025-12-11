@@ -6,8 +6,7 @@ class Emu2 < Formula
   license "GPL-2.0"
 
   def install
-    system "make", "PREFIX=#{prefix}"
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make"
     (share/"doc").install "LICENSE"
     (share/"doc").install "README.md"
   end
