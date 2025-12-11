@@ -26,11 +26,13 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## GNU Software
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
+## Miscellaneous
+- [fet.sh](https://github.com/eepykate/fet.sh) - version 1.0, (c) Eepykate, 2022
+- [macfree](https://github.com/marceljj/macfree) - version 1.0, (c) Marcel Jagielko, 2025
+- [uemacs](https://github.com/torvalds/uemacs) - version 4.0, (c) Linus Torvalds, 2018
+
 ## macOS Casks
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
 - [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
 - [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Team
 - [XQuartz (beta)](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
-
-## My software
-- [macfree](https://github.com/marceljj/macfree) - version 1.0, (c) Marcel Jagielko, 2025
