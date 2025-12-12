@@ -6,7 +6,7 @@ class GnuGcal < Formula
   license "GPL-3.0"
   sha256 "363cdb016125bd64cfe5fcaa28b4b828fdfe88b1ee76d9f58ba9ea120587bb39"
 
-  patch do
+  patch :p0 do
       url "https://marceljj.org/pkg/patch/gnu-gcal/tty.c.patch"
       sha256 "882f11aa170beb77ff4939cc330fb6f37d1bbec2510410a12feb6eef548ca025"
   end
