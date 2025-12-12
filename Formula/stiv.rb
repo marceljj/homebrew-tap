@@ -15,6 +15,12 @@ class Stiv < Formula
     bin.install "tiv" => "stiv-vala"
   end
 
+  def caveats
+      <<~EOS
+        The "tiv" binary has been installed as "stiv-vala" to avoid conflict with the "terminalimageviewer" package.
+      EOS
+  end
+
   test do
     system "false"
   end
