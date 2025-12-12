@@ -6,8 +6,6 @@ class GnuMotti < Formula
   license "GPL-3.0"
   sha256 "632d9a84d3b2e3eee4c9d9199d66d42576516ea6c291058c01830ae2fb7de429"
 
-  depends_on "make"
-
   def install
     system "./configure", *std_configure_args
     system "make"
