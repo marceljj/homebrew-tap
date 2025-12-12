@@ -2,7 +2,7 @@ class Stiv < Formula
   version "git-2023.01"
   desc "Suckless terminal image viewer"
   homepage "https://github.com/radare/tiv"
-  url "https://github.com/dmsc/radare/tiv.git", branch: "master"
+  url "https://github.com/radare/tiv.git", branch: "master"
   license "BSD-3-Clause"
 
   def install
