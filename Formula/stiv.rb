@@ -6,6 +6,7 @@ class Stiv < Formula
   license "BSD-3-Clause"
 
   depends_on "libjpeg"
+  depends_on "vala"
   
   def install
     system "make", "PREFIX=#{prefix}"
