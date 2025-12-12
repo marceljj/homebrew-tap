@@ -1,6 +1,6 @@
 class GnuMotti < Formula
   version "3.1.1"
-  desc "Conquer enemies' capitals by occupying and encircling their territories. The game map is an array of square cells."
+  desc "Conquer enemies' capitals by occupying and encircling their territories"
   homepage "https://www.gnu.org/software/motti"
   url "https://ftp.gnu.org/gnu/motti/motti-#{version}.tar.gz"
   license "GPL-3.0"
