@@ -6,6 +6,7 @@ class GnuGengen < Formula
   license "GPL-3.0"
 
   depends_on "automake"
+  depends_on "texinfo"
   
   conflicts_with "halide",
     because: "halide installs a conflicting 'gengen' executable"
