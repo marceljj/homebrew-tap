@@ -24,6 +24,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Tour](https://apps.gnome.org/Tour) - v49.0, (c) 2025, Bilal Elmoussaoui
 
 ## GNU Software
+- [Gengen](https://www.gnu.org/software/gengen) - v1.4.3, (c) 2021, Lorenzo Bettini
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
 ## Miscellaneous
