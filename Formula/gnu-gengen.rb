@@ -9,7 +9,7 @@ class GnuGengen < Formula
     because: "halide installs a conflicting 'gengen' executable"
 
   def install
-    system "./configure", *std_configure_args
+    system "./configure", "--prefix=#{prefix}", "--libdir=#{libdir}"
     system "make"
     system "make", "install"
   end
