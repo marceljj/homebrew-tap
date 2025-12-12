@@ -5,10 +5,13 @@ class Stiv < Formula
   url "https://github.com/radare/tiv.git", branch: "master"
   license "BSD-3-Clause"
 
+  depends_on "libjpeg"
+  
   def install
     system "make", "PREFIX=#{prefix}"
     bin.install "stiv"
     bin.install "stiv-jpeg"
+    bin.install "tiv" => "stiv-vala"
   end
 
   test do
