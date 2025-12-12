@@ -9,7 +9,7 @@ class GnuMotti < Formula
   def install
     system "./configure", *std_configure_args
     system "make"
-    system "make install"
+    system "make", "install"
     bin.install_symlink bin/"games/motti"
     bin.install_symlink bin/"games/motti" => "gmotti"
     bin.install_symlink bin/"games/testmotti"
