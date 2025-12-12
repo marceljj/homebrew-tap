@@ -4,6 +4,8 @@ class GnuGengen < Formula
   homepage "https://git.savannah.gnu.org/git/gengen"
   url "https://git.savannah.gnu.org/git/gengen.git", branch: "master"
   license "GPL-3.0"
+
+  depends_on "automake"
   
   conflicts_with "halide",
     because: "halide installs a conflicting 'gengen' executable"
