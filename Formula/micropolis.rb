@@ -5,6 +5,8 @@ class Micropolis < Formula
   url "https://github.com/interkosmos/micropolis.git", branch: "master"
   license "GPL-3.0-or-later"
 
+  depends_on "tcl-tk"
+  
   def install
     system "make", "PREFIX=#{prefix}"
     system "make", "install", "PREFIX=#{prefix}"
