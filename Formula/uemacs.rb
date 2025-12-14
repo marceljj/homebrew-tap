@@ -1,5 +1,5 @@
 class Uemacs < Formula
-  version "4.0"
+  version "4.0.15"
   desc "Linus Torvalds's custom version of MicroEMACS"
   homepage "https://github.com/torvalds/uemacs"
   url "https://github.com/torvalds/uemacs.git", branch: "master"
