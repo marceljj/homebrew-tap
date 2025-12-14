@@ -33,7 +33,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, DMSC
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
-- [uemacs](https://github.com/torvalds/uemacs) - v4.0, (c) 2018, Linus Torvalds
+- [uemacs](https://github.com/torvalds/uemacs) - v4.0.15, (c) 2018, Linus Torvalds
 
 ## macOS Casks
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
