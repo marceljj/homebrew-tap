@@ -3,12 +3,12 @@ class Fm < Formula
   desc "Small, general purpose file manager built with GTK4"
   homepage "https://github.com/euclio/fm"
   url "https://github.com/euclio/fm.git", branch: "master"
-  license "GPL-3.0-or-later"
+  license "MIT"
 
   depends_on "rust"
 
   def install
-    system "cargo", "install", "--release", *std_cargo_args
+    system "cargo", "install", *std_cargo_args
   end
 
   test do
