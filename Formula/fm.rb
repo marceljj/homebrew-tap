@@ -1,4 +1,4 @@
-class GnomeLorem < Formula
+class Fm < Formula
   version "git-2025.05"
   desc "Small, general purpose file manager built with GTK4"
   homepage "https://github.com/euclio/fm"
@@ -9,7 +9,6 @@ class GnomeLorem < Formula
 
   def install
     system "cargo", "install", "--release", *std_cargo_args
-
   end
 
   test do
