@@ -30,6 +30,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## Miscellaneous
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, DMSC
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, Eepykate
+- [fm](https://github.com/euclio/fm) - v2025.05, (c) 2025, Andy Russell
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, DMSC
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
