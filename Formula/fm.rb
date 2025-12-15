@@ -10,6 +10,7 @@ class Fm < Formula
   depends_on "gtksourceview5"
   depends_on "libadwaita"
   depends_on "libpanel"
+  depends_on "poppler"
   depends_on "rust"
 
   def install
