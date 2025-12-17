@@ -41,9 +41,9 @@ class AudaciousFull < Formula
   depends_on "neon"
   depends_on "opusfile"
   depends_on "qtbase"
-  depends_on "qtimageformats" => :no_linkage # for webp album covers
+  depends_on "qtimageformats"
   depends_on "qtmultimedia"
-  depends_on "qtsvg" => :no_linkage # for svg icons
+  depends_on "qtsvg"
   depends_on "sdl2"
   depends_on "wavpack"
 
