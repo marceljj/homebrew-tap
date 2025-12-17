@@ -73,7 +73,7 @@ class AudaciousFull < Formula
     system "meson", "install", "-C", "build"
 
     resource("plugins").stage do
-      args += %w[
+      args = %w[
         -Dmpris2=false
         -Dmac-media-keys=true
       ]
