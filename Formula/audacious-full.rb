@@ -5,7 +5,9 @@ class AudaciousFull < Formula
   sha256 "7194743a0a41b1d8f582c071488b77f7b917be47ca5e142dd76af5d81d36f9cd"
   license "BSD-2-Clause"
   url "https://distfiles.audacious-media-player.org/audacious-#{version}.tar.bz2"
+  
   resource "plugins" do
+    version "4.5.1"
     url "https://distfiles.audacious-media-player.org/audacious-plugins-#{version}.tar.bz2"
     sha256 "f4feedc32776acfa9d24701d3b794fc97822f76da6991e91e627e70e561fdd3b"
   end
