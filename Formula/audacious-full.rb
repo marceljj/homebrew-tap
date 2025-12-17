@@ -24,6 +24,7 @@ class AudaciousFull < Formula
   depends_on "gdk-pixbuf"
   depends_on "glib"
   depends_on "gtk+3"
+  depends_on "json-glib"
   depends_on "lame"
   depends_on "libbs2b"
   depends_on "libcue"
