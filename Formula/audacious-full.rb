@@ -85,4 +85,3 @@ class AudaciousFull < Formula
   test do
     system bin/"audacious", "--help"
   end
-end
