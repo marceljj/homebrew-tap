@@ -9,7 +9,7 @@ class GnuGengen < Formula
   depends_on "texinfo"
   
   conflicts_with "halide",
-    because: "halide installs a conflicting 'gengen' executable"
+    because: "halide installs a conflicting 'gengen' binary"
 
   def install
     system "./autogen.sh"
