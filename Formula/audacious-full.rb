@@ -62,7 +62,7 @@ class AudaciousFull < Formula
     depends_on "pulseaudio"
   end
 
-  conflicts_with "audacity", because: "audacity installs a conflicting 'audacity' binary"
+  conflicts_with "audacious", because: "audacious installs a conflicting 'audacious' binary"
 
   def install
     odie "plugins resource needs to be updated" if build.stable? && version != resource("plugins").version
