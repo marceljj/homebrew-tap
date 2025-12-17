@@ -77,7 +77,6 @@ class AudaciousFull < Formula
 
     resource("plugins").stage do
       args = %w[
-        -Dmpris2=false
         -Dmac-media-keys=true
       ]
 
