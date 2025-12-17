@@ -8,7 +8,7 @@ class AudaciousFull < Formula
   resource "plugins" do
     url "https://distfiles.audacious-media-player.org/audacious-plugins-#{version}.tar.bz2"
     sha256 "f4feedc32776acfa9d24701d3b794fc97822f76da6991e91e627e70e561fdd3b"
-    end
+  end
 
   depends_on "gettext" => :build
   depends_on "meson" => :build
@@ -21,7 +21,7 @@ class AudaciousFull < Formula
   depends_on "fluid-synth"
   depends_on "gdk-pixbuf"
   depends_on "glib"
-  depends_on "gtk+-3.0"
+  depends_on "gtk+-3"
   depends_on "lame"
   depends_on "libbs2b"
   depends_on "libcue"
