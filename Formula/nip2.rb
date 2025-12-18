@@ -10,6 +10,8 @@ class Nip2 < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
   depends_on "glib"
+  depends_on "gtk+"
+  depends_on "vips"
   
   def install
     system "./autogen.sh"
