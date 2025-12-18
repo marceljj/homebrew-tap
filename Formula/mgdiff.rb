@@ -6,7 +6,6 @@ class Mgdiff < Formula
   sha256 "ab3db2cf618e3d914dbd3dad3ecc7cfe370fdd1970a9e13c938a4c37be794c86"
 
   depends_on "imake" => :build
-  depends_on "make" => :build
   depends_on "openmotif"
 
   def install
