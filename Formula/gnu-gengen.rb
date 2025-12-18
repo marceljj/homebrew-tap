@@ -5,8 +5,8 @@ class GnuGengen < Formula
   url "https://git.savannah.gnu.org/git/gengen.git", branch: "master"
   license "GPL-3.0"
 
-  depends_on "automake"
-  depends_on "texinfo"
+  depends_on "automake" => :build
+  depends_on "texinfo" => :build
   
   conflicts_with "halide",
     because: "halide installs a conflicting 'gengen' binary"
