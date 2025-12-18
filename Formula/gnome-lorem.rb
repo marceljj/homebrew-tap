@@ -5,13 +5,14 @@ class GnomeLorem < Formula
   url "https://marceljj.org/pkg/gnome-lorem-#{version}.tar.gz"
   sha256 "aba738c16b14620d64b8d2491ac890ceb2de0dcd225a4d8e00f07a13500d3ba6"
   license "GPL-3.0-or-later"
-  
+
+  depends_on "meson" => :build
+  depends_on "ninja" => :build
+  depends_on "rust" => :build
   depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "libadwaita"
-  depends_on "meson"
-  depends_on "rust"
 
   def install
     ENV["DESTDIR"] = "/"
