@@ -6,19 +6,19 @@ class GnomeCalculator < Formula
   sha256 "ddb5410091c841d4e93c61570c4e5a68e5c7d0f2ae19ea81be8fd8d29255b9ca"
   license "GPL-3.0"
 
-  depends_on "blueprint-compiler"
+  depends_on "blueprint-compiler" => :build
+  depends_on "itstool" => :build
+  depends_on "meson" => :build
+  depends_on "vala" => :build
   depends_on "glib"
   depends_on "gtk4"
   depends_on "gtksourceview5"
-  depends_on "itstool"
   depends_on "libadwaita"
   depends_on "libgee"
   depends_on "libmpc"
   depends_on "libsoup"
-  depends_on "meson"
   depends_on "mpfr"
   depends_on "python"
-  depends_on "vala"
 
   def install
     ENV["DESTDIR"] = "/"
