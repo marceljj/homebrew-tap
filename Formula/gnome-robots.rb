@@ -6,10 +6,10 @@ class GnomeRobots < Formula
   sha256 "4bc651ab3da16fbd519f262885523b5e93bca4c5e0d3e4a289628df5a0a7762d"
   license "GPL-3.0"
 
+  depends_on "desktop-file-utils" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "rust" => :build
-  depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "itstool"
