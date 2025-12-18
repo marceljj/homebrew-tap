@@ -9,8 +9,11 @@ class Nip2 < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
+  depends_on "fftw"
   depends_on "glib"
+  depends_on "gsl"
   depends_on "gtk+"
+  depends_on "libgsf"
   depends_on "vips"
   
   def install
