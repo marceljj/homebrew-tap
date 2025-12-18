@@ -6,15 +6,17 @@ class GnomeTextEditor < Formula
   sha256 "fadb4a1ab60de56ef1aa1eaf88fc27a0d9e3520c28026f587a36f5b4d69e8b2c"
   license "GPL-3.0"
 
+  depends_on "itstool" => :build
+  depends_on "meson" => :build
+  depends_on "ninja" => :build
+  depends_on "rust" => :build
   depends_on "desktop-file-utils"
   depends_on "editorconfig"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "gtksourceview5"
-  depends_on "itstool"
   depends_on "libadwaita"
   depends_on "libspelling"
-  depends_on "meson"
 
   def install
     ENV["DESTDIR"] = "/"
