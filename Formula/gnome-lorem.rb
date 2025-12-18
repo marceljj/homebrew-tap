@@ -6,6 +6,8 @@ class GnomeLorem < Formula
   sha256 "aba738c16b14620d64b8d2491ac890ceb2de0dcd225a4d8e00f07a13500d3ba6"
   license "GPL-3.0-or-later"
 
+  depends_on :macos
+  
   depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
