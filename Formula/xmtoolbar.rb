@@ -7,7 +7,6 @@ class Xmtoolbar < Formula
 
   depends_on arch: :arm64
   depends_on :macos
-  depends_on "make"
   depends_on "openmotif"
 
   def install
