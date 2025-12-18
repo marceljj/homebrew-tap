@@ -6,7 +6,7 @@ class Nip2 < Formula
   sha256 "b75e26eb3fb994faa988e8e07436cac2a4965c2cab08bef3968e817a866d76cd"
   license "GPL-2.0"
 
-  depends_on "automake"
+  depends_on "automake" => :build
   
   def install
     system "./autogen.sh"
