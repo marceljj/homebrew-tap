@@ -71,6 +71,7 @@ class AudaciousFull < Formula
 
     args = %w[
       -Dlibarchive=true
+      -Dbuildstamp='homebrew build'
     ]
 
     system "meson", "setup", "build", *args, *std_meson_args
