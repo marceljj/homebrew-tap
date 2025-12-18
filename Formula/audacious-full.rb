@@ -17,6 +17,8 @@ class AudaciousFull < Formula
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
   depends_on "qttools" => :build
+  depends_on "dbus"
+  depends_on "dbus-glib"
   depends_on "faad2"
   depends_on "ffmpeg"
   depends_on "flac"
