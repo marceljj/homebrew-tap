@@ -5,8 +5,7 @@ class Xtt < Formula
   url "https://marceljj.org/pkg/xtt-#{version}.tar.gz"
   sha256 "4df508ab5335bc47ba2a2637ce30588222ff320604b4c3fa650a54110d7a940b"
 
-  depends_on "make"
-  depends_on "imake"
+  depends_on "imake" => :build
 
   def install
     system "xmkmf"
