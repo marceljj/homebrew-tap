@@ -6,10 +6,10 @@ class GnomeTour < Formula
   sha256 "71f129e97c77a2e4197f588ac8bcf9b9ae191aab2547ce8925353f093bda75b6"
   license "GPL-3.0"
 
+  depends_on "desktop-file-utils" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "rust" => :build
-  depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "libadwaita"
