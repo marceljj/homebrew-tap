@@ -5,8 +5,8 @@ class Stiv < Formula
   url "https://github.com/radare/tiv.git", branch: "master"
   license "BSD-3-Clause"
 
+  depends_on "vala" => :build
   depends_on "libjpeg"
-  depends_on "vala"
   
   def install
     system "make", "PREFIX=#{prefix}"
