@@ -26,6 +26,7 @@ class AudaciousFull < Formula
   depends_on "gdk-pixbuf"
   depends_on "glib"
   depends_on "gtk+3"
+  depends_on "jack"
   depends_on "json-glib"
   depends_on "lame"
   depends_on "libbs2b"
@@ -42,6 +43,7 @@ class AudaciousFull < Formula
   depends_on "mpg123"
   depends_on "neon"
   depends_on "opusfile"
+  depends_on "pulseaudio"
   depends_on "qtbase"
   depends_on "qtimageformats"
   depends_on "qtmultimedia"
@@ -58,10 +60,8 @@ class AudaciousFull < Formula
 
   on_linux do
     depends_on "alsa-lib"
-    depends_on "jack"
     depends_on "libx11"
     depends_on "libxml2"
-    depends_on "pulseaudio"
   end
 
   conflicts_with "audacious", because: "audacious installs a conflicting 'audacious' binary"
