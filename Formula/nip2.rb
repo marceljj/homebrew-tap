@@ -16,6 +16,7 @@ class Nip2 < Formula
   def install
     system "./autogen.sh"
     system "./configure", *std_configure_args
+    system "aclocal"
     system "make"
     system "make", "install"
   end
