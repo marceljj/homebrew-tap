@@ -6,10 +6,11 @@ class GnomeFontViewer < Formula
   sha256 "dd20a3bcef0cea9681dbe0b078075e23a8b46b32cda6e0342a4089b49edfb64d"
   license "GPL-2.0"
 
+  depends_on "meson" => :build
+  depends_on "ninja" => :build
   depends_on "glib"
   depends_on "gtk4"
   depends_on "libadwaita"
-  depends_on "meson"
 
   def install
     ENV["DESTDIR"] = "/"
