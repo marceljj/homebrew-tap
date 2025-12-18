@@ -7,6 +7,7 @@ class GnomeConsole < Formula
   license "GPL-3.0"
 
   depends_on "meson" => :build
+  depends_on "ninja" => :build
   depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
