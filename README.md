@@ -28,7 +28,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
 ## Miscellaneous
-- [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
+- [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious Developers
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, DMSC
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, Eepykate
 - [fm](https://github.com/euclio/fm) - v2025.05, (c) 2025, Andy Russell
@@ -40,5 +40,5 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## macOS Casks
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
 - [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
-- [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Team
+- [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Developers
 - [XQuartz (beta)](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
