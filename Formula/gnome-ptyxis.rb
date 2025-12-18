@@ -6,12 +6,13 @@ class GnomePtyxis < Formula
   sha256 "69b3b6d577538be29d8f8c69ed32e5065110e7e45e21df0511c66061f1cd0369"
   license "GPL-3.0"
 
+  depends_on "meson" => :build
+  depends_on "ninja" => :build
   depends_on "desktop-file-utils"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "json-glib"
   depends_on "libadwaita"
-  depends_on "meson"
   depends_on "vte3"
 
   def install
