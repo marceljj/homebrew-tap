@@ -80,6 +80,7 @@ class AudaciousFull < Formula
     resource("plugins").stage do
       args = %w[
         -Dmac-media-keys=true
+        -Dstreamtuner=true
       ]
 
       ENV.prepend_path "PKG_CONFIG_PATH", lib/"pkgconfig"
