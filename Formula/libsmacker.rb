@@ -7,6 +7,7 @@ class Libsmacker < Formula
   license "LGPL-2.1"
 
   depends_on "autoconf" => :build
+  depends_on "automake" => :build
 
   def install
     system "autoreconf", "-fi"
