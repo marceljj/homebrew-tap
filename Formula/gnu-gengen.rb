@@ -5,6 +5,7 @@ class GnuGengen < Formula
   url "https://git.savannah.gnu.org/git/gengen.git", branch: "master"
   license "GPL-3.0"
 
+  depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "texinfo" => :build
   
