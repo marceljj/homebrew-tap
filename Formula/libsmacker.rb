@@ -6,7 +6,7 @@ class Libsmacker < Formula
   sha256 "bb9c22c02ecda189a3389c9340a0eb6a8f287aa257099b54c3d9e1802a454630"
   license "LGPL-2.1"
 
-  depends_on "autoreconf" => :build
+  depends_on "autoconf" => :build
 
   def install
     system "autoreconf", "-fi"
