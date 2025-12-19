@@ -3,7 +3,7 @@ class GnomeLorem < Formula
   desc "Simple app to generate the well-known Lorem Ipsum placeholder text"
   homepage "https://apps.gnome.org/Lorem"
   url "https://marceljj.org/pkg/gnome-lorem-#{version}.tar.gz"
-  sha256 "72778c23b0460c0231dd50799495119ddb2500e5060e847a08fffeb9191d0b47"
+  sha256 "eb08356872ecf8fe58b0637cc9098f4ab2060126ef2c2ba4dcf2ef3bef3d768f"
   license "GPL-3.0-or-later"
 
   depends_on "desktop-file-utils" => :build
