@@ -10,6 +10,7 @@ class Libsmacker < Formula
 
   def install
     system "autoreconf", "-fi"
+    system "autoupdate"
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
