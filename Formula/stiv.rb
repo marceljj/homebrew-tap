@@ -6,6 +6,7 @@ class Stiv < Formula
   license "BSD-3-Clause"
 
   depends_on "vala" => :build
+  depends_on "gdk-pixbuf"
   depends_on "glib"
   depends_on "libjpeg"
   
