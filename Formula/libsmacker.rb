@@ -20,7 +20,6 @@ class Libsmacker < Formula
     lib.install "libsmacker.la"
     (share/"include").install "smacker.h"
     (share/"doc/libsmacker").install "COPYING"
-    (share/"doc/libsmacker").install "LICENSE"
     (share/"doc/libsmacker").install "README"
   end
 
