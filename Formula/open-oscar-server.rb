@@ -18,7 +18,7 @@ class OpenOscarServer < Formula
         The settings file is located in:
           #{etc}/open-oscar-server/settings.env
         It can be called by the binary by using:
-          #{output} -config #{etc}/open-oscar-server/settings.env
+          open-oscar-server -config #{etc}/open-oscar-server/settings.env
       EOS
   end
 
