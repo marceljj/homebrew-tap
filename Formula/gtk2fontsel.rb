@@ -15,7 +15,6 @@ class Gtk2fontsel < Formula
     system "make", "install"
     doc.install "AUTHORS"
     doc.install "COPYING"
-    doc.install "LICENSE"
     doc.install "NEWS"
     doc.install "README"
   end
