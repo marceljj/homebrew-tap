@@ -19,8 +19,7 @@ class Stiv < Formula
 
   def caveats
       <<~EOS
-        The "tiv" binary has been installed as "stiv-vala" to avoid conflict
-        with the "terminalimageviewer" package.
+        The "tiv" binary has been installed as "stiv-vala" to avoid conflict with the "terminalimageviewer" package.
       EOS
   end
 
