@@ -12,7 +12,7 @@ class Xtt < Formula
     system "make"
     bin.install "xtt"
     man1.install "xtt.man" => "xtt.1"
-    (share/"doc/xtt").install "example.xtt"
+    doc.install "example.xtt"
   end
 
   test do
