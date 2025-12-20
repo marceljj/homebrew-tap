@@ -16,7 +16,7 @@ class Libsmacker < Formula
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
-    bin.install "smk2avi"
+    bin.install "./.libs/smk2avi"
     include.install "smacker.h"
     doc.install "COPYING"
     doc.install "README"
