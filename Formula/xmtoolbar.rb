@@ -12,7 +12,7 @@ class Xmtoolbar < Formula
   def install
     system "make"
     bin.install "xmtoolbar"
-    share.install "default.xpm"
+    (share/"xmtoolbar").install "default.xpm"
     (etc/"X11/app-defaults").install "Xmtoolbar.ad" => "Xmtoolbar"
   end
 
