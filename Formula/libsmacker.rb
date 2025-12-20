@@ -17,10 +17,10 @@ class Libsmacker < Formula
     system "make"
     system "make", "install"
     bin.install "smk2avi"
+    doc.install "COPYING"
+    doc.install "README"
     include.install "smacker.h"
     lib.install "libsmacker.la"
-    (share/"doc/libsmacker").install "COPYING"
-    (share/"doc/libsmacker").install "README"
   end
 
   test do
