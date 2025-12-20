@@ -8,8 +8,8 @@ class Emu2 < Formula
   def install
     system "make", "PREFIX=#{prefix}"
     system "make", "install", "PREFIX=#{prefix}"
-    (share/"doc/emu2").install "LICENSE"
-    (share/"doc/emu2").install "README.md"
+    doc.install "LICENSE"
+    doc.install "README.md"
   end
 
   test do
