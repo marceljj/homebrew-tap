@@ -7,8 +7,8 @@ class FetSh < Formula
 
   def install
     bin.install "fet.sh"
-    (share/"doc/fet.sh").install "LICENSE"
-    (share/"doc/fet.sh").install "README.md"
+    doc.install "LICENSE"
+    doc.install "README.md"
   end
 
   test do
