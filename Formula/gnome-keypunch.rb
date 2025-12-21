@@ -6,6 +6,7 @@ class GnomeKeypunch < Formula
   sha256 "c58a6f3a7b4c7cc857c3126ca8ddb856d45c5275fe2b9f51a820d6d22fec8641"
   license "GPL-3.0"
 
+  depends_on "blueprint-compiler" => :build
   depends_on "desktop-file-utils" => :build
   depends_on "gnu-sed" => :build
   depends_on "meson" => :build
