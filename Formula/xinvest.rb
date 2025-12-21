@@ -6,6 +6,7 @@ class Xinvest < Formula
   sha256 "5721b20acabb8da1a645ee8eb7f6336c5cdcfff493a4627e98789f8a73398a02"
 
   depends_on "imake" => :build
+  depends_on "openmotif"
 
   def install
     inreplace "drawing.c", "static firsttime", "int static firsttime"
