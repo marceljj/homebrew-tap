@@ -10,6 +10,8 @@ class Xmtoolbar < Formula
   depends_on "openmotif"
 
   def install
+    inreplace "toolbar.h", "DEFAULT_PIX     \"default.xpm\"", "DEFAULT_PIX     \"#{share}/xmtoolbar/default.xpm\""
+    
     system "make"
     bin.install "xmtoolbar"
     (share/"xmtoolbar").install "default.xpm"
