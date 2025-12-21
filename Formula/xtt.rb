@@ -11,6 +11,7 @@ class Xtt < Formula
     inreplace "xtt.c" do |s|
       s.gsub! "<stdio.h>", "<stdio.h>\n#include <stdlib.h>"
       s.gsub! "extern getenv()", "char *getenv(const char *name)"
+    end
     
     system "xmkmf"
     system "make"
