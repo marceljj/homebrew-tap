@@ -1,6 +1,6 @@
 class Celluloid < Formula
   version "0.29"
-  desc "A simple user-friendly terminal emulator for the GNOME desktop"
+  desc "A simple GTK+ frontend for mpv"
   homepage "https://celluloid-player.github.io/"
   url "https://github.com/celluloid-player/celluloid/releases/download/v#{version}/celluloid-#{version}.tar.xz"
   sha256 "5b9991557cc2764a8281a24aa726a645287eb075cde0f0ae7c737965264a119c"
