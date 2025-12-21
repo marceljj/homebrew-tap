@@ -24,7 +24,7 @@ class Xtt < Formula
   def caveats
     <<~EOS
       The timetable file should be placed in your home directory as such:
-        "#{home}/.xtt".
+        ~/.xtt
       
       An example file is located in:
         #{doc}/xtt/example.xtt
