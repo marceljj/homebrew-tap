@@ -8,7 +8,7 @@ class Xinvest < Formula
   depends_on "openmotif"
 
   def install
-    system "cd", "x11cp/src/xinvest"
+    system "cd", "src/xinvest"
     inreplace "drawing.c", "static firsttime", "int static firsttime"
     inreplace "Imakefile", "-fcommon", "-fcommon -w"
     inreplace "portfolio.c", "<values.h>", "<float.h>"
