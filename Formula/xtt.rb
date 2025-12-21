@@ -18,8 +18,19 @@ class Xtt < Formula
     bin.install "xtt"
     man1.install "xtt.man" => "xtt.1"
     doc.install "example.xtt"
+    doc.install "README"
   end
 
+  def caveats
+    <<~EOS
+      The timetable file should be placed in your home directory as such:
+        "#{home}/.xtt".
+      
+      An example file is located in:
+        #{doc}/xtt/example.xtt
+    EOS
+  end
+  
   test do
     system "false"
   end
