@@ -6,7 +6,7 @@ class Xinvest < Formula
   sha256 "5721b20acabb8da1a645ee8eb7f6336c5cdcfff493a4627e98789f8a73398a02"
 
   depends_on "imake" => :build
-  depends_on "openmotif" => :build
+  depends_on "openmotif"
 
   def install
     inreplace "drawing.c", "static firsttime", "int static firsttime"
@@ -15,7 +15,7 @@ class Xinvest < Formula
     inreplace "xinvest.c", "<unistd.h>", "<unistd.h>\n#include <stdlib.h>"
       
     system "xmkmf"
-    system "make", "-Wno-int-to-void-pointer-cast"
+    system "CFLAGS=-Wno-int-to-void-pointer-cast", "make"
     system "make," "install"
   end
 
