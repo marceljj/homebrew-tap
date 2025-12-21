@@ -15,7 +15,7 @@ class Xinvest < Formula
     inreplace "status.c", "static lineno", "int static lineno"
     inreplace "xinvest.c", "<unistd.h>", "<unistd.h>\n#include <stdlib.h>"
 
-    system "touch Xinvest.man"
+    system "touch", "Xinvest.man"
     system "xmkmf"
     system "make"
     system "make," "install"
