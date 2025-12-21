@@ -14,16 +14,16 @@ class OpenOscarServer < Formula
   end
 
   def caveats
-      <<~EOS
-        The settings file is located in:
-          #{etc}/open-oscar-server/settings.env
+    <<~EOS
+      The settings file is located in:
+        #{etc}/open-oscar-server/settings.env
           
-        It can be called by the binary by using:
-          open-oscar-server -config #{etc}/open-oscar-server/settings.env
+      It can be called by the binary by using:
+        open-oscar-server -config #{etc}/open-oscar-server/settings.env
           
-        Optionally, you can load the settings automatically by adding the following to your .zshrc/.bashrc:
-          source #{etc}/open-oscar-server/settings.env
-      EOS
+      Optionally, you can load the settings automatically by adding the following to your .zshrc/.bashrc:
+        source #{etc}/open-oscar-server/settings.env
+    EOS
   end
 
   test do
