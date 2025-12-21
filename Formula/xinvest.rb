@@ -15,7 +15,7 @@ class Xinvest < Formula
     inreplace "xinvest.c", "<unistd.h>", "<unistd.h>\n#include <stdlib.h>"
       
     system "xmkmf"
-    system "make"
+    system "make", "-Wno-int-to-void-pointer-cast"
     system "make," "install"
   end
 
