@@ -13,6 +13,7 @@ class Celluloid < Formula
   depends_on "gtk4"
   depends_on "libadwaita"
   depends_on "lua"
+  depends_on "mpv"
 
   def install
     ENV["DESTDIR"] = "/"
