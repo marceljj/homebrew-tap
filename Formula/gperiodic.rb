@@ -9,7 +9,7 @@ class Gperiodic < Formula
   depends_on "gtk+"
 
   def install
-      system "make", "BINDIR=#{bin}", "DATADIR=#{share}", "MANDIR=#{man}", "ICONSDIR=#{share}/icons"
+      system "make", "bindir=#{bin}", "datadir=#{share}", "mandir=#{man}", "iconsdir=#{share}/icons"
       system "make", "install"
   end
 
