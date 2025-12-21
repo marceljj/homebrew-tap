@@ -10,11 +10,12 @@ class Xinvest < Formula
 
   def install
     inreplace "drawing.c", "static firsttime", "int static firsttime"
+    inreplace "Imakefile", "CFLAGS += -fcommon", "CFLAGS += -fcommon -Wno-int-to-void-pointer-cast"
     inreplace "portfolio.c", "<values.h>", "<float.h>"
     inreplace "status.c", "static lineno", "int static lineno"
     inreplace "xinvest.c", "<unistd.h>", "<unistd.h>\n#include <stdlib.h>"
       
-    system "xmkmf", "CFLAGS=-Wno-int-to-void-pointer-cast"
+    system "xmkmf"
     system "make"
     system "make," "install"
   end
