@@ -18,7 +18,7 @@ class Xinvest < Formula
     system "touch", "Xinvest.man"
     system "xmkmf"
     system "make"
-    system "make," "install"
+    system "make", "install"
   end
 
   test do
