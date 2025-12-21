@@ -18,11 +18,11 @@ class GnomeLorem < Formula
     ENV["DESTDIR"] = "/"
 
     inreplace "Cargo.toml", "lorem", "gnome-lorem"
+    inreplace "data/org.gnome.design.Lorem.desktop.in.in", "Exec=lorem", "Exec=gnome-lorem"
     inreplace "meson.build" do |s|
         s.gsub! "'lorem'", "'gnome-lorem'"
         s.gsub! "application_name = 'Lorem'", "application_name = 'GNOME-Lorem'"
     end
-    inreplace "data/org.gnome.design.Lorem.desktop.in.in", "Exec=lorem", "Exec=gnome-lorem"
     
     system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
