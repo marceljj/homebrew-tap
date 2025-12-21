@@ -3,7 +3,7 @@ class Mgdiff < Formula
   desc "A graphical frontend to the diff command, written using Motif"
   homepage "https://x11cp.org/apps/mgdiff"
   url "https://marceljj.org/pkg/mgdiff-#{version}.tar.gz"
-  sha256 "ab3db2cf618e3d914dbd3dad3ecc7cfe370fdd1970a9e13c938a4c37be794c86"
+  sha256 "8b0789ec1715c98d7b2eaaa95666373aac2f6ca3ca498e1a9fe64e38098f32b8"
 
   depends_on "imake" => :build
   depends_on "openmotif"
