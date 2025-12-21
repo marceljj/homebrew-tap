@@ -3,7 +3,7 @@ class GnomeKeypunch < Formula
   desc "Practice your typing skills"
   homepage "https://apps.gnome.org/Keypunch"
   url "https://github.com/bragefuglseth/keypunch/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "eb08356872ecf8fe58b0637cc9098f4ab2060126ef2c2ba4dcf2ef3bef3d768f"
+  sha256 "c58a6f3a7b4c7cc857c3126ca8ddb856d45c5275fe2b9f51a820d6d22fec8641"
   license "GPL-3.0"
 
   depends_on "gnu-sed" => :build
