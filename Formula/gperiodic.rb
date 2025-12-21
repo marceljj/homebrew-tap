@@ -9,8 +9,14 @@ class Gperiodic < Formula
   depends_on "gtk+"
 
   def install
-      system "make", "bindir=#{bin}", "datadir=#{share}", "mandir=#{man}", "iconsdir=#{share}/icons"
-      system "make", "install"
+    args = %w[
+      BINDIR=#{bin}
+      DATADIR=#{share}
+      MANDIR=#{man}
+      ICONSDIR=#{share}/icons
+    ]
+    system "make", *args
+    system "make", "install", *args
   end
 
   test do
