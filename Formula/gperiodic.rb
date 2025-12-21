@@ -10,7 +10,7 @@ class Gperiodic < Formula
 
   def install
     system "make", "BINDIR=#{bin}", "DATADIR=#{share}", "MANDIR=#{man}", "ICONSDIR=#{share}/icons"
-    system "make", "install", "BINDIR=#{bin}", "DATADIR=#{share}", "MANDIR=#{man}", "ICONSDIR=#{share}/icons"
+    system "make", "BINDIR=#{bin}", "DATADIR=#{share}", "MANDIR=#{man}", "ICONSDIR=#{share}/icons", "install"
   end
 
   test do
