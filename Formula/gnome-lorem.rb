@@ -20,8 +20,8 @@ class GnomeLorem < Formula
     inreplace "Cargo.toml", "lorem", "gnome-lorem"
     inreplace "data/org.gnome.design.Lorem.desktop.in.in", "Exec=lorem", "Exec=gnome-lorem"
     inreplace "meson.build" do |s|
-        s.gsub! "'lorem'", "'gnome-lorem'"
-        s.gsub! "application_name = 'Lorem'", "application_name = 'GNOME-Lorem'"
+      s.gsub! "'lorem'", "'gnome-lorem'"
+      s.gsub! "application_name = 'Lorem'", "application_name = 'GNOME-Lorem'"
     end
     
     system "meson", "setup", "build", *std_meson_args
