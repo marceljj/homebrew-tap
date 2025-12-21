@@ -8,7 +8,7 @@ brew tap marceljj/tap
 ```
 
 ## Old UNIX software
-_Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org). Packages are hosted on my [GitHub repository](https://github.com/marceljj/marceljj.github.io/tree/main/pkg). They are identical to the ones found in the [X11CP git repository](https://codeberg.org/x11cp/x11cp), and have been packaged into individual archives._
+_Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org). Packages are hosted on my [website](https://marceljj.org/pkg). They are identical to the ones found in the [X11CP git repository](https://codeberg.org/x11cp/x11cp), and have been packaged into individual archives._
 - [mgdiff](https://x11cp.org/apps/mgdiff) - v1.0, (c) 1994, Daniel Williams
 - [Xinvest](https://x11cp.org/apps/xinvest) - v2.5.1, (c) 1997, Mark Buser
 - [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - v1.2, (c) 1996, Thomas Zwettler
