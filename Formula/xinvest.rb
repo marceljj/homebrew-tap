@@ -14,8 +14,8 @@ class Xinvest < Formula
     inreplace "status.c", "static lineno", "int static lineno"
     inreplace "xinvest.c", "<unistd.h>", "<unistd.h>\n#include <stdlib.h>"
       
-    system "xmkmf"
-    system "CFLAGS=-Wno-int-to-void-pointer-cast", "make"
+    system "xmkmf", "CFLAGS=-Wno-int-to-void-pointer-cast"
+    system "make"
     system "make," "install"
   end
 
