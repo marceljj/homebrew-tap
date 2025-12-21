@@ -12,7 +12,7 @@ class Xmtoolbar < Formula
   def install
     inreplace "toolbar.h", "DEFAULT_PIX     \"default.xpm\"", "DEFAULT_PIX     \"#{share}/xmtoolbar/default.xpm\""
     
-    system "make"
+    system "make", "-f", "makefile.simple"
     bin.install "xmtoolbar"
     (share/"xmtoolbar").install "default.xpm"
     (etc/"X11/app-defaults").install "Xmtoolbar.ad" => "Xmtoolbar"
