@@ -10,11 +10,12 @@ class Xinvest < Formula
 
   def install
     inreplace "drawing.c", "static firsttime", "int static firsttime"
-    inreplace "Imakefile", "CFLAGS += -fcommon", "CFLAGS += -fcommon -w"
+    inreplace "Imakefile", "-fcommon", "-fcommon -w"
     inreplace "portfolio.c", "<values.h>", "<float.h>"
     inreplace "status.c", "static lineno", "int static lineno"
     inreplace "xinvest.c", "<unistd.h>", "<unistd.h>\n#include <stdlib.h>"
-      
+
+    system "touch Xinvest.man"
     system "xmkmf"
     system "make"
     system "make," "install"
