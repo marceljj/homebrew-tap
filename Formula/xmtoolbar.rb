@@ -4,9 +4,7 @@ class Xmtoolbar < Formula
   homepage "https://x11cp.org/apps/xmtoolbar"
   url "https://marceljj.org/pkg/xmtoolbar-#{version}.tar.gz"
   sha256 "806af278d0d102f312c6caec49648b6dc4173e01093fb40cd4032f2abf280e5a"
-
-  depends_on arch: :arm64
-  depends_on :macos
+  
   depends_on "openmotif"
 
   def install
