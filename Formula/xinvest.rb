@@ -14,8 +14,9 @@ class Xinvest < Formula
     inreplace "status.c", "static lineno", "int static lineno"
     inreplace "xinvest.c", "<unistd.h>", "<unistd.h>\n#include <stdlib.h>"
       
-    bin.install "Xinvest"
-    (lib/"X11/app-defaults").install "Xinvest.ad" => "Xinvest"
+    system "xmkmf"
+    system "make"
+    system "make," "install"
   end
 
   test do
