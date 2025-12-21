@@ -20,6 +20,9 @@ class Xinvest < Formula
     system "make"
     bin.install "Xinvest"
     (lib/"X11/app-defaults").install "Xinvest.ad" => "Xinvest"
+    doc.install "CHANGES"
+    doc.install "README"
+    doc.install "TODO"
   end
 
   test do
