@@ -6,6 +6,7 @@ class Celluloid < Formula
   sha256 "5b9991557cc2764a8281a24aa726a645287eb075cde0f0ae7c737965264a119c"
   license "GPL-3.0"
 
+  depends_on "appstream" => :build
   depends_on "desktop-file-utils" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
