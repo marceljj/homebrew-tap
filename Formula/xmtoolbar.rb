@@ -12,6 +12,7 @@ class Xmtoolbar < Formula
     
     system "make", "-f", "makefile.simple"
     bin.install "xmtoolbar"
+    doc.install "README"
     (share/"xmtoolbar").install "default.xpm"
     (etc/"X11/app-defaults").install "Xmtoolbar.ad" => "Xmtoolbar"
   end
