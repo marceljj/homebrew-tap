@@ -6,6 +6,9 @@ class Dingusppc < Formula
   license "GPL-3.0"
 
   depends_on "cmake" => :build
+  depends_on "capstone"
+  depends_on "cubeb"
+  depends_on "sdl2"
 
   def install
     system "cmake", "-S", ".", "-B", "build", *std_cmake_args
