@@ -33,6 +33,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, eepykate
 - [fm](https://github.com/euclio/fm) - v2025.05, (c) 2025, Andy Russell
 - [gtk2fontsel](https://gtk2fontsel.sourceforge.net) - v0.1, (c) 2013, Jason Petrone
+- [gtk-chtheme](http://plasmasturm.org/code/gtk-chtheme) - v0.3.1, (c) 2008, Aristotle Pagaltzis
 - [GtkHash](https://gtkhash.org) - v1.5, (c) 2022, GtkHash
 - [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) -v2016.08, JadedTuna
 - [gtktetris](https://github.com/wader/gtktetris) -v2025.05, (c) 2025, Mattias Wadman
