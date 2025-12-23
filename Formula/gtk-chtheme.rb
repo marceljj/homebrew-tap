@@ -13,7 +13,7 @@ class GtkChtheme < Formula
     inreplace "Makefile", "-DGTK_DISABLE_BROKEN -DGTK_DISABLE_DEPRECATED", "-DGTK_DISABLE_BROKEN"
     
     system "make", "DESTDIR=#{prefix}"
-    system "make", "install"
+    system "make", "DESTDIR=#{prefix}", "install"
     doc.install "ChangeLog"
     doc.install "COPYING"
   end
