@@ -6,9 +6,9 @@ class Hexchat < Formula
   sha256 "2e88340a8da274b87373ec0740746da78120cc6fbfdd201a4dd6999cac790e4a"
   license "GPL-2.0"
 
-  depends_on "cffi" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
+  depends_on "python" => :build
   depends_on "glib"
   depends_on "gtk+"
   depends_on "iso-codes"
@@ -18,6 +18,7 @@ class Hexchat < Formula
   def install
     ENV["DESTDIR"] = "/"
 
+    system "pip3", "install", "cffi", *std_pip_args
     system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
