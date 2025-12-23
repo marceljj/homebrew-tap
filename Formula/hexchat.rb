@@ -10,6 +10,8 @@ class Hexchat < Formula
   depends_on "ninja" => :build
   depends_on "glib"
   depends_on "gtk+"
+  depends_on "iso_codes"
+  depends_on "luajit"
 
   def install
     ENV["DESTDIR"] = "/"
