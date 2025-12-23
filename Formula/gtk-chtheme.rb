@@ -10,7 +10,7 @@ class GtkChtheme < Formula
   depends_on "gtk+"
   
   def install
-    inreplace "Makefile", "N -DGTK_DISABLE_DEPRECATED", "N"
+    inreplace "Makefile", "-DGTK_DISABLE_BROKEN -DGTK_DISABLE_DEPRECATED", "-DGTK_DISABLE_BROKEN"
     
     system "make", "DESTDIR=#{prefix}"
     system "make", "install"
