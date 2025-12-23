@@ -1,4 +1,4 @@
-class Gtk2fontsel < Formula
+class GtkChtheme < Formula
   version "0.3.1"
   desc "A font selection program for X11 using the GTK2 toolkit"
   homepage "http://plasmasturm.org/code/gtk-chtheme"
