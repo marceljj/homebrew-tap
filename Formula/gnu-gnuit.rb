@@ -6,12 +6,13 @@ class GnuGnuit < Formula
   license "GPL-3.0"
   sha256 "6b6e96db13bafa5ad35c735b2277699d4244088c709a3e134fb1a3e8c8a8557c"
 
+  depends_on "make" => :build
   depends_on "texi2html" => :build
   
   def install   
     system "./configure", *std_configure_args
-    system "make"
-    system "make", "install"
+    system "gmake"
+    system "gmake", "install"
   end
 
   test do
