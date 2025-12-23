@@ -13,14 +13,13 @@ class Gtkhash < Formula
   depends_on "libb2"
   depends_on "libgcrypt"
   depends_on "librsvg"
-  depends_on "mbedtls"
   depends_on "nettle"
   depends_on "zlib"
 
   def install
     ENV["DESTDIR"] = "/"
 
-    system "meson", "setup", "build", "-Dglib-checksums=true", "-Dmbedtls=true", *std_meson_args
+    system "meson", "setup", "build", "-Dglib-checksums=true", "-Dnettle=true", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
