@@ -21,7 +21,7 @@ class GnuGcal < Formula
     system "make"
     system "make", "install"
     man1.install "gcal.1.en.gz" => "gcal.1.gz"
-    man.1.install "gcal2txt.1.en.gz" => "gcal2tzt.gz"
+    man1.install "gcal2txt.1.en.gz" => "gcal2tzt.gz"
     man1.install "tcal.1.en.gz" => "tcal.1.gz"
     man1.install "txt2gcal.1.en.gz" => "txt2gcal.1.gz"
   end
