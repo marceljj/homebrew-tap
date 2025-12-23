@@ -9,6 +9,7 @@ class Hexchat < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "python" => :build
+  depends_on "cffi"
   depends_on "glib"
   depends_on "gtk+"
   depends_on "iso-codes"
@@ -18,7 +19,6 @@ class Hexchat < Formula
   def install
     ENV["DESTDIR"] = "/"
 
-    system "pip3", "install", "cffi", *std_pip_args
     system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
