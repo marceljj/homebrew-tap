@@ -6,19 +6,24 @@ class GnuGcal < Formula
   license "GPL-3.0"
   sha256 "363cdb016125bd64cfe5fcaa28b4b828fdfe88b1ee76d9f58ba9ea120587bb39"
 
-  resource "manpages" do
-    version "4.1"
-    url "http://deb.debian.org/debian/pool/main/g/gcal/gcal_#{version}.orig.tar.gz"
-    sha256 "363cdb016125bd64cfe5fcaa28b4b828fdfe88b1ee76d9f58ba9ea120587bb39"
-  end
+  depends_on "curl"
   
   def install
     inreplace "src/tty.c", "if HAVE_SYS_IOCTL_H && !defined(TIOCGWINSZ)", "if HAVE_SYS_IOCTL_H"
     inreplace "src/utils.c", "mayname = (char *) my_malloc (len,", "mayname = (char *) my_malloc (len + 2,"
+
+    system "curl", "-o", "https://manpages.debian.org/unstable/gcal/gcal.1.en.gz"
+    system "curl", "-o", "https://manpages.debian.org/unstable/gcal/gcal2txt.1.en.gz"
+    system "curl", "-o", "https://manpages.debian.org/unstable/gcal/tcal.1.en.gz"
+    system "curl", "-o", "https://manpages.debian.org/unstable/gcal/txt2gcal.1.en.gz"
     
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
+    man1.install "gcal.1.en.gz" => "gcal.1.gz"
+    man.1.install "gcal2txt.1.en.gz" => "gcal2tzt.gz"
+    man1.install "tcal.1.en.gz" => "tcal.1.gz"
+    man1.install "txt2gcal.1.en.gz" => "txt2gcal.1.gz"
   end
 
   test do
