@@ -5,12 +5,17 @@ class Gtktetris < Formula
   url "https://github.com/wader/gtktetris.git", branch: "master"
   license "MIT"
 
+  depends_on "glib"
   depends_on "gtk+"
   
   def install
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
+    doc.install "AUTHORS"
+    doc.install "ChangeLog"
+    doc.install "LICENSE"
+    doc.install "README.md"
   end
 
   test do
