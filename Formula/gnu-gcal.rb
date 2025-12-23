@@ -6,7 +6,7 @@ class GnuGcal < Formula
   license "GPL-3.0"
   sha256 "363cdb016125bd64cfe5fcaa28b4b828fdfe88b1ee76d9f58ba9ea120587bb39"
 
-  depends_on "curl"
+  depends_on "curl" => :build
   
   def install
     inreplace "src/tty.c", "if HAVE_SYS_IOCTL_H && !defined(TIOCGWINSZ)", "if HAVE_SYS_IOCTL_H"
