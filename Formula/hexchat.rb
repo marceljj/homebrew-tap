@@ -14,6 +14,7 @@ class Hexchat < Formula
   depends_on "iso-codes"
   depends_on "luajit"
   depends_on "perl"
+  depends_on "python"
 
   def install
     ENV["DESTDIR"] = "/"
