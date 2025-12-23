@@ -13,7 +13,7 @@ class Hexchat < Formula
   depends_on "gtk+"
   depends_on "iso-codes"
   depends_on "luajit"
-  
+  depends_on "mono"
   depends_on "perl"
   depends_on "python"
   depends_on "tcl-tk"
