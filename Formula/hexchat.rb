@@ -8,6 +8,7 @@ class Hexchat < Formula
 
   depends_on "meson" => :build
   depends_on "ninja" => :build
+  depends_on "cffi"
   depends_on "glib"
   depends_on "gtk+"
   depends_on "iso-codes"
