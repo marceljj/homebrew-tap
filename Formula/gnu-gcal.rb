@@ -12,10 +12,10 @@ class GnuGcal < Formula
     inreplace "src/tty.c", "if HAVE_SYS_IOCTL_H && !defined(TIOCGWINSZ)", "if HAVE_SYS_IOCTL_H"
     inreplace "src/utils.c", "mayname = (char *) my_malloc (len,", "mayname = (char *) my_malloc (len + 2,"
 
-    system "curl", "-o", "https://manpages.debian.org/unstable/gcal/gcal.1.en.gz"
-    system "curl", "-o", "https://manpages.debian.org/unstable/gcal/gcal2txt.1.en.gz"
-    system "curl", "-o", "https://manpages.debian.org/unstable/gcal/tcal.1.en.gz"
-    system "curl", "-o", "https://manpages.debian.org/unstable/gcal/txt2gcal.1.en.gz"
+    system "curl", "-O", "https://manpages.debian.org/unstable/gcal/gcal.1.en.gz"
+    system "curl", "-O", "https://manpages.debian.org/unstable/gcal/gcal2txt.1.en.gz"
+    system "curl", "-O", "https://manpages.debian.org/unstable/gcal/tcal.1.en.gz"
+    system "curl", "-O", "https://manpages.debian.org/unstable/gcal/txt2gcal.1.en.gz"
     
     system "./configure", *std_configure_args
     system "make"
