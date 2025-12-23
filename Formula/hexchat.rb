@@ -13,7 +13,6 @@ class Hexchat < Formula
   depends_on "gtk+"
   depends_on "iso-codes"
   depends_on "luajit"
-  depends_on "mono"
   depends_on "perl"
   depends_on "python"
   depends_on "tcl-tk"
@@ -21,7 +20,7 @@ class Hexchat < Formula
   def install
     ENV["DESTDIR"] = "/"
 
-    system "meson", "setup", "build", "-Dtext-frontend=true", "-Dtheme-manager=true", *std_meson_args
+    system "meson", "setup", "build", "-Dtext-frontend=true", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
