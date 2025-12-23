@@ -9,13 +9,15 @@ class GnuGcal < Formula
   depends_on "curl"
   
   def install
+    mansource = %w["https://manpages.debian.org/stable/gcal"]
+    
     inreplace "src/tty.c", "if HAVE_SYS_IOCTL_H && !defined(TIOCGWINSZ)", "if HAVE_SYS_IOCTL_H"
     inreplace "src/utils.c", "mayname = (char *) my_malloc (len,", "mayname = (char *) my_malloc (len + 2,"
 
-    system "curl", "-O", "https://manpages.debian.org/stable/gcal/gcal.1.en.gz"
-    system "curl", "-O", "https://manpages.debian.org/stable/gcal/gcal2txt.1.en.gz"
-    system "curl", "-O", "https://manpages.debian.org/stable/gcal/tcal.1.en.gz"
-    system "curl", "-O", "https://manpages.debian.org/stable/gcal/txt2gcal.1.en.gz"
+    system "curl", "-O", *mansource, "/gcal.1.en.gz"
+    system "curl", "-O", *mansource, "/gcal2txt.1.en.gz"
+    system "curl", "-O", *mansource, "/tcal.1.en.gz"
+    system "curl", "-O", *mansource, "/txt2gcal.1.en.gz"
     
     system "./configure", *std_configure_args
     system "make"
