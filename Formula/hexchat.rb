@@ -1,0 +1,30 @@
+class Hexchat < Formula
+  version "2.16.2"
+  desc "View fonts on your system"
+  homepage "https://hexchat.github.io"
+  url "https://github.com/hexchat/hexchat/releases/download/v#{version}/hexchat-#{version}.tar.xz"
+  sha256 "2e88340a8da274b87373ec0740746da78120cc6fbfdd201a4dd6999cac790e4a"
+  license "GPL-2.0"
+
+  depends_on "meson" => :build
+  depends_on "ninja" => :build
+  depends_on "glib"
+  depends_on "gtk+"
+
+  def install
+    ENV["DESTDIR"] = "/"
+
+    system "meson", "setup", "build", *std_meson_args
+    system "meson", "compile", "-C", "build", "--verbose"
+    system "meson", "install", "-C", "build"
+  end
+
+  def post_install
+    system Formula["glib"].opt_bin/"glib-compile-schemas", HOMEBREW_PREFIX/"share/glib-2.0/schemas"
+    system Formula["gtk4"].opt_bin/"gtk4-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
+  end
+
+  test do
+    system "false"
+  end
+end
