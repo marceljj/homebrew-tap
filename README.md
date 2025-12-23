@@ -36,8 +36,9 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [gtk2fontsel](https://gtk2fontsel.sourceforge.net) - v0.1, (c) 2013, Jason Petrone
 - [gtk-chtheme](http://plasmasturm.org/code/gtk-chtheme) - v0.3.1, (c) 2008, Aristotle Pagaltzis
 - [GtkHash](https://gtkhash.org) - v1.5, (c) 2022, GtkHash
-- [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) -v2016.08, JadedTuna
-- [gtktetris](https://github.com/wader/gtktetris) -v2025.05, (c) 2025, Mattias Wadman
+- [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, JadedTuna
+- [gtktetris](https://github.com/wader/gtktetris) - v2025.05, (c) 2025, Mattias Wadman
+- [HexChat](https://hexchat.github.io) - v2.16.2, HexChat, (c) 2024
 - [libsmacker](https://libsmacker.sourceforge.net) -v1.1.1r35, (c) 2020, Greg Kennedy
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
