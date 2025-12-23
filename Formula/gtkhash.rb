@@ -15,6 +15,7 @@ class Gtkhash < Formula
   depends_on "librsvg"
   depends_on "mbedtls"
   depends_on "nettle"
+  depends_on "zlib"
 
   def install
     ENV["DESTDIR"] = "/"
