@@ -1,6 +1,6 @@
 class Hexchat < Formula
   version "2.16.2"
-  desc "View fonts on your system"
+  desc "An IRC client based on XChat"
   homepage "https://hexchat.github.io"
   url "https://github.com/hexchat/hexchat/releases/download/v#{version}/hexchat-#{version}.tar.xz"
   sha256 "2e88340a8da274b87373ec0740746da78120cc6fbfdd201a4dd6999cac790e4a"
