@@ -20,7 +20,7 @@ class Gtkhash < Formula
   def install
     ENV["DESTDIR"] = "/"
 
-    system "meson", "setup", "build", *std_meson_args
+    system "meson", "setup", "build", "-Dglib-checksums=true", "-Dmbedtls=true", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
