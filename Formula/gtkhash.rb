@@ -1,4 +1,4 @@
-class GtkHash < Formula
+class Gtkhash < Formula
   version "1.5"
   desc "A cross-platform desktop utility for computing message digests or checksums"
   homepage "https://gtkhash.org"
