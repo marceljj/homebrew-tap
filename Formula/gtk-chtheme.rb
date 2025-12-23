@@ -11,7 +11,8 @@ class GtkChtheme < Formula
   
   def install
     inreplace "Makefile", "-DGTK_DISABLE_BROKEN -DGTK_DISABLE_DEPRECATED", "-DGTK_DISABLE_BROKEN"
-    system "make", *args
+    system "make"
+    system "strip", "gtk-chtheme"
     bin.install "gtk-chtheme"
     man1.install "gtk-chtheme.1"
     doc.install "ChangeLog"
