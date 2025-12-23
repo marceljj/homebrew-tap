@@ -7,7 +7,6 @@ class GnuGcal < Formula
   sha256 "363cdb016125bd64cfe5fcaa28b4b828fdfe88b1ee76d9f58ba9ea120587bb39"
 
   def install
-    inreplace "Makefile", "Zdump=/usr/sbin/zdump", "Zdump=#{sbin}/gnu-zdump"
     inreplace "src/tty.c", "if HAVE_SYS_IOCTL_H && !defined(TIOCGWINSZ)", "if HAVE_SYS_IOCTL_H"
     inreplace "src/utils.c", "mayname = (char *) my_malloc (len,", "mayname = (char *) my_malloc (len + 2,"
     
