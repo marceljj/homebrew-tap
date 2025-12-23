@@ -7,6 +7,7 @@ class Gtkhash < Formula
   license "GPL-2.0"
 
   depends_on "meson" => :build
+  depends_on "ninja" => :build
   depends_on "glib"
   depends_on "gtk+3"
   depends_on "libb2"
