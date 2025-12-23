@@ -11,6 +11,7 @@ class Gtkhash < Formula
   depends_on "gtk+3"
   depends_on "libb2"
   depends_on "libgcrypt"
+  depends_on "librsvg"
   depends_on "mbedtls"
   depends_on "nettle"
 
