@@ -1,5 +1,5 @@
 class DopewarsGtk < Formula
-  desc "Free rewrite of a game originally based on "Drug Wars" (with GTK3 support)"
+  desc 'Free rewrite of a game originally based on "Drug Wars" (with GTK3 support)'
   version "1.6.2"
   homepage "https://dopewars.sourceforge.io"
   url "https://downloads.sourceforge.net/project/dopewars/dopewars/#{version}/dopewars-#{version}.tar.gz"
