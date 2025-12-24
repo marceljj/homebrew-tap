@@ -9,6 +9,7 @@ class NeovimGtk < Formula
   depends_on "pkgconf" => :build
   depends_on "rust" => :build
   depends_on "glib"
+  depends_on "gtk+3"
 
   def install
     args = %w[
