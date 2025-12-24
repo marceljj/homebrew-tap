@@ -5,6 +5,7 @@ class Fm < Formula
   url "https://github.com/euclio/fm.git", branch: "master"
   license "MIT"
 
+  depends_on "pkgconf" => :build
   depends_on "rust" => :build
   depends_on "glib"
   depends_on "gtk4"
