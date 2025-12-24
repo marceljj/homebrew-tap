@@ -6,9 +6,9 @@ class Hexchat < Formula
   sha256 "2e88340a8da274b87373ec0740746da78120cc6fbfdd201a4dd6999cac790e4a"
   license "GPL-2.0"
 
-  depends_on "pkgconf" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
+  depends_on "pkgconf" => :build
   depends_on "cffi"
   depends_on "glib"
   depends_on "gtk+"
