@@ -30,6 +30,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 
 ## Miscellaneous
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
+- [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, dmsc
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, eepykate
 - [fm](https://github.com/euclio/fm) - v2025.05, (c) 2025, Andy Russell
