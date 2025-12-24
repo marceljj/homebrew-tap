@@ -5,6 +5,7 @@ class Gtktetris < Formula
   url "https://github.com/wader/gtktetris.git", branch: "master"
   license "MIT"
 
+  depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk+"
   
