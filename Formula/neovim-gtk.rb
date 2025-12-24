@@ -12,12 +12,11 @@ class NeovimGtk < Formula
   depends_on "gtk+3"
 
   def install
-    args = %w[
-    PREFIX=#{prefix}
-            ]
-    system "make", *args
-    system "make", *args, "install"
-    system "make", *args, "install-resources"
+    inreplace "Makefile", "PREFIX?=/usr/local", "PREFIX?=#{prefix}"
+    
+    system "make"
+    system "make", "install"
+    system "make", "install-resources"
   end
 
   test do
