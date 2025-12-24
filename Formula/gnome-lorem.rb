@@ -10,6 +10,7 @@ class GnomeLorem < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "rust" => :build
+  depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk4"
   depends_on "libadwaita"
