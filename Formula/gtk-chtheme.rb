@@ -6,6 +6,7 @@ class GtkChtheme < Formula
   sha256 "26f4b6dd60c220d20d612ca840b6beb18b59d139078be72c7b1efefc447df844"
   license "GPL-2.0"
 
+  depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk+"
   
