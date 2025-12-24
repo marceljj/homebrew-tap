@@ -26,8 +26,9 @@ class DopewarsGtk < Formula
     inreplace "auxbuild/ltmain.sh", "need_relink=yes", "need_relink=no"
     inreplace "src/plugins/Makefile.in", "LIBADD =", "LIBADD = -module -avoid-version"
 
-    system "./configure", "--enable-plugins",
+    system "./configure", "--enable-gui-server",
                           "--enable-networking",
+                          "--enable-plugins",
                           "--mandir=#{man}",
                           *std_configure_args
     system "make", "install", "chgrp=true"
