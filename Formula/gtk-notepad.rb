@@ -5,6 +5,7 @@ class GtkNotepad < Formula
   url "https://github.com/JadedTuna/gtk-notepad.git", branch: "master"
   license "GPL-2.0"
 
+  depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk+"
   
