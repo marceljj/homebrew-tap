@@ -16,8 +16,8 @@ class NeovimGtk < Formula
     PREFIX=#{prefix}
             ]
     system "make", *args
-    system "make", "install", *args
-    system "make", "install-resources", *args
+    system "make", *args, "install"
+    system "make", *args, "install-resources"
   end
 
   test do
