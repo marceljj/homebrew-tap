@@ -6,7 +6,6 @@ class DopewarsGtk < Formula
   sha256 "623b9d1d4d576f8b1155150975308861c4ec23a78f9cc2b24913b022764eaae1"
   license "GPL-2.0-or-later"
 
-  depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk+3"
 
