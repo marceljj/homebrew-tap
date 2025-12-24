@@ -18,6 +18,9 @@ class DopewarsGtk < Formula
     depends_on "gettext"
   end
 
+  conflicts_with "dopewars",
+  because: "both packages install the same files"
+
   def install
     inreplace "src/Makefile.in", "$(dopewars_DEPENDENCIES)", ""
     inreplace "src/Makefile.in", "chmod", "true"
