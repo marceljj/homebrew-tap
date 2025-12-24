@@ -9,6 +9,7 @@ class GnomePtyxis < Formula
   depends_on "desktop-file-utils" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
+  depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk4"
   depends_on "json-glib"
