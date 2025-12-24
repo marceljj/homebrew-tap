@@ -2,7 +2,7 @@ class GtkChtheme < Formula
   version "0.3.1"
   desc "GTK+ 2.0 theme changer"
   homepage "http://plasmasturm.org/code/gtk-chtheme"
-  url "http://plasmasturm.org/code/gtk-chtheme/gtk-chtheme-0.3.1.tar.bz2"
+  url "http://plasmasturm.org/code/gtk-chtheme/gtk-chtheme-#{version}.tar.bz2"
   sha256 "26f4b6dd60c220d20d612ca840b6beb18b59d139078be72c7b1efefc447df844"
   license "GPL-2.0"
 
