@@ -14,8 +14,7 @@ class NeovimGtk < Formula
   def install
     inreplace "Makefile", "PREFIX?=/usr/local", "PREFIX?=#{prefix}"
     
-    system "make"
-    system "make", "install"
+    system "cargo", std_cargo_args
     system "make", "install-resources"
   end
 
