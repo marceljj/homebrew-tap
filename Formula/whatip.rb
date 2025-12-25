@@ -12,7 +12,7 @@ class Whatip < Formula
   depends_on "rust" => :build
   depends_on "pkgconf" => :build
   depends_on "glib"
-  depends_on "gobject_introspection"
+  depends_on "gobject-introspection"
   depends_on "gtk4"
   depends_on "libadwaita"
 
