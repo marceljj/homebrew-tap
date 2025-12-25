@@ -45,6 +45,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
 - [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - v0.21.0, (c) 2025, mk6i
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
+- [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
 - [uemacs](https://github.com/torvalds/uemacs) - v4.0.15, (c) 2018, Linus Torvalds
 
 ## macOS Casks
