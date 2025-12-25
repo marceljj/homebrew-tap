@@ -15,6 +15,7 @@ class Typesetter < Formula
   depends_on "gtk4"
   depends_on "gtksourceview5"
   depends_on "libadwaita"
+  depends_on "libspelling"
   depends_on "python"
 
   def install
