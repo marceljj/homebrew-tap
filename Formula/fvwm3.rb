@@ -19,6 +19,7 @@ class Fvwm3 < Formula
   depends_on "libx11"
   depends_on "libxcursor"
   depends_on "libxfixes"
+  depends_on "libxft"
   depends_on "libxpm"
   depends_on "libxrender"
 
