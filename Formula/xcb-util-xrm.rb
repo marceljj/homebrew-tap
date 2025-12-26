@@ -7,6 +7,7 @@ class XcbUtilXrm < Formula
   license "MIT"
 
   depends_on "libxcb"
+  depends_on "xcb-util"
 
   def install
     system "./configure", *std_configure_args
