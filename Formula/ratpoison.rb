@@ -5,8 +5,12 @@ class Ratpoison < Formula
   url "http://download.savannah.nongnu.org/releases/ratpoison/ratpoison-#{version}.tar.xz"
   sha256 "d98fa4be025ecca453c407ff311ab3949f29f20d6d8abedf8f0716b85fc8d1f1"
   license "GPL-2.0"
-  
+
+  depends_on "freetype"
   depends_on "libx11"
+  depends_on "libxau"
+  depends_on "libxcb"
+  depends_on "libxdmcp"
 
   def install
     system "./configure", *std_configure_args
