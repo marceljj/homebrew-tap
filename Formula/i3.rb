@@ -11,6 +11,7 @@ class I3 < Formula
   depends_on "pkgconf" => :build
   depends_on "libx11"
   depends_on "startup-notification"
+  depends_on "xcb-util-cursor"
 
   def install
     system "meson", "setup", "build", *std_meson_args
