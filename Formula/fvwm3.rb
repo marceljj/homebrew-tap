@@ -24,6 +24,7 @@ class Fvwm3 < Formula
   depends_on "libxrandr"
   depends_on "libxrender"
   depends_on "libxt"
+  depends_on "xtrans"
 
   def install
     system "meson", "setup", "builddir", *std_meson_args
