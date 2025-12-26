@@ -36,6 +36,7 @@ class Fvwm3 < Formula
 
   def install
     args = %w[
+      -Dhtmldoc=true
       -Dmandoc=true
     ]
     
