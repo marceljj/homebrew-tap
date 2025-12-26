@@ -6,6 +6,7 @@ class Nscde < Formula
   sha256 "fc4fd5f16b901b865f44b7483fa01a28189b5d5b95766375e026cc317456b297"
   license "GPL-3.0"
 
+  depends_on "fvwm3"
   depends_on "libx11"
   depends_on "libxpm"
 
