@@ -12,6 +12,7 @@ class I3 < Formula
   depends_on "libx11"
   depends_on "startup-notification"
   depends_on "xcb-util-cursor"
+  depends_on "xcb-util-keysyms"
 
   def install
     system "meson", "setup", "build", *std_meson_args
