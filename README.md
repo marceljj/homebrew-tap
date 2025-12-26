@@ -28,6 +28,11 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Gengen](https://www.gnu.org/software/gengen) - v1.4.3, (c) 2021, Lorenzo Bettini
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
+## X11 Window Managers
+- [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
+- [FVWM3](https://www.fvwm.org) - v1.1.4, (c) 2025, FVWM Organization
+- [NsCDE](https://github.com/NsCDE/NsCDE) -v 2.3, (c) 2024, NsCDE
+
 ## Miscellaneous
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
 - [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
