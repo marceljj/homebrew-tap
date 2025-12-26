@@ -8,7 +8,16 @@ class Fvwm3 < Formula
 
   depends_on "meson" => :build
   depends_on "ninja" => :build
+  depends_on "fribidi"
+  depends_on "freetype"
+  depends_on "libiconv"
+  depends_on "libpng"
+  depends_on "librsvg"
   depends_on "libx11"
+  depends_on "libxcursor"
+  depends_on "libxfixes"
+  depends_on "libxpm"
+  depends_on "libxrender"
 
   def install
     system "meson", "setup", "build", *std_meson_args
