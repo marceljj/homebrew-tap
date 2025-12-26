@@ -35,7 +35,11 @@ class Fvwm3 < Formula
   uses_from_macos "ncurses"
 
   def install
-    system "meson", "setup", "-Dmandoc=true", "builddir", *std_meson_args
+    args = %w[
+      -Dmandoc=true
+    ]
+    
+    system "meson", "setup", "builddir", *args, *std_meson_args
     system "meson", "compile", "-C", "builddir", "--verbose"
     system "meson", "install", "-C", "builddir"
   end
