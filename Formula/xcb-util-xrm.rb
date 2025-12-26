@@ -6,6 +6,8 @@ class XcbUtilXrm < Formula
   sha256 "0129f74c327ae65e2f4ad4002f300b4f02c9aff78c00997f1f1c5a430f922f34"
   license "MIT"
 
+  depends_on "xcb-proto"
+
   def install
     system "./configure", *std_configure_args
     system "make"
