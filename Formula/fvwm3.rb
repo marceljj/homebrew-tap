@@ -11,6 +11,7 @@ class Fvwm3 < Formula
   depends_on "pkgconf" => :build
   depends_on "fribidi"
   depends_on "freetype"
+  depends_on "libevent"
   depends_on "libice"
   depends_on "libiconv"
   depends_on "libpng"
