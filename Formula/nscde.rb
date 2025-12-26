@@ -7,7 +7,6 @@ class Nscde < Formula
   license "GPL-3.0"
 
   depends_on "fvwm3"
-  depends_on "libx11"
   depends_on "libxpm"
 
   def install
