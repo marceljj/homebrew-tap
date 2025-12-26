@@ -12,6 +12,7 @@ class I3 < Formula
   depends_on "cairo"
   depends_on "libx11"
   depends_on "libxkbcommon"
+  depends_on "pango"
   depends_on "startup-notification"
   depends_on "xcb-util-cursor"
   depends_on "xcb-util-keysyms"
