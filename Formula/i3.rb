@@ -16,6 +16,7 @@ class I3 < Formula
   depends_on "xcb-util-keysyms"
   depends_on "xcb-util-wm"
   depends_on "xcb-util-xrm"
+  depends_on "yajl"
 
   def install
     system "meson", "setup", "build", *std_meson_args
