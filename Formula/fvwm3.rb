@@ -19,16 +19,21 @@ class Fvwm3 < Formula
   depends_on "libiconv"
   depends_on "libpng"
   depends_on "librsvg"
+  depends_on "libsm"
   depends_on "libx11"
   depends_on "libxcursor"
   depends_on "libxfixes"
   depends_on "libxft"
+  depends_on "libxi"
   depends_on "libxkbcommon"
   depends_on "libxpm"
   depends_on "libxrandr"
   depends_on "libxrender"
   depends_on "libxt"
+  depends_on "readline"
   depends_on "xtrans"
+
+  uses_from_macos "ncurses"
 
   def install
     system "meson", "setup", "builddir", *std_meson_args
