@@ -9,6 +9,7 @@ class I3 < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
+  depends_on "cairo"
   depends_on "libx11"
   depends_on "libxkbcommon"
   depends_on "startup-notification"
