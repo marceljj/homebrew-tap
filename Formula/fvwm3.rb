@@ -13,6 +13,7 @@ class Fvwm3 < Formula
   depends_on "fribidi"
   depends_on "fontconfig"
   depends_on "freetype"
+  depends_on "golang"
   depends_on "libevent"
   depends_on "libice"
   depends_on "libiconv"
@@ -29,7 +30,6 @@ class Fvwm3 < Formula
   depends_on "libxrandr"
   depends_on "libxrender"
   depends_on "libxt"
-  depends_on "readline"
   depends_on "xtrans"
 
   uses_from_macos "ncurses"
