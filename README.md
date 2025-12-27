@@ -32,7 +32,9 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
 - [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
 - [FVWM3](https://www.fvwm.org) - v1.1.4, (c) 2025, FVWM Organization
+- [JWM](https://joewing.net/projects/jwm/) - v2.4.6, (c) 2025, Joe Wingbermuehle
 - [NsCDE](https://github.com/NsCDE/NsCDE) - v2.3, (c) 2024, NsCDE
+- [pekwm](https://www.pekwm.se) - v0.4.1, (c) 2025, Claes Nästén
 - [Ratpoison](https://www.nongnu.org/ratpoison) - v1.4.9, 2017, Jérémie Courrèges-Anglas
 
 ## Miscellaneous
