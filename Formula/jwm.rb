@@ -22,8 +22,10 @@ class Jwm < Formula
 
   def install
     system "./configure", *std_configure_args
+    inreplace "Makefile", "install -m 644 example.jwmrc $(SYSCONF)/system.jwmrc", ""
     system "make"
     system "make", "install"
+    doc.install example.jwmrc
   end
 
   test do
