@@ -6,7 +6,6 @@ class Pekwm < Formula
   sha256 "25d1860b88df9c1f14a40f212ca28f7fd568a7c645cb55109b75cb915571b1d6"
   license "GPL-2.0"
 
-  depends_on "cmake" => :build
   depends_on "pkgconf" => :build
   depends_on "cairo"
   depends_on "jpeg-turbo"
@@ -22,9 +21,9 @@ class Pekwm < Formula
   uses_from_macos "curl"
 
   def install
-    system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    system "cmake", "--build", "build"
-    system "cmake", "--install", "build"
+    system "./configure", *std_configure_args
+    system "make"
+    system "make", "install"
   end
 
   test do
