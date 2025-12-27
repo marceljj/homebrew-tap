@@ -18,6 +18,8 @@ class Pekwm < Formula
   depends_on "libxrandr"
   depends_on "pango"
 
+  uses_from_macos "curl"
+
   def install
     system "./configure", *std_configure_args
     system "make"
