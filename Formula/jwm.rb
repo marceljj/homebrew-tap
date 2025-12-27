@@ -8,7 +8,7 @@ class Jwm < Formula
 
   depends_on "pkgconf" => :build
   depends_on "cairo"
-  depends_on "libjpeg"
+  depends_on "jpeg-turbo"
   depends_on "libpng"
   depends_on "librsvg"
   depends_on "libx11"
