@@ -5,6 +5,7 @@ class Gperiodic < Formula
   url "https://github.com/zploskey/gperiodic.git", branch: "master"
   license "GPL-2.0"
 
+  depends_on "intltool" => :build
   depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk+"
