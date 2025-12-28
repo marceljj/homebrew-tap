@@ -16,13 +16,12 @@ class Guitarix < Formula
   depends_on "jack"
   depends_on "libffi"
   depends_on "libsndfile"
+  depends_on "lrdf"
   depends_on "sassc"
   depends_on "zita-convolver"
 
   def install
-    inreplace "wscript" do |s|
-      s.gsub! "glibmm-2.4", "glibmm-2.68"
-    end
+    inreplace "wscript", "glibmm-2.4", "glibmm-2.68"
     
     system "./waf", "configure", "--prefix=#{prefix}"
     system "./waf", "build"
