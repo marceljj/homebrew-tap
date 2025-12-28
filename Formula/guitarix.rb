@@ -8,6 +8,7 @@ class Guitarix < Formula
 
   depends_on "gettext" => :build
   depends_on "intltool" => :build
+  depends_on "python" => :build
   depends_on "libffi"
   depends_on "libsndfile"
   depends_on "zita-convolver"
