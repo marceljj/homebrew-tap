@@ -16,7 +16,7 @@ class Guitarix < Formula
   depends_on "jack"
   depends_on "libffi"
   depends_on "libsndfile"
-  depends_on "lilvi"
+  depends_on "lilv"
   depends_on "lrdf"
   depends_on "sassc"
   depends_on "zita-convolver"
