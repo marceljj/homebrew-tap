@@ -13,6 +13,7 @@ class Guitarix < Formula
   depends_on "jack"
   depends_on "libffi"
   depends_on "libsndfile"
+  depends_on "sassc"
   depends_on "zita-convolver"
 
   def install
