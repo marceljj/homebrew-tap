@@ -6,10 +6,10 @@ class Fvwm3 < Formula
   sha256 "6df420ab492dcecd9d302880a9e97f689e9181db8850f5f7945e652bb8dd62a0"
   license all_of: ["GPL-2.0", "fvwm"]
 
+  depends_on "asciidoctor"
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
-  depends_on "asciidoctor"
   depends_on "fribidi"
   depends_on "fontconfig"
   depends_on "freetype"
