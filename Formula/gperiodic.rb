@@ -11,9 +11,14 @@ class Gperiodic < Formula
   depends_on "gtk+"
   
   def install
-    system "./configure", *std_configure_args
-    system "make"
-    system "make", "install"
+    args = %w[
+      bindir=#{bin}
+      datadir=#{share}
+      mandir=#{share}/man/man1
+      iconsdir=#{share}/icons
+    ]
+    system "make", *args
+    system "make", *args, "install"
     doc.install "AUTHORS"
     doc.install "ChangeLog"
     doc.install "COPYING"
