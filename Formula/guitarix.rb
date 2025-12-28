@@ -25,7 +25,7 @@ class Guitarix < Formula
   def install
     inreplace "wscript" do |s|
       s.gsub! "glibmm-2.4", "glibmm-2.68"
-      s.gsub! "/opt/local", "#{prefix}"
+      s.gsub! "includes='/opt/local/include', libpath='/opt/local/lib'", "includes='#{prefix}/include/boost', libpath='#{prefix}/lib'"
     end
     
     system "./waf", "configure", "--prefix=#{prefix}"
