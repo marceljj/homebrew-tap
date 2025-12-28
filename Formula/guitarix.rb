@@ -11,6 +11,7 @@ class Guitarix < Formula
   depends_on "python" => :build
   depends_on "glib"
   depends_on "glibmm"
+  depends_on "gtk+3"
   depends_on "jack"
   depends_on "libffi"
   depends_on "libsndfile"
