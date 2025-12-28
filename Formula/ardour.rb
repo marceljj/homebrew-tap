@@ -30,7 +30,7 @@ class Ardour < Formula
 
   def install
     system "./waf", "configure", "--prefix=#{prefix}", "--with-backends=jack"
-    system "./waf", "install"
+    system "./waf"
 
     cd "./tools/osx_packaging" do
       system "./osx_build", "--help"
