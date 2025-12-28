@@ -18,6 +18,9 @@ class Guitarix < Formula
   depends_on "zita-convolver"
 
   def install
+    inreplace "wscript" do |s|
+      s.gsub! "glibmm-2.4", "glibmm-2.68"
+    
     system "./waf", "configure", "--prefix=#{prefix}"
     system "./waf", "build"
     system "./waf", "install"
