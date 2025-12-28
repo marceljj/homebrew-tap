@@ -1,9 +1,8 @@
 class Gperiodic < Formula
-  version "1.3.3"
-  desc "A periodic table application written in GTK"
-  homepage "http://gperiodic.seul.org"
-  url "http://gperiodic.seul.org/downloads/gperiodic-#{version}.tar.gz"
-  sha256 "5858eb726867e8c28f42101dbff7a5234b960f5944c7800939bf39a775147322"
+  version "git-2025.03"
+  desc "A program for looking up data of elements from the periodic table"
+  homepage "https://github.com/zploskey/gperiodic"
+  url "https://github.com/zploskey/gperiodic.git", branch: "master"
   license "GPL-2.0"
 
   depends_on "pkgconf" => :build
