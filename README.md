@@ -1,5 +1,5 @@
 # Marcel's UNIX Repository
-_currently providing [homebrew](https://brew.sh) packages for ancient UNIX software, alongside various other software (primarily for macOS, but formulae should work with Linux)_
+_currently providing [homebrew](https://brew.sh) packages for ancient UNIX software, alongside various other software (primarily for macOS, but most formulae should work with Linux)_
 
 ## Add repository to Homebrew
 
@@ -49,12 +49,15 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, JadedTuna
 - [gtktetris](https://github.com/wader/gtktetris) - v2025.05, (c) 2025, Mattias Wadman
 - [HexChat](https://hexchat.github.io) - v2.16.2, (c) 2024, HexChat
-- [hxtools](https://inai.de/projects/hxtools) - v 20251011, (c) 2025, Jan Engelhardt
-- [libhx](https://inai.de/projects/libhx) -v 5.2, (c) 2025, Jan Engelhardt
+- [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
+- [leafpad](https://github.com/tarot231/leafpad) - v2025.03, (c) 2025, Tarot Osuji
+- [libhx](https://inai.de/projects/libhx) -v5.2, (c) 2025, Jan Engelhardt
+- [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
 - [libsmacker](https://libsmacker.sourceforge.net) -v1.1.1r35, (c) 2020, Greg Kennedy
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
 - [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - v0.21.0, (c) 2025, mk6i
+- [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
 - [uemacs](https://github.com/torvalds/uemacs) - v4.0.15, (c) 2018, Linus Torvalds
