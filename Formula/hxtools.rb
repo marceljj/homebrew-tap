@@ -18,6 +18,7 @@ class Hxtools < Formula
         s.gsub! "smm_hcdplay_LDADD = ${libHX_LIBS}", ""
         s.gsub! "doc/hcdplay.1 doc/hxtools.7", "doc/hxtools.7"
       end
+      inreplace "doc/hxtools.7", ".PP\n\fBhcdplay\fP(1) \(en control autonomous CDDA playback using Linux ioctls\n.PP", ".PP"
     end
     
     system "./configure", *std_configure_args
