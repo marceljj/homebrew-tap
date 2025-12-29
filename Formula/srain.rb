@@ -1,8 +1,8 @@
 class Srain < Formula
-  version "1.81"
+  version "1.8.1"
   desc "Modern IRC client written in GTK"
   homepage "https://srain.silverrainz.me"
-  url "https://github.com/SrainApp/srain/archive/refs/tags/1.8.1.tar.gz"
+  url "https://github.com/SrainApp/srain/archive/refs/tags/#{version}.tar.gz"
   sha256 "ce7fc8e50ad2d18c5eca10f72b1e0c060bca5205720b5d51c36c3afc025fd747"
   license "GPL-3.0"
 
