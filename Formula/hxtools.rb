@@ -7,6 +7,7 @@ class Hxtools < Formula
   license all_of: ["BSD-2-Clause-Patent", "GPL-2.0-or-later", "MIT"]
 
   depends_on "libhx"
+  depends_on "libxcb"
 
   def install
     system "./configure", *std_configure_args
