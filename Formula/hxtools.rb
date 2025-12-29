@@ -13,7 +13,7 @@ class Hxtools < Formula
 
   def install
     on_macos do
-      inreplace "doc/hxtools.7", "ioctls", "ioctls -- DISABLED"
+      inreplace "doc/hxtools.7", "control autonomous CDDA playback using Linux ioctls", "disabled on this system"
       inreplace "Makefile.am" do |s|
         s.gsub! "smm/bsvplay smm/hcdplay", "smm/bsvplay"
         s.gsub! "smm_hcdplay_LDADD = ${libHX_LIBS}", ""
