@@ -9,7 +9,7 @@ class Leafpad < Formula
   depends_on "automake" => :build
 
   def install
-    system "autoreconf", "-fi",
+    system "autoreconf", "-fi"
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
