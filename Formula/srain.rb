@@ -1,4 +1,4 @@
-class GnomeRobots < Formula
+class Srain < Formula
   version "1.81"
   desc "Modern IRC client written in GTK"
   homepage "https://srain.silverrainz.me"
