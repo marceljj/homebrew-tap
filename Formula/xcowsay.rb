@@ -16,7 +16,7 @@ class Xcowsay < Formula
 
   def install
     on_macos do
-      inreplace "src/display_cow.c", "setenv("GDK_BACKEND", "x11", 1);", ""
+      inreplace "src/display_cow.c", "setenv(\"GDK_BACKEND\", \"x11\", 1);", ""
     end
     
     system "./configure", *std_configure_args
