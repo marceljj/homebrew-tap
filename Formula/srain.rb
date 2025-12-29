@@ -20,6 +20,10 @@ class Srain < Formula
   def install
     ENV["DESTDIR"] = "/"
 
+    args = %w[
+        -Dapp_indicator=false
+      ]
+
     system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
