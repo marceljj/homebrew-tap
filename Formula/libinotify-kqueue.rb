@@ -13,7 +13,7 @@ class LibinotifyKqueue < Formula
   depends_on "libtool" => :build
 
   def install
-    system "autoreconf", "-fi",
+    system "autoreconf", "-fi"
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
