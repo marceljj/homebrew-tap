@@ -15,6 +15,7 @@ class Hxtools < Formula
     on_macos do
       inreplace "Makefile.am" do |s|
         s.gsub! "smm/bsvplay smm/hcdplay", "smm/bsvplay"
+        s.gsub! "smm_hcdplay_LDADD = ${libHX_LIBS}", "\"
         s.gsub! "doc/hcdplay.1 doc/hxtools.7", "doc/hxtools.7"
       end
     end
