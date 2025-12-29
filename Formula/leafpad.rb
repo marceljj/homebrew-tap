@@ -1,5 +1,5 @@
 class Leafpad < Formula
-  version "git-2025.03"
+  version "0.8.19"
   desc "GTK+ based simple text editor"
   homepage "https://github.com/tarot231/leafpad"
   url "https://github.com/tarot231/leafpad.git", branch: "main"
