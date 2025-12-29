@@ -28,6 +28,13 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Gengen](https://www.gnu.org/software/gengen) - v1.4.3, (c) 2021, Lorenzo Bettini
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
+## Libraries
+- [libhx](https://inai.de/projects/libhx) -v5.2, (c) 2025, Jan Engelhardt
+- [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue)* - v20240724, (c) 2024, Dmitry Matveev
+- [libsmacker](https://libsmacker.sourceforge.net) -v1.1.1r35, (c) 2020, Greg Kennedy
+
+* macOS only
+
 ## X11 Window Managers
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
 - [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
@@ -51,9 +58,6 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [HexChat](https://hexchat.github.io) - v2.16.2, (c) 2024, HexChat
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
 - [leafpad](https://github.com/tarot231/leafpad) - v0.8.19, (c) 2010, Tarot Osuji
-- [libhx](https://inai.de/projects/libhx) -v5.2, (c) 2025, Jan Engelhardt
-- [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
-- [libsmacker](https://libsmacker.sourceforge.net) -v1.1.1r35, (c) 2020, Greg Kennedy
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
 - [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - v0.21.0, (c) 2025, mk6i
