@@ -25,10 +25,12 @@ class Hxtools < Formula
     system "make", "install"
   end
 
-  def caveats
-    <<~EOS
-      The 'hcdplay' binary is not installed on macOS as it is not supported by the operating system
-    EOS
+  on_macos do
+    def caveats
+      <<~EOS
+        The 'hcdplay' binary is not installed on as it is not supported
+      EOS
+    end
   end
 
   test do
