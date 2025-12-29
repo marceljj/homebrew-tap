@@ -18,7 +18,7 @@ class Xcowsay < Formula
   depends_on "gtk+3"
 
   def install
-    inreplace "src/xcowfortune", "/usr/games", "#{bin}"
+    inreplace "src/xcowfortune", "exec env PATH=$PATH fortune", "fortune"
     on_macos do
       inreplace "src/display_cow.c", "setenv(\"GDK_BACKEND\", \"x11\", 1);", ""
     end
