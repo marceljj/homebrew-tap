@@ -29,11 +29,9 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
 ## Libraries
-- [libhx](https://inai.de/projects/libhx) -v5.2, (c) 2025, Jan Engelhardt
-- [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue)* - v20240724, (c) 2024, Dmitry Matveev
+- [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
+- [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
 - [libsmacker](https://libsmacker.sourceforge.net) -v1.1.1r35, (c) 2020, Greg Kennedy
-
-\* macOS only
 
 ## X11 Window Managers
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
