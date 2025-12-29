@@ -18,7 +18,6 @@ class Hxtools < Formula
         s.gsub! "smm_hcdplay_LDADD = ${libHX_LIBS}", ""
         s.gsub! "doc/hcdplay.1 doc/hxtools.7", "doc/hxtools.7"
       end
-      inreplace "doc/hxtools.7", "Linux ioctls", "Linux ioctls -- DISABLED"
     end
     
     system "./configure", *std_configure_args
