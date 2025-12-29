@@ -22,7 +22,7 @@ class Srain < Formula
 
     args = %w[
         -Dapp_indicator=false
-        -Ddoc_builder=man
+        -Ddoc_builders=man
       ]
 
     system "meson", "setup", "build", *args, *std_meson_args
