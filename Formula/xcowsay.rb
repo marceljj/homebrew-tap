@@ -11,6 +11,8 @@ class Xcowsay < Formula
   depends_on "fontconfig" => :build
   depends_on "gettext" => :build
   depends_on "pkgconf" => :build
+  depends_on "dbus"
+  depends_on "dbus-glib"
   depends_on "glib"
   depends_on "gtk+3"
 
@@ -18,8 +20,12 @@ class Xcowsay < Formula
     on_macos do
       inreplace "src/display_cow.c", "setenv(\"GDK_BACKEND\", \"x11\", 1);", ""
     end
+
+    args = %w[
+      --enable-dbus
+    ]
     
-    system "./configure", *std_configure_args
+    system "./configure", *args, *std_configure_args
     system "make"
     system "make", "install"
   end
