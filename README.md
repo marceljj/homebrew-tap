@@ -50,7 +50,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [gtktetris](https://github.com/wader/gtktetris) - v2025.05, (c) 2025, Mattias Wadman
 - [HexChat](https://hexchat.github.io) - v2.16.2, (c) 2024, HexChat
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
-- [leafpad](https://github.com/tarot231/leafpad) - v2025.03, (c) 2025, Tarot Osuji
+- [leafpad](https://github.com/tarot231/leafpad) - v0.8.19, (c) 2010, Tarot Osuji
 - [libhx](https://inai.de/projects/libhx) -v5.2, (c) 2025, Jan Engelhardt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
 - [libsmacker](https://libsmacker.sourceforge.net) -v1.1.1r35, (c) 2020, Greg Kennedy
