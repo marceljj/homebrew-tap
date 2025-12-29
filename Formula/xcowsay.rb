@@ -12,7 +12,7 @@ class Xcowsay < Formula
   depends_on "gettext" => :build
   depends_on "pkgconf" => :build
   depends_on "glib"
-  depends_on "gtk+"
+  depends_on "gtk+3"
 
   def install
     on_macos do
@@ -26,7 +26,7 @@ class Xcowsay < Formula
   
   def post_install
       system Formula["glib"].opt_bin/"glib-compile-schemas", HOMEBREW_PREFIX/"share/glib-2.0/schemas"
-      system Formula["gtk+"].opt_bin/"gtk2-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
+      system Formula["gtk+3"].opt_bin/"gtk3-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
     end
 
   test do
