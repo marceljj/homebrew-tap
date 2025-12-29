@@ -31,7 +31,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## Libraries
 - [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
-- [libsmacker](https://libsmacker.sourceforge.net) -v 1.1.1r35, (c) 2020, Greg Kennedy
+- [libsmacker](https://libsmacker.sourceforge.net) - v1.1.1r35, (c) 2020, Greg Kennedy
 
 ## X11 Window Managers
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
