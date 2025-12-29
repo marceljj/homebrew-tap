@@ -9,12 +9,19 @@ class Leafpad < Formula
   depends_on "automake" => :build
   depends_on "gettext" => :build
   depends_on "intltool" => :build
+  depends_on "glib"
+  depends_on "gtk+"
 
   def install
     system "autoreconf", "-fi"
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
+  end
+
+  def post_install
+    system Formula["glib"].opt_bin/"glib-compile-schemas", HOMEBREW_PREFIX/"share/glib-2.0/schemas"
+    system Formula["gtk+"].opt_bin/"gtk2-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
   end
 
   test do
