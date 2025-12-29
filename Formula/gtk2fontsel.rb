@@ -20,11 +20,6 @@ class Gtk2fontsel < Formula
     doc.install "README"
   end
 
-  def post_install
-    system Formula["glib"].opt_bin/"glib-compile-schemas", HOMEBREW_PREFIX/"share/glib-2.0/schemas"
-    system Formula["gtk+"].opt_bin/"gtk2-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
-  end
-
   test do
     system "false"
   end
