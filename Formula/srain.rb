@@ -24,7 +24,7 @@ class Srain < Formula
         -Dapp_indicator=false
       ]
 
-    system "meson", "setup", "build", *std_meson_args
+    system "meson", "setup", "build", *args, *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
