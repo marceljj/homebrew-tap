@@ -9,7 +9,6 @@ class Srain < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
-  depends_on "sphinx-doc" => :build
   depends_on "glib"
   depends_on "gtk+3"
   depends_on "icu4c"
@@ -23,7 +22,6 @@ class Srain < Formula
 
     args = %w[
         -Dapp_indicator=false
-        -Ddoc_builders=man
       ]
 
     system "meson", "setup", "build", *args, *std_meson_args
