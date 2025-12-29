@@ -13,10 +13,12 @@ class Xcowsay < Formula
   depends_on "pkgconf" => :build
   depends_on "dbus"
   depends_on "dbus-glib"
+  depends_on "fortune"
   depends_on "glib"
   depends_on "gtk+3"
 
   def install
+    inreplace "src/xcowfortune", "/usr/games", "#{bin}"
     on_macos do
       inreplace "src/display_cow.c", "setenv(\"GDK_BACKEND\", \"x11\", 1);", ""
     end
