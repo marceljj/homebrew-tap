@@ -9,8 +9,9 @@ class Hxtools < Formula
   depends_on "libhx"
 
   def install
-    system "make", "PREFIX=#{prefix}"
-    system "make", "install", "PREFIX=#{prefix}"
+    system "./configure", *std_configure_args
+    system "make"
+    system "make", "install"
   end
 
   test do
