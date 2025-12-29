@@ -13,6 +13,7 @@ class Srain < Formula
   depends_on "gtk+3"
   depends_on "icu4c"
   depends_on "libconfig"
+  depends_on "libsecret"
   depends_on "libsoup"
   depends_on "openssl"
 
