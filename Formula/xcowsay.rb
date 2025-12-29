@@ -3,7 +3,7 @@ class Xcowsay < Formula
   desc "Graphical talking cow"
   homepage "http://www.doof.me.uk/xcowsay"
   url "https://github.com/nickg/xcowsay/releases/download/v#{version}/xcowsay-#{version}.tar.gz"
-  sha256 "8877d62ad9a85d5b7968fe862065f98da17209394a8df520ae583876d46f3d9b"
+  sha256 "46ace864ff28d2d21f4b7058f0295e18d0041a120c1078a951fa43c4e0f5c8c5"
   license "GPL-3.0"
 
   depends_on "autoconf" => :build
