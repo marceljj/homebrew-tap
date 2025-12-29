@@ -10,9 +10,22 @@ class Hxtools < Formula
   depends_on "libxcb"
 
   def install
+    on_macos do
+      inreplace "Makefile.am" do |s|
+        s.gsub! "smm/bsvplay smm/hcdplay", "smm/bsvplay"
+        s.gsub! "doc/hcdplay.1 doc/hxtools.7", "doc/hxtools.7"
+      end
+    end
+    
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
+  end
+
+  def caveats
+    <<~EOS
+      The 'hcdplay' binary is not installed on macOS as it is not supported
+    EOS
   end
 
   test do
