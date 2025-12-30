@@ -11,11 +11,12 @@ class Pdcurses < Formula
 
   def install
     chdir "sdl2"
-      system "make"
-      lib.install "pdcurses.a"
-    chdir "x11"
-      system "./configure", *std_configure_args
-      system "make"
+    system "make"
+    lib.install "pdcurses.a"
+    
+    chdir "../x11"
+    system "./configure", *std_configure_args
+    system "make"
   end
 
   test do
