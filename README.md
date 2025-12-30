@@ -54,6 +54,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, JadedTuna
 - [gtktetris](https://github.com/wader/gtktetris) - v2025.05, (c) 2025, Mattias Wadman
 - [HexChat](https://hexchat.github.io) - v2.16.2, (c) 2024, HexChat
+- [HexChat OTR Plugin](https://github.com/TingPing/hexchat-otr) - v0.2.2, (c) 2021, Patrick TingPing
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
 - [leafpad](https://github.com/tarot231/leafpad) - v0.8.19, (c) 2010, Tarot Osuji
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
