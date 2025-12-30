@@ -10,7 +10,7 @@ class Pdcurses < Formula
   depends_on "sdl2"
 
   def install
-    system "cd", "sdl2"
+    dir.chdir "sdl2"
     system "make"
     lib.install "pdcurses.a"
   end
