@@ -21,7 +21,12 @@ class Hexchat < Formula
   def install
     ENV["DESTDIR"] = "/"
 
-    system "meson", "setup", "build", "-Dtext-frontend=true", "-Dwith-perl-legacy-api=true", *std_meson_args
+    args = %w[
+      -Dtext-frontend=true
+      -Dwith-perl-legacy-api=true
+    ]
+
+    system "meson", "setup", "build", *args, *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
