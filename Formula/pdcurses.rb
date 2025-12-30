@@ -18,6 +18,8 @@ class Pdcurses < Formula
     chdir "../x11"
     system "./configure", *std_configure_args
     system "make"
+    lib.install "libXCurses.a"
+    lib.install "libXCurses.dylib"
   end
 
   test do
