@@ -11,9 +11,8 @@ class Pdcurses < Formula
 
   def install
     chdir "sdl2"
-      system "make"
-      lib.install "pdcurses.a"
-    end
+    system "make"
+    lib.install "pdcurses.a"
   end
 
   test do
