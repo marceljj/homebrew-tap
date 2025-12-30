@@ -1,5 +1,5 @@
 class HexchatOtr < Formula
-  version "git-2021.12"
+  version "0.2.2"
   desc "Off the record plugin for HexChat"
   homepage "https://github.com/TingPing/hexchat-otr"
   url "https://github.com/TingPing/hexchat-otr.git", branch: "master"
