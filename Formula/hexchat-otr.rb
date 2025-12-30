@@ -19,7 +19,17 @@ class HexchatOtr < Formula
 
     system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
-    system "meson", "install", "-C", "build"
+    share.install "src/otr.dylib"
+  end
+
+  def caveats
+    <<~EOS
+      The HexChat OTR plugin has been installed to:
+        #{share}/otr.dylib
+
+      To enable it in HexChat, symlink it to the addons directory:
+        ln -s #{share}/otr.dylib ~/.config/hexchat/addons/otr.dylib
+    EOS
   end
 
   test do
