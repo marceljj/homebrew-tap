@@ -1,7 +1,7 @@
 class Epic6 < Formula
   version "0.0.1"
   desc "The sixth generation EPIC IRC client"
-  homepage "hhttps://www.epicsol.org"
+  homepage "https://www.epicsol.org"
   url "https://gitview.epicsol.org/epic6.git/", branch: "master"
   license "BSD-3-Clause"
   
