@@ -14,6 +14,7 @@ class Hexchat < Formula
   depends_on "gtk+"
   depends_on "iso-codes"
   depends_on "luajit"
+  depends_on "openssl"
   depends_on "perl"
   depends_on "python"
   depends_on "tcl-tk"
