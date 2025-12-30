@@ -2,10 +2,15 @@ class Epic6 < Formula
   version "0.0.1"
   desc "The sixth generation EPIC IRC client"
   homepage "https://www.epicsol.org"
-  url "https://gitview.epicsol.org/epic6.git/", branch: "master"
+  url "https://gitview.epicsol.org/epic6.git", branch: "master"
+  sha256 "5459871a62a06d2084b39ae2202af67e25a026306a6eeff4797df47d5895ddfd"
   license "BSD-3-Clause"
-  
+
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
+  depends_on "libarchive"
   depends_on "pcre2"
+  depends_on "python"
   depends_on "openssl"
 
   def install
