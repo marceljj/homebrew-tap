@@ -19,7 +19,7 @@ class HexchatOtr < Formula
 
     system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
-    share.install "src/otr.dylib"
+    share.install "build/src/otr.dylib"
   end
 
   def caveats
