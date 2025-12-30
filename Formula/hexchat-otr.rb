@@ -1,9 +1,8 @@
 class HexchatOtr < Formula
-  version "0.2.2"
+  version "git-2021.12"
   desc "Off the record plugin for HexChat"
   homepage "https://github.com/TingPing/hexchat-otr"
-  url "https://github.com/TingPing/hexchat-otr/releases/download/#{version}/hexchat-otr-#{version}.tar.xz"
-  sha256 "e18425f4b20447caddf64a9079b8750200100e158a03575d89457bb6d8f8d5f1"
+  url "https://github.com/TingPing/hexchat-otr.git", branch: "master"
   license "GPL-2.0"
 
   depends_on "meson" => :build
