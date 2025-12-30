@@ -7,6 +7,7 @@ class Pdcurses < Formula
   license :public_domain
 
   depends_on "libx11"
+  depends_on "libxt"
   depends_on "sdl2"
 
   def install
