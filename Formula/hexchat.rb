@@ -23,6 +23,7 @@ class Hexchat < Formula
 
     args = %w[
       -Dtext-frontend=true
+      -Dtheme-manager=true
       -Dwith-perl-legacy-api=true
     ]
 
