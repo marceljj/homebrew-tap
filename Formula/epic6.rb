@@ -6,7 +6,6 @@ class Epic6 < Formula
   sha256 "5459871a62a06d2084b39ae2202af67e25a026306a6eeff4797df47d5895ddfd"
   license "BSD-3-Clause"
 
-  depends_on "automake" => :build
   depends_on "libarchive"
   depends_on "pcre2"
   depends_on "python"
