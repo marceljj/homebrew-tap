@@ -46,6 +46,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
 - [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, dmsc
+- [EPIC6](https://www.epicsol.org) - v0.0.1, (c) 2025, EPIC Software Labs
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, eepykate
 - [fm](https://github.com/euclio/fm) - v2025.05, (c) 2025, Andy Russell
 - [gtk2fontsel](https://gtk2fontsel.sourceforge.net) - v0.1, (c) 2013, Jason Petrone
