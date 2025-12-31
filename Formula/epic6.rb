@@ -16,9 +16,9 @@ class Epic6 < Formula
 
   def install
     args = %w[
-      --mandir=#{man}
+      --mandir="#{man}"
       --with-ipv6
-      --with-ssl=#{Formula["openssl"].opt_prefix}
+      --with-ssl="#{Formula['openssl'].opt_prefix}"
     ]
     
     system "./configure", *args, *std_configure_args
