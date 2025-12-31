@@ -20,7 +20,7 @@ class GnomeCalculator < Formula
   depends_on "libmpc"
   depends_on "libsoup"
   depends_on "mpfr"
-  depends_on "python"
+  depends_on "python@3"
 
   def install
     ENV["DESTDIR"] = "/"
