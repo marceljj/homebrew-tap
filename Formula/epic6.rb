@@ -11,8 +11,17 @@ class Epic6 < Formula
   depends_on "python"
   depends_on "openssl"
 
+  uses_from_macos "libxcrypt"
+  uses_from_macos "ncurses"
+
   def install
-    system "./configure", *std_configure_args
+    args = %w[
+      --mandir=#{man}
+      --with-ipv6
+      --with-ssl=#{Formula["openssl"].opt_prefix}
+    ]
+    
+    system "./configure", *args, *std_configure_args
     system "make"
     system "make", "install"
   end
