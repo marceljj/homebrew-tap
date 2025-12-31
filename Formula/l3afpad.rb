@@ -3,8 +3,10 @@ class L3afpad < Formula
   desc "Simple text editor forked from Leafpad"
   homepage "https://github.com/tarot231/leafpad"
   url "https://github.com/stevenhoneyman/l3afpad/archive/refs/tags/v#{version}.tar.gz"
+  sha256 "86f374b2f950b7c60dda50aa80a5034b8e3c80ded5cd3284c2d5921b31652793"
   license "GPL-2.0"
-  
+
+  depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "intltool" => :build
   depends_on "pkgconf" => :build
