@@ -15,9 +15,7 @@ class Epic6 < Formula
   uses_from_macos "ncurses"
 
   def install
-    system "./configure", *std_configure_args,
-                          "--mandir=#{man}",
-                          "--with-ssl=#{Formula["openssl@3"].opt_prefix}"
+    system "./configure", *std_configure_args
     system "make"
     system "make", "install"
   end
