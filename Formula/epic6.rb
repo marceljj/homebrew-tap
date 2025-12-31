@@ -21,6 +21,10 @@ class Epic6 < Formula
   end
 
   test do
-    system "false"
+    connection = fork do
+      exec bin/"epic6", "irc.freenode.net"
+    end
+    sleep 5
+    Process.kill("TERM", connection)
   end
 end
