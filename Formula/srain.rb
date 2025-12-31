@@ -15,7 +15,7 @@ class Srain < Formula
   depends_on "libconfig"
   depends_on "libsecret"
   depends_on "libsoup"
-  depends_on "openssl"
+  depends_on "openssl@3"
 
   def install
     ENV["DESTDIR"] = "/"
