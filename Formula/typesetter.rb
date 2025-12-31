@@ -16,7 +16,7 @@ class Typesetter < Formula
   depends_on "gtksourceview5"
   depends_on "libadwaita"
   depends_on "libspelling"
-  depends_on "python"
+  depends_on "python@3"
 
   def install
     ENV["DESTDIR"] = "/"
