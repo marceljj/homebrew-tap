@@ -7,7 +7,7 @@ class Opendoas < Formula
   license "ISC"
 
   def install
-    system "./configure", *std_configure_args
+    system "./configure", "--prefix=#{prefix}", "--libdir=#{libdir}"
     system "make"
     system "make", "install"
   end
@@ -17,7 +17,7 @@ class Opendoas < Formula
       The 'doas' command will not work without an appropriate 'doas' file in:
         /etc/pam.d/
         
-      (the 'sudo' file located in the same directory is a good starting point for configuration)
+      (/etc/pam.d/sudo is a good starting point for configuration)
     EOS
   end
 
