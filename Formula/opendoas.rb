@@ -7,7 +7,7 @@ class Opendoas < Formula
   license "ISC"
 
   def install
-    system "./configure", "--prefix=#{prefix}", "--libdir=#{libdir}"
+    system "./configure", "--prefix=#{prefix}"
     system "make"
     system "make", "install"
   end
