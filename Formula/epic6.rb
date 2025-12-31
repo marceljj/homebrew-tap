@@ -16,7 +16,6 @@ class Epic6 < Formula
 
   def install
     args = %w[
-      --with-ipv6
       --with-ssl=#{Formula["openssl"].opt_prefix}
     ]
     
