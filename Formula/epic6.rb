@@ -8,15 +8,15 @@ class Epic6 < Formula
 
   depends_on "libarchive"
   depends_on "pcre2"
-  depends_on "python"
-  depends_on "openssl"
+  depends_on "python@3"
+  depends_on "openssl@3"
 
   uses_from_macos "libxcrypt"
   uses_from_macos "ncurses"
 
   def install
     args = %w[
-      --with-ssl=#{Formula["openssl"].opt_prefix}
+      --with-ssl=#{Formula["openssl@3"].opt_prefix}
     ]
     
     system "./configure", "--mandir=#{man}", *args, *std_configure_args
