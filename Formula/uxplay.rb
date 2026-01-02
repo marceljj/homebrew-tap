@@ -20,6 +20,12 @@ class Uxplay < Formula
         s.gsub! "nvdec,", "(hardware) nvdec,"
         s.gsub! "Use Video4Linux2 for GPU hardware h264 video decoding.", "Disabled on this system."
       end
+      inreplace "uxplay.cpp" do |s|
+        s.gsub! "(hardware) v4l2h264dec", "(hardware) nvdec"
+        s.gsub! "nvdec, nvh264dec", "nvh264dec"
+        s.gsub! "nvh264dec,v4l2h264dec", "nvh264dec"
+        s.gsub! "printf(/"          another choice when using v4l2h264dec: v4l2convert\n/");", ""
+        s.gsub! "printf(/"-v4l2     Use Video4Linux2 for GPU hardware h264 decoding\n/");", ""
     end
     
     system "cmake", "-S", ".", "-B", "build", *std_cmake_args
