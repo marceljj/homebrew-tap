@@ -43,8 +43,9 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [JWM](https://joewing.net/projects/jwm/) - v2.4.6, (c) 2025, Joe Wingbermuehle
 - [NsCDE](https://github.com/NsCDE/NsCDE) - v2.3, (c) 2024, NsCDE
 - [pekwm](https://www.pekwm.se) - v0.4.1, (c) 2025, Claes Nästén
-- [Ratpoison](https://www.nongnu.org/ratpoison) - v1.4.9, 2017, Jérémie Courrèges-Anglas
-- [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, 2025, Abhinav Prasai
+- [Ratpoison](https://www.nongnu.org/ratpoison) - v1.4.9, (c) 2017, Jérémie Courrèges-Anglas
+- [tinywm](http://incise.org/tinywm.html) - v2014.04, (c) 2014, Nick Welch
+- [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, (c) 2025, Abhinav Prasai
 
 ## Miscellaneous
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
