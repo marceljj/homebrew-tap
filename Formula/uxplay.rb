@@ -18,8 +18,8 @@ class Uxplay < Formula
       inreplace "uxplay.1" do |s|
         s.gsub! "; (hardware) v4l2h264dec,", ";"
         s.gsub! "nvdec,", "(hardware) nvdec,"
-        s.gsub! ".IP\n   another choice when using v4l2h264dec: v4l2convert.", ".IP"
-        s.gsub! ".TP\n\\fB\-v4l2\\fR     Use Video4Linux2 for GPU hardware h264 video decoding.\n.TP\n\\fB\-bt709\\fR    Sometimes needed for Raspberry Pi models using Video4Linux2.", ".TP"
+        s.gsub! "Use Video4Linux2 for GPU hardware h264 video decoding.", "Disabled on this system"
+        s.gsub! "Sometimes needed for Raspberry Pi models using Video4Linux2.", "Disabled on this system"
       end
     end
     
