@@ -66,6 +66,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
 - [uemacs](https://github.com/torvalds/uemacs) - v4.0.15, (c) 2018, Linus Torvalds
+- [UxPlay](https://github.com/FDH2/UxPlay) - v1.72.3, (c) 2025, FDH2
 - [xcowsay](http://www.doof.me.uk/xcowsay) - v1.6, (c) 2022, Nick Gasson
 - [xcb-util-xrm](https://github.com/Airblader/xcb-util-xrm) - v1.3, (c) 2018, Ingo Bürk
 
