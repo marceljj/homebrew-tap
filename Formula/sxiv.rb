@@ -11,7 +11,7 @@ class Sxiv < Formula
   depends_on "libx11"
   depends_on "libxft"
   depends_on "fontconfig"
-  depends_on "freetype2"
+  depends_on "freetype"
 
   def install
     system "make", "PREFIX=#{prefix}"
