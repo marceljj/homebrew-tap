@@ -39,6 +39,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 
 ## X11 Window Managers
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
+- [bspwm](https://github.com/baskerville/bspwm) - v0.9.12 , (c) 2025, Bastien Dejean
 - [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
 - [FVWM3](https://www.fvwm.org) - v1.1.4, (c) 2025, FVWM Organization
 - [JWM](https://joewing.net/projects/jwm/) - v2.4.6, (c) 2025, Joe Wingbermuehle
@@ -46,6 +47,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [pekwm](https://www.pekwm.se) - v0.4.1, (c) 2025, Claes Nästén
 - [Ratpoison](https://www.nongnu.org/ratpoison) - v1.4.9, (c) 2017, Jérémie Courrèges-Anglas
 - [tinywm](http://incise.org/tinywm.html) - v2014.04, (c) 2014, Nick Welch
+- [sowm](https://github.com/dylanaraps/sowm) -v1.6, (c) 2020, Dylan Araps
 - [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, (c) 2025, Abhinav Prasai
 
 ## Miscellaneous
