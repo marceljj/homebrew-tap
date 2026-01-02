@@ -19,7 +19,6 @@ class Uxplay < Formula
         s.gsub! "; (hardware) v4l2h264dec,", ";"
         s.gsub! "nvdec,", "(hardware) nvdec,"
         s.gsub! "Use Video4Linux2 for GPU hardware h264 video decoding.", "Disabled on this system."
-        s.gsub! "Sometimes needed for Raspberry Pi models using Video4Linux2.", "Disabled on this system."
       end
     end
     
