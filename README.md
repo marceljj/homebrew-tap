@@ -32,6 +32,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
 - [libsmacker](https://libsmacker.sourceforge.net) - v1.1.1r35, (c) 2020, Greg Kennedy
+- [xcb-util-xrm](https://github.com/Airblader/xcb-util-xrm) - v1.3, (c) 2018, Ingo Bürk
 
 ## Plugins
 - [HexChat OTR](https://github.com/TingPing/hexchat-otr) - v0.2.2, (c) 2021, Patrick TingPing
@@ -72,7 +73,6 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [uemacs](https://github.com/torvalds/uemacs) - v4.0.15, (c) 2018, Linus Torvalds
 - [UxPlay](https://github.com/FDH2/UxPlay) - v1.72.3, (c) 2025, FDH2
 - [xcowsay](http://www.doof.me.uk/xcowsay) - v1.6, (c) 2022, Nick Gasson
-- [xcb-util-xrm](https://github.com/Airblader/xcb-util-xrm) - v1.3, (c) 2018, Ingo Bürk
 
 ## macOS Casks
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
