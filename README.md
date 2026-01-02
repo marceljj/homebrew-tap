@@ -33,6 +33,9 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
 - [libsmacker](https://libsmacker.sourceforge.net) - v1.1.1r35, (c) 2020, Greg Kennedy
 
+## Plugins
+- [HexChat OTR](https://github.com/TingPing/hexchat-otr) - v0.2.2, (c) 2021, Patrick TingPing
+
 ## X11 Window Managers
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
 - [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
@@ -56,7 +59,6 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, JadedTuna
 - [gtktetris](https://github.com/wader/gtktetris) - v2025.05, (c) 2025, Mattias Wadman
 - [HexChat](https://hexchat.github.io) - v2.16.2, (c) 2024, HexChat
-- [HexChat OTR Plugin](https://github.com/TingPing/hexchat-otr) - v0.2.2, (c) 2021, Patrick TingPing
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
 - [L3afpad](https://github.com/stevenhoneyman/l3afpad) - v0.8.18.1.11, (c) 2014, Steven Honeyman
 - [Leafpad](https://github.com/tarot231/leafpad) - v0.8.19, (c) 2010, Tarot Osuji
