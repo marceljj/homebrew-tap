@@ -8,6 +8,8 @@ class Uxplay < Formula
 
   depends_on "cmake" => :build
   depends_on "pkgconf" => :build
+  depends_on "dbus"
+  depends_on "dbus-glib"
   depends_on "glib"
   depends_on "gstreamer"
   depends_on "libplist"
