@@ -14,8 +14,8 @@ class Sxiv < Formula
   depends_on "freetype2"
 
   def install
-    system "make"
-    system "make", "install"
+    system "make", "PREFIX=#{prefix}"
+    system "make", "PREFIX=#{prefix}", "install"
   end
   
   test do
