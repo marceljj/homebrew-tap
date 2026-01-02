@@ -24,7 +24,7 @@ class Uxplay < Formula
         s.gsub! "(hardware) v4l2h264dec", "(hardware) nvdec"
         s.gsub! "nvdec, nvh264dec", "nvh264dec"
         s.gsub! "nvh264dec,v4l2h264dec", "nvh264dec"
-        s.gsub! "          another choice when using v4l2h264dec: v4l2convert", ""
+        s.gsub! "printf(\"          another", "//printf(\"          another"
         s.gsub! "Use Video4Linux2 for GPU hardware h264 decoding", "Disabled on this system"
       end
     end
