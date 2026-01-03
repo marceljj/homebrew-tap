@@ -3,7 +3,7 @@ class GnuMarst < Formula
   desc "An Algol-to-C translator"
   homepage "https://www.gnu.org/software/marst"
   url "https://ftp.gnu.org/gnu/marst/marst-#{version}.tar.gz"
-  sha256 "1b9066526a368df8e337c507f8896e9aeac59da16933eccd473b07a2bc8617b6"
+  sha256 "d77f4703b0b44b50be57908f9d556ee6c3bedd97d638c42949d6aec84f8070ba"
   license "GPL-3.0"
 
   def install
