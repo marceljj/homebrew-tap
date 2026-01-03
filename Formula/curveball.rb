@@ -9,7 +9,7 @@ class Curveball < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", *std_cargo_args
+    system "cargo", "build", "--locked", "--release"
     bin.install "curveball"
   end
 
