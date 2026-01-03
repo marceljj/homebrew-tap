@@ -32,8 +32,9 @@ class Neverball < Formula
     share.install "data"
     share.install "locale"
     man1.install "dist/mapc.1"
-    man6.install "dist/*.6"
-    doc.install "doc/*"
+    man6.install "dist/neverball.6"
+    man6.install "dist/neverputt.6"
+    share.install "doc"
     
     (share/"applications").install "dist/neverball.desktop.in" => "neverball.desktop"
     (share/"applications").install "dist/neverputt.desktop.in" => "neverputt.desktop"
