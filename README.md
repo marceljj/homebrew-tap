@@ -55,6 +55,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 
 ## Miscellaneous
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
+- [bmk](https://trmusson.dreamhosters.com/programs.html#bmk) - v1.3, (c) 2018, Tim Musson
 - [Curveball](https://github.com/MightyBurger/curveball) - v1.0.0, (c) 2025, Jordan Johnson
 - [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, dmsc
