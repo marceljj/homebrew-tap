@@ -20,6 +20,7 @@ class Neverball < Formula
   end
   
   def install
+    inreplace "share/font.c", "<SDL_ttf.h>", "<SDL2/SDL_ttf.h>"
     inreplace "share/font.h", "<SDL_ttf.h>", "<SDL2/SDL_ttf.h>"
     inreplace "share/image.c", "<SDL_ttf.h>", "<SDL2/SDL_ttf.h>"
     inreplace "share/image.h", "<SDL_ttf.h>", "<SDL2/SDL_ttf.h>"
