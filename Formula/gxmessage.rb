@@ -6,9 +6,14 @@ class Gxmessage < Formula
   sha256 "db4e1655fc58f31e5770a17dfca4e6c89028ad8b2c8e043febc87a0beedeef05"
   license "GPL-3.0"
 
+  depends_on "intltool" => :build
   depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk+3"
+
+  on_macos do
+    depends_on "gettext"
+  end
   
   def install
     system "./configure", *std_configure_args
