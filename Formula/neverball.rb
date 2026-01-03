@@ -31,13 +31,29 @@ class Neverball < Formula
     bin.install "neverputt"
     share.install "data"
     share.install "locale"
-    
     man1.install "dist/mapc.1"
     man6.install "dist/neverball.6"
     man6.install "dist/neverputt.6"
+    
     (share/"metainfo").install "dist/neverball.appdata.xml"
     (share/"applications").install "dist/neverball.desktop.in" => "neverball.desktop"
     (share/"applications").install "dist/neverputt.desktop.in" => "neverputt.desktop"
+    (share/"icons/hicolor/16x16/apps").install "dist/neverball_16.png" => "neverball.png"
+    (share/"icons/hicolor/16x16/apps").install "dist/neverputt_16.png" => "neverputt.png"
+    (share/"icons/hicolor/24x24/apps").install "dist/neverball_24.png" => "neverball.png"
+    (share/"icons/hicolor/24x24/apps").install "dist/neverputt_24.png" => "neverputt.png"
+    (share/"icons/hicolor/32x32/apps").install "dist/neverball_32.png" => "neverball.png"
+    (share/"icons/hicolor/32x32/apps").install "dist/neverputt_32.png" => "neverputt.png"
+    (share/"icons/hicolor/48x48/apps").install "dist/neverball_48.png" => "neverball.png"
+    (share/"icons/hicolor/48x48/apps").install "dist/neverputt_48.png" => "neverputt.png"
+    (share/"icons/hicolor/64x64/apps").install "dist/neverball_64.png" => "neverball.png"
+    (share/"icons/hicolor/64x64/apps").install "dist/neverputt_64.png" => "neverputt.png"
+    (share/"icons/hicolor/128x128/apps").install "dist/neverball_128.png" => "neverball.png"
+    (share/"icons/hicolor/128x128/apps").install "dist/neverputt_128.png" => "neverputt.png"
+    (share/"icons/hicolor/256x256/apps").install "dist/neverball_256.png" => "neverball.png"
+    (share/"icons/hicolor/256x256/apps").install "dist/neverputt_256.png" => "neverputt.png"
+    (share/"icons/hicolor/512x512/apps").install "dist/neverball_512.png" => "neverball.png"
+    (share/"icons/hicolor/512x512/apps").install "dist/neverputt_512.png" => "neverputt.png"
   end
 
   test do
