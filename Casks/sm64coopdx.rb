@@ -9,5 +9,4 @@ cask "sm64coopdx" do
   homepage "https://sm64coopdx.com"
 
   app "sm64coopdx.app"
-  binary "#{appdir}/sm64coopdx.app/Contents/MacOS/sm64coopdx"
 end
