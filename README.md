@@ -24,6 +24,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Tour](https://apps.gnome.org/Tour) - v49.0, (c) 2025, Bilal Elmoussaoui
 
 ## GNU Software
+- [Cursynth](https://www.gnu.org/software/cursynth) - v1.4, (c) 2014, Matt Tytel
 - [gcal](https://www.gnu.org/software/gcal) - v4.1, (c) 2017, Thomas Esken
 - [Gengen](https://www.gnu.org/software/gengen) - v1.4.3, (c) 2021, Lorenzo Bettini
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
@@ -52,6 +53,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 
 ## Miscellaneous
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
+- [Curveball](https://github.com/MightyBurger/curveball) - v1.0.0, (c) 2025, Jordan Johnson
 - [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, dmsc
 - [EPIC6](https://www.epicsol.org) - v0.0.1, (c) 2025, EPIC Software Labs
