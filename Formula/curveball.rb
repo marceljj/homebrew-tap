@@ -10,7 +10,8 @@ class Curveball < Formula
 
   def install
     system "cargo", "build", "--locked", "--release"
-    bin.install "curveball"
+    bin.install "target/release/curveball"
+    doc.install "doc/legal"
   end
 
   test do
