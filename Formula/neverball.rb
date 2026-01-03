@@ -35,7 +35,6 @@ class Neverball < Formula
     man6.install "dist/neverball.6"
     man6.install "dist/neverputt.6"
     
-    (share/"metainfo").install "dist/neverball.appdata.xml"
     (share/"applications").install "dist/neverball.desktop.in" => "neverball.desktop"
     (share/"applications").install "dist/neverputt.desktop.in" => "neverputt.desktop"
     (share/"icons/hicolor/16x16/apps").install "dist/neverball_16.png" => "neverball.png"
@@ -54,6 +53,7 @@ class Neverball < Formula
     (share/"icons/hicolor/256x256/apps").install "dist/neverputt_256.png" => "neverputt.png"
     (share/"icons/hicolor/512x512/apps").install "dist/neverball_512.png" => "neverball.png"
     (share/"icons/hicolor/512x512/apps").install "dist/neverputt_512.png" => "neverputt.png"
+    (share/"metainfo").install "dist/neverball.appdata.xml"
   end
 
   test do
