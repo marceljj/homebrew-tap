@@ -40,7 +40,7 @@ class Neverball < Formula
     doc.install "doc/install.txt"
     doc.install "doc/legal"
     doc.install "doc/manual.txt"
-    doc.install "release-notes.md"
+    doc.install "doc/release-notes.md"
     
     (share/"applications").install "dist/neverball.desktop.in" => "neverball.desktop"
     (share/"applications").install "dist/neverputt.desktop.in" => "neverputt.desktop"
