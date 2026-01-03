@@ -7,6 +7,7 @@ class GnuCursynth < Formula
   license "GPL-3.0"
 
   depends_on "autoconf" => :build
+  depends_on "automake" => :build
 
   on_macos do
     depends_on "gettext"
