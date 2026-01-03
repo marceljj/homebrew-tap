@@ -20,6 +20,9 @@ class Neverball < Formula
   end
   
   def install
+    inreplace "share/font.h", "<SDL_ttf.h>", "<SDL/SDL_ttf.h>"
+    inreplace "share/image.h", "<SDL_ttf.h>", "<SDL/SDL_ttf.h>"
+    
     system "make", "DATADIR=#{share}/data", "LOCALEDIR=#{share}/locale"
     bin.install "neverball"
     bin.install "neverputt"
