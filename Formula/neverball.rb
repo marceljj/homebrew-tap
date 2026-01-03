@@ -6,6 +6,7 @@ class Neverball < Formula
   sha256 "8b3c6397038e179dae3cadeedbf0dc71ef27f54db6bcadca1d4bb1150804c68f"
   license "GPL-2.0-or-later"
 
+  depends_on "pkgconf" => :build
   depends_on "curl"
   depends_on "jpeg-turbo"
   depends_on "libpng"
