@@ -1,4 +1,4 @@
-class Gxmessage < Formula
+class Bmk < Formula
   version "1.3"
   desc "Stores and recalls filenames using shorter aliases"
   homepage "https://trmusson.dreamhosters.com/programs.html#bmk"
