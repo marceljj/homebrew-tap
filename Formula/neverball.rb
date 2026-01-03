@@ -8,7 +8,6 @@ class Neverball < Formula
 
   depends_on "curl"
   depends_on "jpeg-turbo"
-  depends_on "libintl"
   depends_on "libpng"
   depends_on "libvorbis"
   depends_on "sdl2"
