@@ -25,15 +25,15 @@ class Neverball < Formula
     inreplace "share/image.c", "<SDL_ttf.h>", "<SDL2/SDL_ttf.h>"
     inreplace "share/image.h", "<SDL_ttf.h>", "<SDL2/SDL_ttf.h>"
     
-    system "make", "DATADIR=#{share}/data", "LOCALEDIR=#{share}/locale"
+    system "make", "ENABLE_RADIANT_CONSOLE=1", "DATADIR=#{share}/data", "LOCALEDIR=#{share}/locale"
     bin.install "mapc"
     bin.install "neverball"
     bin.install "neverputt"
     share.install "data"
     share.install "locale"
     man1.install "dist/mapc.1"
-    man6.install "dist/neverball.6"
-    man6.install "dist/neverputt.6"
+    man6.install "dist/*.6"
+    doc.install "doc/*"
     
     (share/"applications").install "dist/neverball.desktop.in" => "neverball.desktop"
     (share/"applications").install "dist/neverputt.desktop.in" => "neverputt.desktop"
