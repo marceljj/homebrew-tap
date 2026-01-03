@@ -68,6 +68,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Leafpad](https://github.com/tarot231/leafpad) - v0.8.19, (c) 2010, Tarot Osuji
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
+- [Neverball](https://neverball.org) - v1.7.0-alpha.3, (c) 2024, Neverball
 - [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - v0.21.0, (c) 2025, mk6i
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
@@ -79,5 +80,6 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## macOS Casks
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
 - [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
+- [Super Mario 64 Coop Deluxe](https://sm64coopdx.com) - v1.4.1, (c) 2025, Coop Deluxe
 - [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Developers
 - [XQuartz (beta)](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
