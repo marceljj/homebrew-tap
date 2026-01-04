@@ -16,7 +16,10 @@ class SchRnd < Formula
     
     system "./configure", "--prefix=#{prefix}"
     system "make"
-    system "make", "linstall"
+    system "make", "install_schrnd", "HOW=\"install -f\""
+    man1.install "doc/man/sch-rnd.1"
+    man1.install "doc/man/boxsym-rnd.1"
+    man5.install "doc/man/boxsym-rnd.5"
   end
 
   test do
