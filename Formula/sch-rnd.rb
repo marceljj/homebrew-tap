@@ -13,7 +13,6 @@ class SchRnd < Formula
 
   def install
     ENV.append "LIBRND_PREFIX", "#{Formula['librnd'].opt_prefix}"
-    inreplace "scconfig/configure", "./configure" "./configure --prefix=#{prefix}"
     
     system "./configure", "--prefix=#{prefix}"
     system "make"
