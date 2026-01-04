@@ -13,11 +13,10 @@ class SchRnd < Formula
 
   def install
     ENV.append "LIBRND_PREFIX", "#{Formula['librnd'].opt_prefix}"
-    ENV.append "ROOT", "./"
     
     system "./configure", "--prefix=#{prefix}"
     system "make"
-    system "make", "install_schrnd", "HOW=\"install -f\""
+    system "cd", "src/sch-rnd", "&&", "make", "install_schrnd", "HOW=\"install -f\""
     man1.install "doc/man/sch-rnd.1"
     man1.install "doc/man/boxsym-rnd.1"
     man5.install "doc/man/boxsym-rnd.5"
