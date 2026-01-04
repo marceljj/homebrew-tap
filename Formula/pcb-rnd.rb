@@ -12,7 +12,7 @@ class PcbRnd < Formula
   depends_on "librnd"
 
   def install
-    system "./configure", "LIBRND_PREFIX=#{Formula["librnd"].opt_prefix}", *std_configure_args
+    system "./configure", "LIBRND_PREFIX=#{Formula["librnd"].opt_prefix}/lib", *std_configure_args
     system "make"
     system "make", "install"
   end
