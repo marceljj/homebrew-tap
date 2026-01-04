@@ -13,7 +13,7 @@ class Librnd < Formula
   depends_on "libgd"
 
   def install
-    system "./configure", "--prefix=#{prefix}"
+    system "./configure", "--disable-hid_lesstif", "--prefix=#{prefix}"
     system "make"
     system "make", "install"
   end
