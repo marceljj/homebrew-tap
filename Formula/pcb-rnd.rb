@@ -12,7 +12,8 @@ class PcbRnd < Formula
   depends_on "librnd"
 
   def install
-    system "./configure", "LIBRND_PREFIX=#{Formula["librnd"].opt_prefix}/include", *std_configure_args
+    ENV.APPEND "LIBRND_PREFIX", "#{Formula['llvm]].opt_prefix}"
+    system "./configure", *std_configure_args
     system "make"
     system "make", "install"
   end
