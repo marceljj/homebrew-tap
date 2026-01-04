@@ -13,6 +13,7 @@ class RouteRnd < Formula
 
   def install
     ENV.append "LIBRND_PREFIX", "#{Formula['librnd'].opt_prefix}"
+    inreplace "Makefile.conf.in", "/usr/local", "#{prefix}"
     
     system "./configure", "--prefix=#{prefix}"
     system "make"
