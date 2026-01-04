@@ -3,7 +3,7 @@ class Chrzaszcz < Formula
   desc "An SDL2 based maze-game"
   homepage "https://sourceforge.net/projects/chrzaszcz"
   url "https://downloads.sourceforge.net/project/chrzaszcz/chrzaszcz-#{version}.tar.gz"
-  sha256 "1c81dbdcc731bbcb37a71b34205b86717b3fa6d8c8ac1ac6d1e525e417bfeb15"
+  sha256 "b3c9f01cf923ccf47ba02e0f3f7bfcf0f2e9020938bff5a95f8815cb4039a5e7"
   license "GPL-3.0"
 
   depends_on "pkgconf" => :build
