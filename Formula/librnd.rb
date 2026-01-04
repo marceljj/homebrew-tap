@@ -12,7 +12,7 @@ class Librnd < Formula
   depends_on "libgd"
 
   def install
-    system "./configure", "--prefix=#{prefix}", "--libdir=#{libdir}"
+    system "./configure", "--prefix=#{prefix}"
     system "make"
     system "make", "install"
   end
