@@ -13,6 +13,7 @@ class PcbRnd < Formula
 
   def install
     ENV.append "LIBRND_PREFIX", "#{Formula['librnd'].opt_prefix}"
+    
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
