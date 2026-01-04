@@ -11,7 +11,6 @@ class Librnd < Formula
   depends_on "gtk+"
   depends_on "libepoxy"
   depends_on "libgd"
-  depends_on "librnd"
 
   def install
     system "./configure", "--disable-hid_lesstif", "--prefix=#{prefix}"
