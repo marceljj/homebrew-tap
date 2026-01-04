@@ -2,15 +2,17 @@ class Xtt < Formula
   version "1.0"
   desc "A program which displays a timetable, one day at a time, between Monday and Friday."
   homepage "https://x11cp.org/apps/xtt"
-  url "https://marceljj.org/pkg/xtt-#{version}.tar.gz"
-  sha256 "2b28b66c351e96124f0b03e44fd1ae0e6dcc78b977d731d89adab821a8918de7"
+  url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
+  license :public_domain
 
   depends_on "imake" => :build
 
   def install
-    inreplace "xtt.c" do |s|
-      s.gsub! "<stdio.h>", "<stdio.h>\n#include <stdlib.h>"
-      s.gsub! "extern getenv()", "char *getenv(const char *name)"
+    Dir.chdir("src/xtt")
+      inreplace "xtt.c" do |s|
+        s.gsub! "<stdio.h>", "<stdio.h>\n#include <stdlib.h>"
+        s.gsub! "extern getenv()", "char *getenv(const char *name)"
+      end
     end
     
     system "xmkmf"
