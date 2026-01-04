@@ -1,6 +1,6 @@
 class RouteRnd < Formula
   version "0.9.3"
-  desc "A simple, modular, scriptable schematics editor"
+  desc "A free/open source, flexible, modular autorouter for Printed Circuit Boards"
   homepage "http://www.repo.hu/projects/route-rnd"
   url "http://www.repo.hu/projects/route-rnd/releases/route-rnd-#{version}.tar.gz"
   sha256 "0cba858e5047246d66c70f2c2948cc626def5296c68fab3c8b978aa31159c33b"
