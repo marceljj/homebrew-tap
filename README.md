@@ -34,6 +34,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## Libraries
 - [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
+- [librnd](http://www.repo.hu/projects/librnd) - v4.4.0 (c) 2025, Ringdove
 - [libsmacker](https://libsmacker.sourceforge.net) - v1.1.1r35, (c) 2020, Greg Kennedy
 - [xcb-util-xrm](https://github.com/Airblader/xcb-util-xrm) - v1.3, (c) 2018, Ingo Bürk
 
@@ -56,6 +57,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## Miscellaneous
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
 - [bmk](https://trmusson.dreamhosters.com/programs.html#bmk) - v1.3, (c) 2018, Tim Musson
+- [camv-rnd](http://www.repo.hu/projects/camv-rnd) - v1.1.6, (c) 2025, Ringdove
 - [Curveball](https://github.com/MightyBurger/curveball) - v1.0.0, (c) 2025, Jordan Johnson
 - [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, dmsc
@@ -75,6 +77,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
 - [Neverball](https://neverball.org) - v1.7.0-alpha.3, (c) 2024, Neverball
 - [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - v0.21.0, (c) 2025, mk6i
+- [pcb-rnd](http://www.repo.hu/projects/pcb-rnd) - v3.1.7b, (c) 2025, Ringdove
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
