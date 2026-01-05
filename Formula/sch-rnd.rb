@@ -13,6 +13,10 @@ class SchRnd < Formula
 
   def install
     ENV.append "LIBRND_PREFIX", "#{Formula['librnd'].opt_prefix}"
+    inreplace "doc/man/boxsym-rnd.1" do |s|
+      s.gsub! "&lt", ""
+      s.gsub! "&gt", ""
+    end
     
     system "./configure", "--prefix=#{prefix}"
     system "make"
