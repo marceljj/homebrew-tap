@@ -12,15 +12,14 @@ class Xtt < Formula
       inreplace "xtt.c" do |s|
         s.gsub! "<stdio.h>", "<stdio.h>\n#include <stdlib.h>"
         s.gsub! "extern getenv()", "char *getenv(const char *name)"
-      end
-    end
     
-    system "xmkmf"
-    system "make"
-    bin.install "xtt"
-    man1.install "xtt.man" => "xtt.1"
-    doc.install "example.xtt"
-    doc.install "README"
+      system "xmkmf"
+      system "make"
+      bin.install "xtt"
+      man1.install "xtt.man" => "xtt.1"
+      doc.install "example.xtt"
+      doc.install "README"
+    end
   end
 
   def caveats
