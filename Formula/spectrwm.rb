@@ -11,7 +11,6 @@ class Spectrwm < Formula
   depends_on "libx11"
   depends_on "libxcb"
   depends_on "libxcursor"
-  depends_on "libxft"
   depends_on "libxrandr"
   depends_on "xcb-util"
   depends_on "xcb-util-keysyms"
