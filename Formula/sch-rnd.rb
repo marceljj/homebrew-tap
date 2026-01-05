@@ -21,7 +21,6 @@ class SchRnd < Formula
       system "make", "install_schrnd"
     end
     Dir.chdir("src_3rd") do
-      system "make"
       system "make", "install"
     end
     (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/generator.awk"
@@ -29,9 +28,9 @@ class SchRnd < Formula
     (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/util.awk"
     (share/"sch-rnd").install "font"
     (share/"sch-rnd").install "library/devmap"
-    (share/"sch-rnd").install "library/hlibrary"
     (share/"sch-rnd").install "library/spice"
-    (share/"sch-rnd").install "library/symbol"   
+    (share/"sch-rnd").install "library/symbol"
+    (share/"sch-rnd/hlibrary").mkpath
     man1.install "doc/man/sch-rnd.1"
     man1.install "doc/man/boxsym-rnd.1"
     man5.install "doc/man/boxsym-rnd.5"
