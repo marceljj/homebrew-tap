@@ -2,7 +2,7 @@ class Micropolis < Formula
   version "0.9.12"
   desc "The city simulator"
   homepage "https://git.zerfleddert.de/git/micropolis"
-  url "https://git.zerfleddert.de/git/micropolis", branch: "master"
+  url "https://github.com/stargo/micropolis.git", branch: "master"
   license "GPL-3.0"
 
   depends_on "libx11"
