@@ -24,7 +24,9 @@ class SchRnd < Formula
       system "make", "install"
     end
     system "mkdir", "hlibrary"
+    system "mkdir", "plugins"
     system "touch", "hlibrary/.foo"
+    system "touch", "plugins/.foo"
     (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/generator.awk"
     (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/parser.awk"
     (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/util.awk"
