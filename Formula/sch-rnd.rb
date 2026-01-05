@@ -24,6 +24,11 @@ class SchRnd < Formula
       system "make"
       system "make", "install"
     end
+    lib.install "font"
+    lib.install "library/devmap"
+    lib.install "library/hlibrary"
+    lib.install "library/spice"
+    lib.install "library/symbol"
     man1.install "doc/man/sch-rnd.1"
     man1.install "doc/man/boxsym-rnd.1"
     man5.install "doc/man/boxsym-rnd.5"
