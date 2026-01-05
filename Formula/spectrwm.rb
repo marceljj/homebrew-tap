@@ -6,11 +6,16 @@ class Spectrwm < Formula
   sha256 "9541ceb713dd186755643a85b03e9ebe98b9703b00025d229ee92a6ba910c805"
   license "ISC"
 
+  depends_on "freetype"
   depends_on "fontconfig"
   depends_on "libx11"
   depends_on "libxcb"
   depends_on "libxcursor"
   depends_on "libxft"
+  depends_on "libxrandr"
+  depends_on "xcb-util"
+  depends_on "xcb-util-keysyms"
+  depends_on "xcb-util-wm"
 
   def install
     Dir.chdir("osx") do
