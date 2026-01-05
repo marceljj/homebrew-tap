@@ -24,9 +24,9 @@ class SchRnd < Formula
       system "make"
       system "make", "install"
     end
-    lib.install "util/boxsym-rnd/generator.awk"
-    lib.install "util/boxsym-rnd/parser.awk"
-    lib.install "util/boxsym-rnd/util.awk"
+    (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/generator.awk"
+    (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/parser.awk"
+    (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/util.awk"
     (share/"sch-rnd").install "font"
     (share/"sch-rnd").install "library/devmap"
     (share/"sch-rnd").install "library/hlibrary"
