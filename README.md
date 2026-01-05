@@ -31,6 +31,12 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [MARST](https://www.gnu.org/software/marst) - v2.8, (c) 2025, Andrew Makhorin
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
+## Ringdove EDA Suite - (c) 2025, Ringdove
+- [camv-rnd](http://www.repo.hu/projects/camv-rnd) - v1.1.6
+- [pcb-rnd](http://www.repo.hu/projects/pcb-rnd) - v3.1.7b
+- [route-rnd](http://www.repo.hu/projects/pcb-rnd) - v0.9.3
+- [sch-rnd](http://www.repo.hu/projects/sch-rnd) - v1.0.10
+
 ## Libraries
 - [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
@@ -57,7 +63,6 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## Miscellaneous
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
 - [bmk](https://trmusson.dreamhosters.com/programs.html#bmk) - v1.3, (c) 2018, Tim Musson
-- [camv-rnd](http://www.repo.hu/projects/camv-rnd) - v1.1.6, (c) 2025, Ringdove
 - [Chrząszcz](https://sourceforge.net/projects/chrzaszcz) - v0.1.3, (2023), Paweł Biernacki
 - [Curveball](https://github.com/MightyBurger/curveball) - v1.0.0, (c) 2025, Jordan Johnson
 - [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
@@ -78,7 +83,6 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
 - [Neverball](https://neverball.org) - v1.7.0-alpha.3, (c) 2024, Neverball
 - [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - v0.21.0, (c) 2025, mk6i
-- [pcb-rnd](http://www.repo.hu/projects/pcb-rnd) - v3.1.7b, (c) 2025, Ringdove
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
