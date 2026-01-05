@@ -20,6 +20,10 @@ class SchRnd < Formula
       ENV.append "HOW", "install -f"
       system "make", "install_schrnd"
     end
+    Dir.chdir("src_3rd") do
+      system "make"
+      system "make", "install"
+    end
     man1.install "doc/man/sch-rnd.1"
     man1.install "doc/man/boxsym-rnd.1"
     man5.install "doc/man/boxsym-rnd.5"
