@@ -17,7 +17,7 @@ class SchRnd < Formula
     system "./configure", "--prefix=#{prefix}"
     system "make"
     Dir.chdir("src/sch-rnd") do
-      ENV.append "HOW", "\"install -f\""
+      ENV.append "HOW", "install -f"
       system "make", "install_schrnd"
     end
     man1.install "doc/man/sch-rnd.1"
