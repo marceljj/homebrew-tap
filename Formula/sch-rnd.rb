@@ -30,6 +30,7 @@ class SchRnd < Formula
     (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/generator.awk"
     (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/parser.awk"
     (lib/"sch-rnd/boxsym-rnd").install "util/boxsym-rnd/util.awk"
+    (lib/"sch-rnd/plugins").install "plugins"
     (share/"sch-rnd").install "font"
     (share/"sch-rnd").install "library/devmap"
     (share/"sch-rnd").install "hlibrary"
