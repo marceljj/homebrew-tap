@@ -8,7 +8,7 @@ class Xtt < Formula
   depends_on "imake" => :build
 
   def install
-    Dir.chdir("src/xtt")
+    Dir.chdir("src/xtt") do
       inreplace "xtt.c" do |s|
         s.gsub! "<stdio.h>", "<stdio.h>\n#include <stdlib.h>"
         s.gsub! "extern getenv()", "char *getenv(const char *name)"
