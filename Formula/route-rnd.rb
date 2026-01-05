@@ -17,7 +17,12 @@ class RouteRnd < Formula
     
     system "./configure", "--prefix=#{prefix}"
     system "make"
-    system "make", "install"
+    Dir.chdir("src/route-rnd") do
+      system "make", "install"
+    end
+    Dir.chdir("doc") do
+      system "make", "install"
+    end
   end
 
   test do
