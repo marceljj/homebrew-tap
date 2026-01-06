@@ -18,7 +18,6 @@ class GnuInklingreader < Formula
     system "make", "install"
     doc.install "AUTHORS"
     doc.install "COPYING"
-    doc.install "NEWS"
     doc.install "README"
   end
 
