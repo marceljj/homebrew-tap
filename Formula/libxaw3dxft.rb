@@ -11,6 +11,10 @@ class Libxaw3dxft < Formula
   depends_on "libtool" => :build
   depends_on "pkgconf" => :build
   depends_on "libx11"
+  depends_on "libxft"
+  depends_on "libxext"
+  depends_on "libxmu"
+  depends_on "libxt"
   
   def install
     system "autoreconf", "-fi"
