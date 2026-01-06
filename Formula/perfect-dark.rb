@@ -12,7 +12,7 @@ class PerfectDark < Formula
   
   def install
     system "cmake", "-S", ".", "-G", "Unix Makefiles", "-DCMAKE_OSX_ARCHITECTURES=arm64", "-B", "build", *std_cmake_args
-    system "cmake", "--target", "pd", "--clean-first"
+    system "cmake --build build --target pd -j4 --clean-first"
     bin.install "build/pd.arm64" => :build
   end
 
