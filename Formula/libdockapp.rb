@@ -7,6 +7,7 @@ class Libdockapp < Formula
   license "MIT"
 
   depends_on "autoconf" => :build
+  depends_on "automake" => :build
   depends_on "pkgconf" => :build
   depends_on "libx11"
   depends_on "libxext"
