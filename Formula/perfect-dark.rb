@@ -11,8 +11,8 @@ class PerfectDark < Formula
   depends_on "zlib"
   
   def install
-    system "cmake", "-S", ".", "-G\"Unix Makefiles\"", "-DCMAKE_OSX_ARCHITECTURES=arm64", "-B", "build", *std_cmake_args
-    system "cmake", "--build", "build", "--target", "pd", "--clean-first"
+    system "cmake", "-S", ".", "-G", "Unix Makefiles", "-DCMAKE_OSX_ARCHITECTURES=arm64", "-B", "build", *std_cmake_args
+    system "cmake", "--build", "build", "--clean-first"
     bin.install "build/pd.arm64" => :build
   end
 
