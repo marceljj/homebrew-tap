@@ -31,6 +31,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Gengen](https://www.gnu.org/software/gengen) - v1.4.3, (c) 2021, Lorenzo Bettini
 - [gxmessage](https://trmusson.dreamhosters.com/programs.html#gxmessage) - v3.4.3, (c) 2015, Timothy Musson
 - [MARST](https://www.gnu.org/software/marst) - v2.8, (c) 2025, Andrew Makhorin
+- [InklingReader](https://www.gnu.org/software/inklingreader) - v0.8, (c) 2014, Roel Janssen
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
 ## Ringdove EDA Suite - (c) 2025, Ringdove
