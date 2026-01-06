@@ -1,5 +1,4 @@
 class PerfectDark < Formula
-  arch arm: "arm64", intel: "x86_64"
   desc 'A work in progress port of Perfect Dark to modern platforms'
   version "git-2026.01"
   homepage "https://github.com/fgsfdsfgs/perfect_dark"
@@ -12,6 +11,8 @@ class PerfectDark < Formula
   depends_on "zlib"
   
   def install
+    arch arm: "arm64", intel: "x86_64"
+    
     system "cmake", "-S", ".", "-G", "Unix Makefiles", "-DCMAKE_OSX_ARCHITECTURES", "#{arch}", "-B", "build", *std_cmake_args
     system "cmake", "--build", "build", "--target", "pd", "--clean-first"
     bin.install "build/pd.#{arch}" => :build
