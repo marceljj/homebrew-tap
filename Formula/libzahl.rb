@@ -6,9 +6,6 @@ class Libzahl < Formula
   sha256 "b13042e0ba7944bb72a2aae9163279e48f7d3e01e4776bd48727cd12d0b0d462"
   license "ISC"
 
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
-  
   def install
     inreplace "config.mk", "/usr/local", "#{prefix}"
     system "make"
