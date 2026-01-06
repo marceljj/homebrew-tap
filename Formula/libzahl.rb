@@ -2,9 +2,10 @@ class Libzahl < Formula
   version "1.0"
   desc "Big integer library"
   homepage "https://libs.suckless.org/libzahl"
-  url "https://git.suckless.org/libzahl", branch: "main"
+  url "https://git.suckless.org/libzahl.git", branch: "main"
   license "ISC"
 
+  depends_on "autoconf" => :build
   depends_on "automake" => :build
   
   def install
