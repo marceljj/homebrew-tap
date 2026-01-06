@@ -13,7 +13,6 @@ class GnuMiscfiles < Formula
     doc.install "ChangeLog"
     doc.install "COPYING"
     doc.install "dict-README"
-    doc.install "GNU-manifesto"
     doc.install "NEWS"
     doc.install "ORIGIN"
     doc.install "README"
