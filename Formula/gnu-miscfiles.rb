@@ -8,7 +8,6 @@ class GnuMiscfiles < Formula
   
   def install
     system "./configure", *std_configure_args
-    system "make"
     system "make", "install"
     doc.install "AUTHORS"
     doc.install "ChangeLog"
