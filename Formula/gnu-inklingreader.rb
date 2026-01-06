@@ -16,6 +16,10 @@ class GnuInklingreader < Formula
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
+    doc.install "AUTHORS"
+    doc.install "COPYING"
+    doc.install "NEWS"
+    doc.install "README"
   end
 
   test do
