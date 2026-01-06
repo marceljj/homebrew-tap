@@ -6,6 +6,7 @@ class Libxaw3dxft < Formula
   sha256 "283d2d1c9332ae2c51b54228eb82b89737b1c94d9cf5d0bd15cc26863a5feff6"
   license "MIT"
 
+  depends_on "automake" => :build
   depends_on "autoconf" => :build
   depends_on "pkgconf" => :build
   depends_on "libx11"
