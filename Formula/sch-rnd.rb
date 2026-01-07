@@ -9,6 +9,9 @@ class SchRnd < Formula
   depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk+"
+  depends_on "gtkglext"
+  depends_on "libepoxy"
+  depends_on "libgd"
   depends_on "librnd"
 
   def install
