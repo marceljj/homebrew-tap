@@ -9,6 +9,7 @@ class PcbRnd < Formula
   depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk+"
+  depends_on "libgd"
   depends_on "librnd"
 
   def install
