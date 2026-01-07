@@ -44,6 +44,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## Libraries
 - [libbacktrace](https://github.com/ianlancetaylor/libbacktrace) - v2025.11, (c) 2025, Ian Lance Taylor
 - [libdockapp](https://www.dockapps.net/libdockapp) - v0.6.4, (c) 2003, Alfredo K. Kojima
+- [libdstr](https://flaterco.com/util) - v1.0, (c) 2013, Dave Flater
 - [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
 - [librnd](http://www.repo.hu/projects/librnd) - v4.4.0 (c) 2025, Ringdove
