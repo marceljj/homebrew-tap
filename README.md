@@ -42,6 +42,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [sch-rnd](http://www.repo.hu/projects/sch-rnd) - v1.0.10
 
 ## Libraries
+- [libbacktrace](https://github.com/ianlancetaylor/libbacktrace) - v2025.11, (c) 2025, Ian Lance Taylor
 - [libdockapp](https://www.dockapps.net/libdockapp) - v0.6.4, (c) 2003, Alfredo K. Kojima
 - [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
