@@ -1,5 +1,5 @@
 # Marcel's UNIX Repository
-_Currently providing [homebrew](https://brew.sh) packages for ancient UNIX software, alongside various other software. The formulae are designed for macOS, but should work with Linux._
+_Currently providing [homebrew](https://brew.sh) packages for various macOS/UNIX/BSD/GNU/Linux software. The formulae are designed for macOS, but should work with Linux._
 
 _No packages are hosted by me, all casks and formulae use upstream source code._
 
@@ -8,13 +8,6 @@ _No packages are hosted by me, all casks and formulae use upstream source code._
 ```
 brew tap marceljj/tap
 ```
-
-## Old UNIX software
-_Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org)._
-- [mgdiff](https://x11cp.org/apps/mgdiff) - v1.0, (c) 1994, Daniel Williams
-- [Xinvest](https://x11cp.org/apps/xinvest) - v2.5.1, (c) 1997, Mark Buser
-- [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - v1.2, (c) 1996, Thomas Zwettler
-- [xtt](https://x11cp.org/apps/xtt) - v1.0, (c) 1995, Matthew Chapman
 
 ## GNOME Software
 - [Calculator](https://apps.gnome.org/Calculator) - v49.2, (c) 2025, Robert Roth
@@ -67,6 +60,13 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [tinywm](http://incise.org/tinywm.html) - v2014.04, (c) 2014, Nick Welch
 - [sowm](https://github.com/dylanaraps/sowm) -v1.6, (c) 2020, Dylan Araps
 - [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, (c) 2025, Abhinav Prasai
+
+## Old UNIX software
+_Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org)._
+- [mgdiff](https://x11cp.org/apps/mgdiff) - v1.0, (c) 1994, Daniel Williams
+- [Xinvest](https://x11cp.org/apps/xinvest) - v2.5.1, (c) 1997, Mark Buser
+- [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - v1.2, (c) 1996, Thomas Zwettler
+- [xtt](https://x11cp.org/apps/xtt) - v1.0, (c) 1995, Matthew Chapman
 
 ## Miscellaneous
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
