@@ -6,6 +6,8 @@ class Xmoontool < Formula
   license :public_domain
 
   depends_on "libx11"
+  depends_on "libxt"
+  depends_on "libxpm"
   
   def install
     Dir.chdir("src/xmoontool") do
