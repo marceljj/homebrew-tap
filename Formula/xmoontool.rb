@@ -9,16 +9,13 @@ class Xmoontool < Formula
   
   def install
     Dir.chdir("src/xmoontool") do
-      inreplace "Makefile" do |s|
-        s.gsub! "/usr/X386/bin", "#{bin}"
-        s.gsub! "/usr/man/man1", "#{man}/man1"
-      end
       inreplace "xmoontool.c" do |s|
         s.gsub! "<stdio.h>", "<stdio.h>\n#include <stdlib.h>\n#include <unistd.h>"
       end
       
       system "make"
-      system "make", "install"
+      bin.install "xmoontool"
+      man1.install "xmoontool.1"
     end
   end
 
