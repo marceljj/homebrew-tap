@@ -12,7 +12,8 @@ class Bclock < Formula
     Dir.chdir("src/bclock") do
       system "xmkmf"
       system "make"
-      system "make", "install"
+      bin.install "bclock"
+      man1.install "bclock.man" => "block.1"
       doc.install "README"
     end
   end
