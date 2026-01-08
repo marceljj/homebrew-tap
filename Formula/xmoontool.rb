@@ -9,7 +9,7 @@ class Xmoontool < Formula
   
   def install
     Dir.chdir("src/xmoontool") do
-      inreplace Makefile do |s|
+      inreplace "Makefile" do |s|
         s.gsub! "-0", "-0 #{include}"
         s.gsub! "-lm", "-lm #{lib}"
         s.gsub! "/usr/X386/bin", "#{bin}"
