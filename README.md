@@ -64,6 +64,7 @@ brew tap marceljj/tap
 ## Old X11 software
 _Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org)._
 - [mgdiff](https://x11cp.org/apps/mgdiff) - v1.0, (c) 1994, Daniel Williams
+- [vgp](https://x11cp.org/apps/vgp) - v1.1, (c) 1995, Frederick A. Niles
 - [xdotclock](https://x11cp.org/apps/xdotclock) - v0.1.0, (c) 2003, Haran Shivanan
 - [Xinvest](https://x11cp.org/apps/xinvest) - v2.5.1, (c) 1997, Mark Buser
 - [xmoontool](https://x11cp.org/apps/xmoontool) - v3.0.1, (c) 1991, John Walker
