@@ -3,7 +3,7 @@ class Vgp < Formula
   desc "An application which allows for visualising vectors which change over time"
   homepage "https://x11cp.org/apps/vgp"
   url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
-  license :public_domain
+  license "GPL-2.0"
 
   depends_on "libx11"
   
@@ -15,7 +15,12 @@ class Vgp < Formula
       
       system "./configure", *std_configure_args
       system "make"
-      system "make", "install"
+      bin.install "vgp"
+      man1.install "vgp.1"
+      doc.install "COPYING"
+      doc.install "NEWS"
+      doc.install "README"
+      doc.install "TODO"
     end
   end
 
