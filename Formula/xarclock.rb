@@ -15,9 +15,13 @@ class Xarclock < Formula
         s.gsub! "register i, j;", "int register i, j;"
         s.gsub! "static erase_hands (w, tm)", "int static erase_hands (w, tm)"
       end
+      inreplace "xarclock.c" do |s|
+        s.gsub! "<X11/Shell.h>", "<X11/Shell.h>\n#include <stdio.h>"
+        s.gsub! "Syntax(call)", "int Syntax(call)"
+      end
       
       system "xmkmf"
-      system "make", "-Wno-deprecated-non-prototype"
+      system "make"
       system "make", "install"
     end
   end
