@@ -15,7 +15,7 @@ brew tap marceljj/tap
 - [Fonts](https://apps.gnome.org/FontViewer) - v49.0, (c) 2025, Christopher Davis and Evan Welsh
 - [Lorem](https://apps.gnome.org/Lorem) - v1.6, (c) 2025, Maximiliano Sandoval
 - [Ptyxis](https://gitlab.gnome.org/chergert/ptyxis) - v49.2, (c) 2023, Christian Hergert
-- [Robots](https://gitlab.gnome.org/GNOME/gnome-robots) - v41.2, (c) 2014, Mark Rae
+- [Robots](https://gitlab.gnome.org/GNOME/gnome-robots) - v41.2, (c) 2025, Mark Rae
 - [Tour](https://apps.gnome.org/Tour) - v49.0, (c) 2025, Bilal Elmoussaoui
 
 ## GNU Software
