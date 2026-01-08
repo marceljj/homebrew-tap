@@ -4,6 +4,8 @@ class Xdotclock < Formula
   homepage "https://x11cp.org/apps/xinvest"
   url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
 
+  depends_on "autoconf" => :build
+  
   def install
     Dir.chdir("src/xdotclock") do
       system "./configure", *std_configure_args
