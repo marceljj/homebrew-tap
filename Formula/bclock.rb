@@ -13,7 +13,7 @@ class Bclock < Formula
       system "xmkmf"
       system "make"
       bin.install "bclock"
-      man1.install "bclock.man" => "block.1"
+      man1.install "bclock.man" => "bclock.1"
       doc.install "README"
     end
   end
