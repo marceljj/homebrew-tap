@@ -7,7 +7,6 @@ class Xarclock < Formula
 
   depends_on "imake" => :build
   depends_on "libx11"
-  depends_on "libxt"
   
   def install
     Dir.chdir("src/xarclock") do
@@ -18,7 +17,7 @@ class Xarclock < Formula
       end
       
       system "xmkmf"
-      system "make"
+      system "make", "-Wno-deprecated-non-prototype"
       system "make", "install"
     end
   end
