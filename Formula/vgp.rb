@@ -10,7 +10,7 @@ class Vgp < Formula
   def install
     Dir.chdir("src/vgp") do
       inreplace "getopt.c" do |s|
-        s.gsub! "<stdio.h>", "<stdio.h>\n#include <string.h"
+        s.gsub! "<stdio.h>", "<stdio.h>\n#include <string.h>"
       end
       
       system "./configure"
