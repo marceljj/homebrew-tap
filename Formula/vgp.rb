@@ -13,7 +13,7 @@ class Vgp < Formula
         s.gsub! "<stdio.h>", "<stdio.h>\n#include <string.h"
       end
       
-      system "./configure", *std_configure_args
+      system "./configure"
       system "make"
       bin.install "vgp"
       man1.install "vgp.1"
