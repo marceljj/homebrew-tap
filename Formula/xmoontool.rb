@@ -14,6 +14,7 @@ class Xmoontool < Formula
         s.gsub! "-lm", "-lm #{lib}"
         s.gsub! "/usr/X386/bin", "#{bin}"
         s.gsub! "/usr/man/man1", "#{man}/man1"
+      end
       
       system "make"
       system "make", "install"
