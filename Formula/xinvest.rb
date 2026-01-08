@@ -3,6 +3,7 @@ class Xinvest < Formula
   desc "A program which provides personal finance tracking and performance capabilities"
   homepage "https://x11cp.org/apps/xinvest"
   url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
+  license :public_domain
 
   depends_on "imake" => :build
   depends_on "openmotif"
