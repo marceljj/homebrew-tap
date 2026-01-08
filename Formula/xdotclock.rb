@@ -13,7 +13,7 @@ class Xdotclock < Formula
       system "autoupdate"
       system "./configure", *std_configure_args
       system "make"
-      system "make", "install"
+      bin.install "xdotclock"
     end
   end
 
