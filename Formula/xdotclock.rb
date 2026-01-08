@@ -8,6 +8,8 @@ class Xdotclock < Formula
   
   def install
     Dir.chdir("src/xdotclock") do
+      system "autoreconf", "-fi"
+      system "autoupdate"
       system "./configure", *std_configure_args
       system "make"
       system "make", "install"
