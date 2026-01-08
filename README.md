@@ -61,9 +61,10 @@ brew tap marceljj/tap
 - [sowm](https://github.com/dylanaraps/sowm) -v1.6, (c) 2020, Dylan Araps
 - [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, (c) 2025, Abhinav Prasai
 
-## Old UNIX software
+## Old X11 software
 _Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org)._
 - [mgdiff](https://x11cp.org/apps/mgdiff) - v1.0, (c) 1994, Daniel Williams
+- [xdotclock]https://x11cp.org/apps/xdotclock) - v0.1.0, (c) 2003, Haran Shivanan
 - [Xinvest](https://x11cp.org/apps/xinvest) - v2.5.1, (c) 1997, Mark Buser
 - [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - v1.2, (c) 1996, Thomas Zwettler
 - [xtt](https://x11cp.org/apps/xtt) - v1.0, (c) 1995, Matthew Chapman
