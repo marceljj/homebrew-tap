@@ -5,6 +5,7 @@ class Xdotclock < Formula
   url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
 
   depends_on "autoconf" => :build
+  depends_on "automake" => :build
   
   def install
     Dir.chdir("src/xdotclock") do
