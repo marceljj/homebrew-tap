@@ -21,7 +21,7 @@ class Xarclock < Formula
       end
       
       system "xmkmf"
-      system "make"
+      system "make", "-k"
       system "make", "install"
     end
   end
