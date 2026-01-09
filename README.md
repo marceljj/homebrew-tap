@@ -59,7 +59,7 @@ brew tap marceljj/tap
 - [pekwm](https://www.pekwm.se) - v0.4.1, (c) 2025, Claes Nästén
 - [Ratpoison](https://www.nongnu.org/ratpoison) - v1.4.9, (c) 2017, Jérémie Courrèges-Anglas
 - [tinywm](http://incise.org/tinywm.html) - v2014.04, (c) 2014, Nick Welch
-- [sowm](https://github.com/dylanaraps/sowm) -v1.6, (c) 2020, Dylan Araps
+- [sowm](https://github.com/dylanaraps/sowm) - v1.6, (c) 2020, Dylan Araps
 - [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, (c) 2025, Abhinav Prasai
 
 ## Old X11 software
