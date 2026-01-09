@@ -8,9 +8,12 @@ class Libixp < Formula
   def install
     system "make", "PREFIX=#{prefix}"
     system "make", "install", "PREFIX=#{prefix}"
+    doc.install "LICENSE"
+    doc.install "NEWS"
+    doc.install "README.md"
   end
 
   test do
-    system "false"
+    system "ixpc", "-v"
   end
 end
