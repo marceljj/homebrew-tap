@@ -14,7 +14,7 @@ class EfaxGtk < Formula
   depends_on "libtiff"
 
   def install
-    system "./configure", *std_configure_args
+    system "./configure", "SPOOLDIR=#{var}/fax", *std_configure_args
     system "make"
     system "make", "install"
   end
