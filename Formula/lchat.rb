@@ -6,7 +6,7 @@ class Lchat < Formula
   sha256 "89247b5c8e853bbfc2f97909b1926fadf44d637543767e77e9e42e72242f375f"
   license :public_domain
 
-  depends_on "libgrapheme"
+
 
   def install
     inreplace "config.mk", "$(PREFIX)/man", "$(PREFIX)/share/man"
