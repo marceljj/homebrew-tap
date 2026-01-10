@@ -11,6 +11,7 @@ class EfaxGtk < Formula
   depends_on "efax"
   depends_on "glib"
   depends_on "gtk+"
+  depends_on "libtiff"
 
   def install
     system "./configure", *std_configure_args
