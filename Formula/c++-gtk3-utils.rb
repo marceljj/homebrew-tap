@@ -1,6 +1,6 @@
 class CxxGtk3Utils < Formula
   version "2.2.20"
-  desc "lightweight library containing a number of classes and functions for programming GTK3 programs using C++ in POSIX environments"
+  desc "A lightweight library containing a number of classes and functions for programming GTK3 programs using C++ in POSIX environments"
   homepage "https://cxx-gtk-utils.sourceforge.net"
   url "https://downloads.sourceforge.net/project/cxx-gtk-utils/cxx-gtk-utils/#{version}/c%2B%2B-gtk-utils-#{version}.tar.gz"
   sha256 "a64e03e5948d074f8309b036ca0acaf9ae4025c19cef6174f2319c504fb32d8c"
