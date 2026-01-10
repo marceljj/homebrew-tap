@@ -10,18 +10,18 @@ class EfaxGtk < Formula
   depends_on "c++-gtk-utils"
   depends_on "efax"
   depends_on "glib"
-  depends_on "gtk+"
+  depends_on "gtk+3"
   depends_on "libtiff"
 
   def install
     system "./configure", "SPOOLDIR=#{var}/fax", *std_configure_args
-    system "make"
-    system "make", "install"
+    system "make", "SPOOLDIR=#{var}/fax"
+    system "make", "install", "SPOOLDIR=#{var}/fax"
   end
 
   def post_install
     system Formula["glib"].opt_bin/"glib-compile-schemas", HOMEBREW_PREFIX/"share/glib-2.0/schemas"
-    system Formula["gtk+"].opt_bin/"gtk2-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
+    system Formula["gtk+3"].opt_bin/"gtk3-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
   end
 
   test do
