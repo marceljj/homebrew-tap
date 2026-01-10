@@ -79,6 +79,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Chrząszcz](https://sourceforge.net/projects/chrzaszcz) - v0.1.3, (2023), Paweł Biernacki
 - [Curveball](https://github.com/MightyBurger/curveball) - v1.0.0, (c) 2025, Jordan Johnson
 - [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
+- [efax](https://github.com/galippi/efax) - v0.9, (c) 1999, Ed Casas, G. Liptak
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, dmsc
 - [EPIC6](https://www.epicsol.org) - v0.0.1, (c) 2025, EPIC Software Labs
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, eepykate
