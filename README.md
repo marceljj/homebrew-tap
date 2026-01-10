@@ -9,6 +9,13 @@ _I do not host any package data, all casks and formulae use upstream source code
 brew tap marceljj/tap
 ```
 
+## macOS Casks
+- [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
+- [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
+- [Super Mario 64 Coop Deluxe](https://sm64coopdx.com) - v1.4.1, (c) 2025, Coop Deluxe
+- [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Developers
+- [XQuartz (beta)](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
+
 ## GNOME Software
 - [Calculator](https://apps.gnome.org/Calculator) - v49.2, (c) 2025, Robert Roth
 - [Console](https://apps.gnome.org/Console) -v49.1, (c) 2025, Zander Brown
@@ -34,21 +41,28 @@ brew tap marceljj/tap
 - [route-rnd](http://www.repo.hu/projects/pcb-rnd) - v0.9.3
 - [sch-rnd](http://www.repo.hu/projects/sch-rnd) - v1.0.10
 
-## Libraries
-- [c++-gtk-utils](https://cxx-gtk-utils.sourceforge.net) - v2.2.20, (c) 2021, Chris Vine
-- [libbacktrace](https://github.com/ianlancetaylor/libbacktrace) - v2025.11, (c) 2025, Ian Lance Taylor
-- [libdockapp](https://www.dockapps.net/libdockapp) - v0.6.4, (c) 2003, Alfredo K. Kojima
-- [libdstr](https://flaterco.com/util) - v1.0, (c) 2013, Dave Flater
-- [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
-- [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
-- [libixp](https://code.google.com/archive/p/libixp) -v2025.12, (c) 2025, Anselm R. Garbe, Kris Maglione
-- [librnd](http://www.repo.hu/projects/librnd) - v4.4.0 (c) 2025, Ringdove
-- [libsmacker](https://libsmacker.sourceforge.net) - v1.1.1r35, (c) 2020, Greg Kennedy
-- [libxaw3dxft](https://t2linux.com/packages/libxaw3dxft) - v1.6.4, (c) 2025, Libxaw3dxft Authors
-- [xcb-util-xrm](https://github.com/Airblader/xcb-util-xrm) - v1.3, (c) 2018, Ingo Bürk
+## Text Editors
+- [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, JadedTuna
+- [L3afpad](https://github.com/stevenhoneyman/l3afpad) - v0.8.18.1.11, (c) 2014, Steven Honeyman
+- [Leafpad](https://github.com/tarot231/leafpad) - v0.8.19, (c) 2010, Tarot Osuji
+- [uemacs](https://github.com/torvalds/uemacs) - v4.0.15, (c) 2018, Linus Torvalds
 
-## Plugins
-- [HexChat OTR](https://github.com/TingPing/hexchat-otr) - v0.2.2, (c) 2021, Patrick TingPing
+## Chat Clients
+- [EPIC6](https://www.epicsol.org) - v0.0.1, (c) 2025, EPIC Software Labs
+- [HexChat](https://hexchat.github.io) - v2.16.2, (c) 2024, HexChat
+
+## Audio Players
+- [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
+
+## Servers
+- [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - v0.21.0, (c) 2025, mk6i
+- [UxPlay](https://github.com/FDH2/UxPlay) - v1.72.3, (c) 2025, FDH2
+
+## Games
+- [Chrząszcz](https://sourceforge.net/projects/chrzaszcz) - v0.1.3, (2023), Paweł Biernacki
+- [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
+- [gtktetris](https://github.com/wader/gtktetris) - v2025.05, (c) 2025, Mattias Wadman
+- [Neverball](https://neverball.org) - v1.7.0-alpha.3, (c) 2024, Neverball
 
 ## X11 Window Managers
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
@@ -74,40 +88,36 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - v1.2, (c) 1996, Thomas Zwettler
 - [xtt](https://x11cp.org/apps/xtt) - v1.0, (c) 1995, Matthew Chapman
 
-## Miscellaneous
-- [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
+## Utilities
 - [bmk](https://trmusson.dreamhosters.com/programs.html#bmk) - v1.3, (c) 2018, Tim Musson
-- [Chrząszcz](https://sourceforge.net/projects/chrzaszcz) - v0.1.3, (2023), Paweł Biernacki
 - [Curveball](https://github.com/MightyBurger/curveball) - v1.0.0, (c) 2025, Jordan Johnson
-- [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
 - [efax](https://github.com/galippi/efax) - v0.9, (c) 1999, Ed Casas, G. Liptak
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, dmsc
-- [EPIC6](https://www.epicsol.org) - v0.0.1, (c) 2025, EPIC Software Labs
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, eepykate
 - [fm](https://github.com/euclio/fm) - v2025.05, (c) 2025, Andy Russell
 - [gtk2fontsel](https://gtk2fontsel.sourceforge.net) - v0.1, (c) 2013, Jason Petrone
 - [gtk-chtheme](http://plasmasturm.org/code/gtk-chtheme) - v0.3.1, (c) 2008, Aristotle Pagaltzis
 - [GtkHash](https://gtkhash.org) - v1.5, (c) 2022, GtkHash
-- [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, JadedTuna
-- [gtktetris](https://github.com/wader/gtktetris) - v2025.05, (c) 2025, Mattias Wadman
-- [HexChat](https://hexchat.github.io) - v2.16.2, (c) 2024, HexChat
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
-- [L3afpad](https://github.com/stevenhoneyman/l3afpad) - v0.8.18.1.11, (c) 2014, Steven Honeyman
-- [Leafpad](https://github.com/tarot231/leafpad) - v0.8.19, (c) 2010, Tarot Osuji
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
-- [Neverball](https://neverball.org) - v1.7.0-alpha.3, (c) 2024, Neverball
-- [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - v0.21.0, (c) 2025, mk6i
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
-- [uemacs](https://github.com/torvalds/uemacs) - v4.0.15, (c) 2018, Linus Torvalds
-- [UxPlay](https://github.com/FDH2/UxPlay) - v1.72.3, (c) 2025, FDH2
 - [xcowsay](http://www.doof.me.uk/xcowsay) - v1.6, (c) 2022, Nick Gasson
 
-## macOS Casks
-- [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
-- [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
-- [Super Mario 64 Coop Deluxe](https://sm64coopdx.com) - v1.4.1, (c) 2025, Coop Deluxe
-- [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Developers
-- [XQuartz (beta)](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
+## Libraries
+- [c++-gtk-utils](https://cxx-gtk-utils.sourceforge.net) - v2.2.20, (c) 2021, Chris Vine
+- [libbacktrace](https://github.com/ianlancetaylor/libbacktrace) - v2025.11, (c) 2025, Ian Lance Taylor
+- [libdockapp](https://www.dockapps.net/libdockapp) - v0.6.4, (c) 2003, Alfredo K. Kojima
+- [libdstr](https://flaterco.com/util) - v1.0, (c) 2013, Dave Flater
+- [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
+- [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
+- [libixp](https://code.google.com/archive/p/libixp) -v2025.12, (c) 2025, Anselm R. Garbe, Kris Maglione
+- [librnd](http://www.repo.hu/projects/librnd) - v4.4.0 (c) 2025, Ringdove
+- [libsmacker](https://libsmacker.sourceforge.net) - v1.1.1r35, (c) 2020, Greg Kennedy
+- [libxaw3dxft](https://t2linux.com/packages/libxaw3dxft) - v1.6.4, (c) 2025, Libxaw3dxft Authors
+- [xcb-util-xrm](https://github.com/Airblader/xcb-util-xrm) - v1.3, (c) 2018, Ingo Bürk
+
+## Plugins
+- [HexChat OTR](https://github.com/TingPing/hexchat-otr) - v0.2.2, (c) 2021, Patrick TingPing
