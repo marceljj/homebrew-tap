@@ -11,7 +11,7 @@ class CxxGtk4Utils < Formula
   depends_on "gtk4"
 
   def install
-    system "./configure-gtk4", "--docdir=DATAROOTDIR/doc/c++-gtk4-utils", *std_configure_args
+    system "./configure-gtk4", "--docdir=#{doc}/c++-gtk4-utils", *std_configure_args
     system "make"
     system "make", "install"
   end
