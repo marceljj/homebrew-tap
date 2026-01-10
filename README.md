@@ -45,7 +45,7 @@ brew tap marceljj/tap
 - [sch-rnd](http://www.repo.hu/projects/sch-rnd) - v1.0.10
 
 ## Text Editors
-- [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, JadedTuna
+- [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, (c) 2016, JadedTuna
 - [L3afpad](https://github.com/stevenhoneyman/l3afpad) - v0.8.18.1.11, (c) 2014, Steven Honeyman
 - [Leafpad](https://github.com/tarot231/leafpad) - v0.8.19, (c) 2010, Tarot Osuji
 - [uemacs](https://github.com/torvalds/uemacs) - v4.0.15, (c) 2018, Linus Torvalds
