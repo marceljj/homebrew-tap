@@ -35,6 +35,9 @@ brew tap marceljj/tap
 - [Miscfiles](https://www.gnu.org/software/miscfiles) - v1.5, (c) 2010, Free Software Foundation, Inc.
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
+## Suckless Software
+- [farbfeld](https://tools.suckless.org/farbfeld) - v4, (c) 2018, Laslo Hunhold
+
 ## Ringdove EDA Suite - (c) 2025, Ringdove
 - [camv-rnd](http://www.repo.hu/projects/camv-rnd) - v1.1.6
 - [pcb-rnd](http://www.repo.hu/projects/pcb-rnd) - v3.1.7b
