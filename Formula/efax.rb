@@ -6,8 +6,9 @@ class Efax < Formula
   license "GPL-2.0"
 
   def install
-      system "make", "BINDIR=#{bin}", "MANDIR=#{man}"
-      system "make", "install", "BINDIR=#{bin}", "MANDIR=#{man}"
+    system "make", "BINDIR=#{bin}", "MANDIR=#{man}"
+    system "make", "install", "BINDIR=#{bin}", "MANDIR=#{man}"
+  end
 
   test do
     system "false"
