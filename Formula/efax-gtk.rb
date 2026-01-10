@@ -7,6 +7,7 @@ class EfaxGtk < Formula
   license "GPL-2.0-or-later"
 
   depends_on "pkgconf" => :build
+  depends_on "c++-gtk-utils"
   depends_on "efax"
   depends_on "glib"
   depends_on "gtk+"
