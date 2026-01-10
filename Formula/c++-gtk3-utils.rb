@@ -11,7 +11,7 @@ class CxxGtk3Utils < Formula
   depends_on "gtk+3"
 
   def install
-    system "./configure", *std_configure_args
+    system "./configure", "--docdir=DATAROOTDIR/doc/c++-gtk3-utils", *std_configure_args
     system "make"
     system "make", "install"
   end
