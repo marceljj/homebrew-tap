@@ -7,7 +7,11 @@ class Efax < Formula
 
   def install
     system "make", "BINDIR=#{bin}", "MANDIR=#{man}"
-    system "make", "install", "BINDIR=#{bin}", "MANDIR=#{man}"
+    bin.install "fax"
+    bin.install "efax"
+    bin.install "efix"
+    doc.install "COPYING"
+    doc.install "README"
   end
 
   test do
