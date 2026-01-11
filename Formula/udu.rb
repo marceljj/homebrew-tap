@@ -7,7 +7,7 @@ class Udu < Formula
   license "GPL-3.0-or-later"
 
   depends_on "libomp"
-  depends_on "llvm"
+  depends_on "llvm@21"
 
   on_macos do
     depends_on "make"
