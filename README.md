@@ -26,7 +26,7 @@ brew tap marceljj/tap
 - [Tour](https://apps.gnome.org/Tour) - v49.0, (c) 2025, Bilal Elmoussaoui
 
 ## GNU Software
-- [Cursynth](https://www.gnu.org/software/cursynth) - v1.4, (c) 2014, Matt Tytel
+- [Cursynth](https://www.gnu.org/software/cursynth) - v1.4, (c) 2015, Matt Tytel
 - [gcal](https://www.gnu.org/software/gcal) - v4.1, (c) 2017, Thomas Esken
 - [Gengen](https://www.gnu.org/software/gengen) - v1.4.3, (c) 2021, Lorenzo Bettini
 - [gxmessage](https://trmusson.dreamhosters.com/programs.html#gxmessage) - v3.4.3, (c) 2015, Timothy Musson
