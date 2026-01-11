@@ -8,6 +8,7 @@ class LinksX11 < Formula
 
   depends_on "pkgconf" => :build
   depends_on "jpeg-turbo"
+  depends_on "libomp"
   depends_on "libpng"
   depends_on "libtiff"
   depends_on "libx11"
