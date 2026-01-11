@@ -7,6 +7,9 @@ class LinksX11 < Formula
   license "GPL-2.0-or-later" => { with: "openvpn-openssl-exception" }
 
   depends_on "pkgconf" => :build
+  depends_on "jpeg-turbo"
+  depends_on "libpng"
+  depends_on "libtiff"
   depends_on "libx11"
   depends_on "openssl@3"
 
@@ -16,7 +19,8 @@ class LinksX11 < Formula
   conflicts_with "links", because: "links installs a conflicting 'links' binary"
 
   def install
-    system "./configure", "--mandir=#{man}",
+    system "./configure", "--enable-graphics",
+                          "--mandir=#{man}",
                           "--with-ssl=#{Formula["openssl@3"].opt_prefix}",
                           *std_configure_args
     system "make", "install"
