@@ -9,6 +9,7 @@ class Udu < Formula
   depends_on "libomp"
   
   def install
+    inreplace "Makefile", "-include omp.mk", ""
     system "make", "CFLAGS=-fopenmp", "LDFLAGS=-fopenmp", "PREFIX=#{prefix}"
     system "make", "install", "PREFIX=#{prefix}"
   end
