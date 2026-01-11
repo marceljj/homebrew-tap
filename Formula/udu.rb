@@ -16,12 +16,12 @@ class Udu < Formula
   conflicts_with "uutils-coreutils", because: "uutils-coreutils installs a conflicting 'udu' binary"
   
   def install
-    ENV["CC"] = "#{Formula["llvm"].opt_prefix}/bin/clang"
+    ENV["PATH"] = "#{Formula["llvm"].opt_prefix}/bin/clang:$PATH"
     on_macos do
-      system "gmake", "-B"
+      system "gmake", "CC=clang", "-B"
     end
     on_linux do
-      system "make", "-B"
+      system "make", "CC=clang", "-B"
     end
 
     bin.install "udu"
