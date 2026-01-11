@@ -7,6 +7,7 @@ class Udu < Formula
   license "GPL-3.0-or-later"
 
   depends_on "libomp"
+  depends_on "llvm"
 
   on_macos do
     depends_on "make"
@@ -16,10 +17,10 @@ class Udu < Formula
   
   def install
     on_macos do
-      system "gmake"
+      system "gmake", "CC=clang", "-B"
     end
     on_linux do
-      system "make"
+      system "make", "CC=clang", "-B"
     end
     
     bin.install "udu"
