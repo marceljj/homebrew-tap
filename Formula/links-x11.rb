@@ -25,11 +25,11 @@ class LinksX11 < Formula
                           *std_configure_args
     system "make"
     system "make", "install"
-    doc.install Dir["doc/*"]
     (bin/"glinks").write <<~EOS
       #!/bin/sh
       links -g $1
     EOS
+    doc.install Dir["doc/*"]
   end
 
   test do
