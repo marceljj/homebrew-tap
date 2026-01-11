@@ -8,7 +8,6 @@ class LinksX11 < Formula
 
   depends_on "pkgconf" => :build
   depends_on "jpeg-turbo"
-  depends_on "libomp"
   depends_on "libpng"
   depends_on "libtiff"
   depends_on "libx11"
@@ -21,7 +20,6 @@ class LinksX11 < Formula
 
   def install
     system "./configure", "--enable-graphics",
-                          "--enable-openmp",
                           "--mandir=#{man}",
                           "--with-ssl=#{Formula["openssl@3"].opt_prefix}",
                           *std_configure_args
