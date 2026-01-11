@@ -17,10 +17,10 @@ class Udu < Formula
   
   def install
     on_macos do
-      system "gmake", "CC=clang", "-B"
+      system "gmake", "CC=clang-21", "-B"
     end
     on_linux do
-      system "make", "CC=clang", "-B"
+      system "make", "CC=clang-21", "-B"
     end
 
     bin.install "udu"
