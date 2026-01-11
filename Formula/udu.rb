@@ -7,11 +7,17 @@ class Udu < Formula
   license "GPL-3.0-or-later"
 
   depends_on "libomp"
+
+  conflicts_with "uutils-coreutils", because: "uutils-coreutils installs a conflicting 'udu' binary"
   
   def install
     inreplace "Makefile", "-include omp.mk", ""
-    system "make", "CFLAGS=-fopenmp", "LDFLAGS=-fopenmp", "PREFIX=#{prefix}"
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make", "CFLAGS=-fopenmp", "LDFLAGS=-fopenmp"
+    bin.install "udu"
+    man1.install "udu.1"
+    doc.install "BENCHMARKS.md"
+    doc.install "COPYING"
+    doc.install "README.md"
   end
 
   test do
