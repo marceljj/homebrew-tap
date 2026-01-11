@@ -111,6 +111,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
+- [udu](https://github.com/gnualmalki/udu) - v0.6.91, (c) 2025, Ali Al-Maliki
 - [xcowsay](http://www.doof.me.uk/xcowsay) - v1.6, (c) 2022, Nick Gasson
 
 ## Libraries
