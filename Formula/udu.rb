@@ -18,6 +18,7 @@ class Udu < Formula
     doc.install "BENCHMARKS.md"
     doc.install "COPYING"
     doc.install "README.md"
+    doc.install "VERSION"
   end
 
   test do
