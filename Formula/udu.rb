@@ -7,12 +7,21 @@ class Udu < Formula
   license "GPL-3.0-or-later"
 
   depends_on "libomp"
-  depends_on "make"
+
+  on_macos do
+    depends_on "make"
+  end
 
   conflicts_with "uutils-coreutils", because: "uutils-coreutils installs a conflicting 'udu' binary"
   
   def install
-    system "gmake"
+    on_macos do
+      system "gmake"
+    end
+    on_linux do
+      system "make"
+    end
+    
     bin.install "udu"
     man1.install "udu.1"
     doc.install "BENCHMARKS.md"
