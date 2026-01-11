@@ -20,7 +20,7 @@ class LinksX11 < Formula
 
   def install
     system "./configure", "--enable-graphics",
-                          "--enable-openmp"
+                          "--enable-openmp",
                           "--mandir=#{man}",
                           "--with-ssl=#{Formula["openssl@3"].opt_prefix}",
                           *std_configure_args
