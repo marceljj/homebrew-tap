@@ -68,6 +68,9 @@ brew tap marceljj/tap
 - [gtktetris](https://github.com/wader/gtktetris) - v2025.05, (c) 2025, Mattias Wadman
 - [Neverball](https://neverball.org) - v1.7.0-alpha.3, (c) 2024, Neverball
 
+## Web Browsers
+- [Links](https://links.twibright.com) - v2.30, (c) 2024, Twibright Labs
+
 ## X11 Window Managers
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
 - [bspwm](https://github.com/baskerville/bspwm) - v0.9.12 , (c) 2025, Bastien Dejean
