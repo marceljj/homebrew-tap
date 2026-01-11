@@ -23,8 +23,13 @@ class LinksX11 < Formula
                           "--mandir=#{man}",
                           "--with-ssl=#{Formula["openssl@3"].opt_prefix}",
                           *std_configure_args
+    system "make"
     system "make", "install"
     doc.install Dir["doc/*"]
+    (bin/"glinks").write <<~EOS
+      #!/bin/sh
+      links -g $1
+    EOS
   end
 
   test do
