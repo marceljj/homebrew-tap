@@ -27,6 +27,7 @@ class LinksX11 < Formula
     system "make", "install"
     (bin/"glinks").write <<~EOS
       #!/bin/sh
+      
       links -g $1
     EOS
     doc.install Dir["doc/*"]
