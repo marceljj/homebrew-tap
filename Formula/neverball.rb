@@ -34,13 +34,7 @@ class Neverball < Formula
     man1.install "dist/mapc.1"
     man6.install "dist/neverball.6"
     man6.install "dist/neverputt.6"
-    doc.install "doc/alpha.md"
-    doc.install "doc/authors.txt"
-    doc.install "doc/changes.txt"
-    doc.install "doc/install.txt"
-    doc.install "doc/legal"
-    doc.install "doc/manual.txt"
-    doc.install "doc/release-notes.md"
+    doc.install Dir["doc/*"]
     
     (share/"applications").install "dist/neverball.desktop.in" => "neverball.desktop"
     (share/"applications").install "dist/neverputt.desktop.in" => "neverputt.desktop"
