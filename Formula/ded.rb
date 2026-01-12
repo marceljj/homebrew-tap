@@ -1,8 +1,8 @@
 class Ded < Formula
-  version "12.1"
-  desc "Tom Dickey's UNIX library"
-  homepage "https://invisible-island.net"
-  url "https://invisible-island.net/datafiles/release/td_lib.tar.gz"
+  version "12.0"
+  desc "A directory editor for UNIX systems"
+  homepage "https://invisible-island.net/ded"
+  url "https://invisible-island.net/datafiles/release/ded.tar.gz"
   license "MIT"
 
   depends_on "td-lib"
