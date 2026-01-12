@@ -9,7 +9,8 @@ class Ded < Formula
   depends_on "td-lib"
   
   def install
-    inreplace "configure", "/opt/local", "#{prefix}"
+    ENV["CFLAGS"] = "-I#{Formula["td-lib"].prefix}/include"
+    ENV["LDFLAGS"] = "-L#{Formula["td-lib"].prefix}/lib"
     
     system "./configure", *std_configure_args
     system "make"
