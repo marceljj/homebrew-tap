@@ -9,7 +9,7 @@ class Ded < Formula
   depends_on "td-lib"
   
   def install
-    inreplace "configure", "/opt/local" "#{prefix}"
+    inreplace "configure", "/opt/local", "#{prefix}"
     
     system "./configure", *std_configure_args
     system "make"
