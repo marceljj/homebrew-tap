@@ -6,7 +6,7 @@ class Ded < Formula
   sha256 "b5bfb0850a70f3b1e64c9736e73d00788442bfc4c273b5b3d13f68f454a8c530"
   license "MIT"
 
-  depends_on "td_lib"
+  depends_on "td-lib"
   
   def install
     system "./configure", *std_configure_args
