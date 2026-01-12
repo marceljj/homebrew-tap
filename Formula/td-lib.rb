@@ -14,7 +14,7 @@ class TdLib < Formula
     (share/"pkgconfig/td_lib.pc").write <<~EOS
       prefix=#{prefix}
       libdir=${prefix}/lib
-      includedir=${prefix}/include/td-lib
+      includedir=${prefix}/include/td
       
       Name: Tom Dickey's UNIX library
       Description: A common library for software written by Thomas E. Dickey
