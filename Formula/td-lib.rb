@@ -10,17 +10,6 @@ class TdLib < Formula
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
-    (share/"pkgconfig/td_lib.pc").write <<~EOS
-      prefix=#{prefix}
-      libdir=${prefix}/lib
-      includedir=${prefix}/include/td-lib
-
-      Name: Tom Dickey's UNIX library
-      Description: A common library for software written by Thomas E. Dickey
-      Version: 12.1
-      Cflags: -I${includedir}
-      Libs: -L${libdir} -ltd
-    EOS
   end
 
   test do
