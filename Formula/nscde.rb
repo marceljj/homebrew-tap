@@ -7,6 +7,8 @@ class Nscde < Formula
   license "GPL-3.0"
 
   depends_on "fvwm3"
+  depends_on "gtk+"
+  depends_on "gtk+3"
   depends_on "imagemagick"
   depends_on "libx11"
   depends_on "libxpm"
@@ -18,6 +20,7 @@ class Nscde < Formula
   depends_on "xterm"
 
   on_linux do
+    depends_on "gkrellm"
     depends_on "ksh93"
   end
 
