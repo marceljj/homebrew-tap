@@ -10,7 +10,16 @@ class DicomRs < Formula
 
   def install
     system "cargo", "build", "--locked", "--release"
-    bin.install "target/release/dicom-*"
+    
+    bin.install "target/release/dicom-dictionary-builder"
+    bin.install "target/release/dicom-dump"
+    bin.install "target/release/dicom-echoscu"
+    bin.install "target/release/dicom-findscu"
+    bin.install "target/release/dicom-fromimage"
+    bin.install "target/release/dicom-scpproxy"
+    bin.install "target/release/dicom-storescp"
+    bin.install "target/release/dicom--storescu"
+    bin.install "target/release/dicom-toimage"
     doc.install "CODE_OF_CONDUCT.md"
     doc.install "CONTRIBUTING.md"
     doc.install "LICENSE-APACHE"
