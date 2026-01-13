@@ -7,7 +7,14 @@ class Nscde < Formula
   license "GPL-3.0"
 
   depends_on "fvwm3"
+  depends_on "imagemagick"
   depends_on "libxpm"
+  depends_on "pyqt@5"
+  depends_on "xdotool"
+
+  on_linux do
+    depends_on "ksh93"
+  end
 
   def install
     system "./configure", *std_configure_args
