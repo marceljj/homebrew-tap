@@ -8,9 +8,14 @@ class Nscde < Formula
 
   depends_on "fvwm3"
   depends_on "imagemagick"
+  depends_on "libx11"
   depends_on "libxpm"
   depends_on "pyqt@5"
+  depends_on "qt@5"
+  depends_on "rofi"
+  depends_on "xclip"
   depends_on "xdotool"
+  depends_on "xterm"
 
   on_linux do
     depends_on "ksh93"
