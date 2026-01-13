@@ -7,7 +7,7 @@ class Gofish < Formula
   license "GPL-2.0"
 
   def install
-    inreplace "checkfiles", "/var/gopher", "#{prefix}/var/gopher"
+    inreplace "check-files", "/var/gopher", "#{prefix}/var/gopher"
     inreplace "gofish.1", "/etc/gofish.conf", "#{prefix}/etc/gofish.conf"
     
     system "./configure", *std_configure_args
