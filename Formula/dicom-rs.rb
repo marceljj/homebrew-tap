@@ -18,7 +18,7 @@ class DicomRs < Formula
     bin.install "target/release/dicom-fromimage"
     bin.install "target/release/dicom-scpproxy"
     bin.install "target/release/dicom-storescp"
-    bin.install "target/release/dicom--storescu"
+    bin.install "target/release/dicom-storescu"
     bin.install "target/release/dicom-toimage"
     doc.install "CODE_OF_CONDUCT.md"
     doc.install "CONTRIBUTING.md"
