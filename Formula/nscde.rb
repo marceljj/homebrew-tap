@@ -19,6 +19,10 @@ class Nscde < Formula
   depends_on "xdotool"
   depends_on "xterm"
 
+  on_macos do
+    depends_on "gettext"
+  end
+  
   on_linux do
     depends_on "gkrellm"
     depends_on "ksh93"
