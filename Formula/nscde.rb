@@ -17,7 +17,9 @@ class Nscde < Formula
   depends_on "qt@5"
   depends_on "rofi"
   depends_on "xclip"
+  depends_on "xdpyinfo"
   depends_on "xdotool"
+  depends_on "xprop"
   depends_on "xterm"
 
   on_macos do
