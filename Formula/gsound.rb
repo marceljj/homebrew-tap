@@ -6,7 +6,6 @@ class Gsound < Formula
   sha256 "ebee33c77f43bcae87406c20e051acaff08e86f8960c35b92911e243fddc7a0b"
   license "LGPL-2.1"
 
-  depends_on "gtk-doc" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
@@ -17,10 +16,6 @@ class Gsound < Formula
 
   def install
     ENV["DESTDIR"] = "/"
-
-    args = %w[
-      -Dgtk_doc=true
-    ]
 
     system "meson", "setup", "build", *args, *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
