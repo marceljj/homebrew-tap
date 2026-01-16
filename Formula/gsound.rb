@@ -22,6 +22,12 @@ class Gsound < Formula
     system "meson", "install", "-C", "build"
   end
 
+  def caveats
+    <<~EOS
+      gsound does not work properly on macOS, however it still works as a dependency (without sound)
+    EOS
+  end
+
   test do
     system "false"
   end
