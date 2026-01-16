@@ -20,6 +20,10 @@ class GnomeNibbles < Formula
   depends_on "libgnome-games-support"
   depends_on "pango"
 
+  on_macos do
+    depends_on "gettext"
+  end
+
   def install
     ENV["DESTDIR"] = "/"
 
