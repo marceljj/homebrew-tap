@@ -19,7 +19,7 @@ class Gsound < Formula
     ENV["DESTDIR"] = "/"
 
     args = %w[
-      -Dgtk-doc=true
+      -Dgtk_doc=true
     ]
 
     system "meson", "setup", "build", *args, *std_meson_args
