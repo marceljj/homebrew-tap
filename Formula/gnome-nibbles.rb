@@ -6,6 +6,7 @@ class GnomeNibbles < Formula
   sha256 "5c4c084c0158949c42307fe997f3c9528394f85e6aef581e81c90cba8bcc7607"
   license "GPL-3.0"
 
+  depends_on "desktop-file-utils" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
