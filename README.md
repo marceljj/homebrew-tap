@@ -117,7 +117,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 
 ## Libraries
 - [c++-gtk-utils](https://cxx-gtk-utils.sourceforge.net) - v2.2.20, (c) 2021, Chris Vine
-- [gsound](https://wiki.gnome.org/Projects/GSound) - v1.0.3, (c) 2021, The GNOME Project
+- [gsound](https://gitlab.gnome.org/GNOME/gsound) - v1.0.3, (c) 2021, The GNOME Project
 - [libbacktrace](https://github.com/ianlancetaylor/libbacktrace) - v2025.11, (c) 2025, Ian Lance Taylor
 - [libdockapp](https://www.dockapps.net/libdockapp) - v0.6.4, (c) 2003, Alfredo K. Kojima
 - [libdstr](https://flaterco.com/util) - v1.0, (c) 2013, Dave Flater
