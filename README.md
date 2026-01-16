@@ -21,6 +21,7 @@ brew tap marceljj/tap
 - [Console](https://apps.gnome.org/Console) - v49.1, (c) 2025, Zander Brown
 - [Fonts](https://apps.gnome.org/FontViewer) - v49.0, (c) 2025, Christopher Davis and Evan Welsh
 - [Lorem](https://apps.gnome.org/Lorem) - v1.6, (c) 2025, Maximiliano Sandoval
+- [Nibbles](https://gitlab.gnome.org/GNOME/gnome-nibbles) - v4.4.2, (c) 2025, The GNOME Project
 - [Ptyxis](https://gitlab.gnome.org/chergert/ptyxis) - v49.2, (c) 2023, Christian Hergert
 - [Robots](https://gitlab.gnome.org/GNOME/gnome-robots) - v41.2, (c) 2025, Mark Rae
 - [Tour](https://apps.gnome.org/Tour) - v49.0, (c) 2025, Bilal Elmoussaoui
@@ -116,9 +117,11 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 
 ## Libraries
 - [c++-gtk-utils](https://cxx-gtk-utils.sourceforge.net) - v2.2.20, (c) 2021, Chris Vine
+- [gsound](https://wiki.gnome.org/Projects/GSound) - v1.0.3, (c) 2021, The GNOME Project
 - [libbacktrace](https://github.com/ianlancetaylor/libbacktrace) - v2025.11, (c) 2025, Ian Lance Taylor
 - [libdockapp](https://www.dockapps.net/libdockapp) - v0.6.4, (c) 2003, Alfredo K. Kojima
 - [libdstr](https://flaterco.com/util) - v1.0, (c) 2013, Dave Flater
+- [libgnome-games-support](https://gitlab.gnome.org/GNOME/libgnome-games-support) - v2.0.2, (c) 2025, The GNOME Project
 - [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
 - [libixp](https://code.google.com/archive/p/libixp) - v2025.12, (c) 2025, Anselm R. Garbe, Kris Maglione
