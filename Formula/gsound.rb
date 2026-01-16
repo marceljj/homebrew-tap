@@ -1,6 +1,6 @@
 class Gsound < Formula
   version "1.0.3"
-  desc "A small library for playing system sounds"
+  desc "A small GObject library for playing system sounds"
   homepage "https://gitlab.gnome.org/GNOME/gsound"
   url "https://gitlab.gnome.org/GNOME/gsound/-/archive/#{version}/gsound-#{version}.tar.gz"
   sha256 "ebee33c77f43bcae87406c20e051acaff08e86f8960c35b92911e243fddc7a0b"
