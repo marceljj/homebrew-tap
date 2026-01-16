@@ -13,6 +13,7 @@ class LibgnomeGamesSupport < Formula
   depends_on "glib"
   depends_on "gtk4"
   depends_on "libadwaita"
+  depends_on "libgee"
 
   def install
     ENV["DESTDIR"] = "/"
