@@ -17,8 +17,6 @@ class Gnome2048 < Formula
 
   def install
     ENV["DESTDIR"] = "/"
-    
-    inreplace "meson.build", "subdir('help')", ""
 
     system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
