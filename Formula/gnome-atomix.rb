@@ -17,6 +17,8 @@ class GnomeAtomix < Formula
   def install
     ENV["DESTDIR"] = "/"
 
+    inreplace "meson.build", "libgnome-games-support-1", "libgnome-games-support"
+
     system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
