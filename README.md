@@ -20,6 +20,7 @@ brew tap marceljj/tap
 - [2048](https://gitlab.gnome.org/GNOME/gnome-2048) - v50.alpha.2, (c) 2025, The GNOME Project
 - [Calculator](https://apps.gnome.org/Calculator) - v49.2, (c) 2025, Robert Roth
 - [Console](https://apps.gnome.org/Console) - v49.1, (c) 2025, Zander Brown
+- [D-Spy](https://gitlab.gnome.org/GNOME/d-spy) - v50.alpha, (c), 2026, The GNOME Project
 - [Fonts](https://apps.gnome.org/FontViewer) - v49.0, (c) 2025, Christopher Davis and Evan Welsh
 - [Lorem](https://apps.gnome.org/Lorem) - v1.6, (c) 2025, Maximiliano Sandoval
 - [Nibbles](https://gitlab.gnome.org/GNOME/gnome-nibbles) - v4.4.2, (c) 2025, The GNOME Project
