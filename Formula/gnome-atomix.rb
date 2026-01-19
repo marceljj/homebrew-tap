@@ -1,4 +1,4 @@
-class Gnome2048 < Formula
+class GnomeAtomix < Formula
   version "48.alpha"
   desc "A mind game - build molecules out of single atoms"
   homepage "https://gitlab.gnome.org/GNOME/gnome-2048"
