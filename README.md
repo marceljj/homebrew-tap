@@ -17,6 +17,7 @@ brew tap marceljj/tap
 - [XQuartz (beta)](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
 
 ## GNOME Software
+- [2048](https://gitlab.gnome.org/GNOME/gnome-2048) - v50.alpha.2, (c) 2025, The GNOME Project
 - [Calculator](https://apps.gnome.org/Calculator) - v49.2, (c) 2025, Robert Roth
 - [Console](https://apps.gnome.org/Console) - v49.1, (c) 2025, Zander Brown
 - [Fonts](https://apps.gnome.org/FontViewer) - v49.0, (c) 2025, Christopher Davis and Evan Welsh
