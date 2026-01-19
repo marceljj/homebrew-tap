@@ -6,6 +6,7 @@ class Gnome2048 < Formula
   sha256 "662aa92742d2390b4c1c432fbbbc28a9ac3c8b79e7f59cab34024bf0bcbf99c4"
   license "GPL-3.0-or-later"
 
+  depends_on "cargo" => :build
   depends_on "desktop-file-utils" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
