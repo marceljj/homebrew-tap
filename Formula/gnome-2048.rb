@@ -27,7 +27,6 @@ class Gnome2048 < Formula
   end
 
   def post_install
-    system Formula["desktop-file-utils"].opt_bin/"desktop-file-validate", HOMEBREW_PREFIX/"share/applications"
     system Formula["glib"].opt_bin/"glib-compile-schemas", HOMEBREW_PREFIX/"share/glib-2.0/schemas"
     system Formula["gtk4"].opt_bin/"gtk4-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
   end
