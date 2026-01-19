@@ -7,6 +7,7 @@ class Gnome2048 < Formula
   license "GPL-3.0-or-later"
 
   depends_on "desktop-file-utils" => :build
+  depends_on "itstool" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
