@@ -1,16 +1,17 @@
-class Larswm < Formula
-  version "0.22pl3"
-  desc "A rewrite of 9wm that adds automatic tiling, virtual desktops and many more features"
-  homepage "http://porneia.free.fr/larswm/larswm.html"
-  url "https://ftp.lysator.liu.se/pub/X11/wm/amiwm/amiwm#{version}.tar.gz"
-  sha256 "6c3dc08d84cf43cefefb90a884d3dde9a546d71e3d994286f5efd23fc7dca253"
+class 9wm < Formula
+  version "1.4.2"
+  desc "X11 Window Manager inspired by Plan 9's rio"
+  homepage "https://github.com/9wm/9wm"
+  url "https://github.com/9wm/9wm/archive/refs/tags/#{version}.tar.gz"
+  sha256 "7c7b9c6510de633af7ab46e9f85bb8ed916b021d012482e5ca01651be55b79f6"
   license "MIT"
 
-  depends_on "imake"
   depends_on "libx11"
+  depends_on "libxext"
 
   def install
-    system "xmkmf"
+    system "make", "PREFIX=#{prefix}"
+    system "make", "install", "PREFIX=#{prefix}"
   end
   
   test do
