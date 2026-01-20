@@ -10,6 +10,7 @@ class Vtwm < Formula
   depends_on "libx11"
   depends_on "libxext"
   depends_on "libxmu"
+  depends_on "libxpm"
   depends_on "libxt"
 
   def install
