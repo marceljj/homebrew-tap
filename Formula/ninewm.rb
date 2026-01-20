@@ -1,4 +1,4 @@
-class 9wm < Formula
+class ninewm < Formula
   version "1.4.2"
   desc "X11 Window Manager inspired by Plan 9's rio"
   homepage "https://github.com/9wm/9wm"
