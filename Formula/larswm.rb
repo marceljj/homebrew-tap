@@ -11,8 +11,6 @@ class Larswm < Formula
 
   def install
     system "xmkmf"
-    system "make", "DESTDIR=#{prefix}"
-    system "make", "install", "DESTDIR=#{prefix}"
   end
   
   test do
