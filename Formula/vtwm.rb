@@ -13,6 +13,13 @@ class Vtwm < Formula
   depends_on "libxt"
 
   def install
+    inreplace "add_window.c" do
+      s.gsub! "<string.h>", "<string.h>\n#include <time.h"
+      s.gsub! "static lastwingroup", "static int lastwingroup"
+      s.gsub! "static lastwin", "static int lastwin"
+      s.gsub! "static lasttime", "static int lasttime"
+    end
+    
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
