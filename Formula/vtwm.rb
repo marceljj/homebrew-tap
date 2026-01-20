@@ -24,6 +24,7 @@ class Vtwm < Formula
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
+    doc.install Dir.["doc"]
   end
   
   test do
