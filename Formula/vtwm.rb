@@ -1,18 +1,17 @@
-class Ninewm < Formula
-  version "1.4.2"
-  desc "X11 Window Manager inspired by Plan 9's rio"
-  homepage "https://github.com/9wm/9wm"
-  url "https://github.com/9wm/9wm/archive/refs/tags/#{version}.tar.gz"
-  sha256 "7c7b9c6510de633af7ab46e9f85bb8ed916b021d012482e5ca01651be55b79f6"
+class Vtwm < Formula
+  version "5.5.0"
+  desc "Virtual Tab Window Manager for the X Window System"
+  homepage "http://www.vtwm.org"
+  url "http://sourceforge.net/projects/vtwm/files/vtwm-#{version}.tar.gz"
+  sha256 "448d7afd8d5a5fcfabf1b9c64b811cfa6bdbf8892c067fe01a141806ef61eaf4"
   license "MIT"
 
   depends_on "libx11"
-  depends_on "libxext"
 
   def install
-    system "make", "PREFIX=#{prefix}"
-    bin.install "9wm"
-    man1.install "9wm.man" => "9wm.1"
+    system "./configure", *std_configure_args
+    system "make"
+    system "make", "install"
   end
   
   test do
