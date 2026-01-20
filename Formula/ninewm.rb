@@ -10,8 +10,8 @@ class Ninewm < Formula
   depends_on "libxext"
 
   def install
-    system "make", "PREFIX=#{prefix}"
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make"
+    system "make", "install"
   end
   
   test do
