@@ -12,6 +12,7 @@ class Vtwm < Formula
   depends_on "libxmu"
   depends_on "libxpm"
   depends_on "libxt"
+  depends_on "m4"
 
   def install
     inreplace "add_window.c" do |s|
