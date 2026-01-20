@@ -10,8 +10,9 @@ class Ninewm < Formula
   depends_on "libxext"
 
   def install
-    system "make"
-    system "make", "install"
+    system "make", "PREFIX=#{prefix}"
+    bin.install "9wm"
+    man1.install "9wm.man" => "9wm.1"
   end
   
   test do
