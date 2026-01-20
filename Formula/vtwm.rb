@@ -6,7 +6,11 @@ class Vtwm < Formula
   sha256 "448d7afd8d5a5fcfabf1b9c64b811cfa6bdbf8892c067fe01a141806ef61eaf4"
   license "MIT"
 
+  depends_on "pkgconf" => :build
   depends_on "libx11"
+  depends_on "libxext"
+  depends_on "libxmu"
+  depends_on "libxt"
 
   def install
     system "./configure", *std_configure_args
