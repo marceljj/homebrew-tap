@@ -14,7 +14,10 @@ class Ratpoison < Formula
   depends_on "libxcb"
   depends_on "libxdmcp"
   depends_on "libxft"
+  depends_on "libxkbcommon"
+  depends_on "libxkbfile"
   depends_on "libxrender"
+  depends_on "xkbcomp"
   depends_on "xorgproto"
 
   def install
