@@ -75,6 +75,7 @@ brew tap marceljj/tap
 - [Links](https://links.twibright.com) - v2.30, (c) 2024, Twibright Labs
 
 ## X11 Window Managers
+- [9wm](https://github.com/9wm/9wm) - v1.4.2, (c) 2022, David Hogan
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
 - [bspwm](https://github.com/baskerville/bspwm) - v0.9.12 , (c) 2025, Bastien Dejean
 - [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
