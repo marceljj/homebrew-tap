@@ -14,7 +14,7 @@ class Vtwm < Formula
 
   def install
     inreplace "add_window.c" do |s|
-      s.gsub! "<string.h>", "<string.h>\n#include <time.h"
+      s.gsub! "<string.h>", "<string.h>\n#include <time.h>"
       s.gsub! "static lastwingroup", "static int lastwingroup"
       s.gsub! "static lastwin", "static int lastwin"
       s.gsub! "static lasttime", "static int lasttime"
