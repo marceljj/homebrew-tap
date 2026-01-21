@@ -1,6 +1,6 @@
 class Xtt < Formula
   version "1.0"
-  desc "A program which displays a timetable, one day at a time, between Monday and Friday."
+  desc "A program which displays a timetable, one day at a time, between Monday and Friday"
   homepage "https://x11cp.org/apps/xtt"
   url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
   license :public_domain
