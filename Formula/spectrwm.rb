@@ -7,6 +7,7 @@ class Spectrwm < Formula
   license "ISC"
 
   depends_on "fontconfig"
+  depends_on "freetype2"
   depends_on "libx11"
   depends_on "libxcb"
   depends_on "libxcb"
