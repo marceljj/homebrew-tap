@@ -7,6 +7,10 @@ class Xinvest < Formula
 
   depends_on "imake" => :build
   depends_on "libx11"
+  depends_on "libxext"
+  depends_on "libxmu"
+  depends_on "libxpm"
+  depends_on "libxt"
   depends_on "openmotif"
 
   def install
@@ -17,9 +21,8 @@ class Xinvest < Formula
       inreplace "status.c", "static lineno", "int static lineno"
       inreplace "xinvest.c", "<unistd.h>", "<unistd.h>\n#include <stdlib.h>"
 
-      system "touch", "Xinvest.man"
       system "xmkmf"
-      system "make"
+      system "make", "xinvest"
       bin.install "Xinvest"
       (lib/"X11/app-defaults").install "Xinvest.ad" => "Xinvest"
       doc.install "CHANGES"
