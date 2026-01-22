@@ -7,4 +7,5 @@ cask "neko-mac" do
   homepage "https://github.com/mdonoughe/neko-mac"
 
   app "Neko.app"
+  binary "#{appdir}/Neko.app/Contents/MacOS/Neko", target: "neko-mac"
 end
