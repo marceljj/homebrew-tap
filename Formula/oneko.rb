@@ -1,6 +1,6 @@
 class Oneko < Formula
   version "1.2.sakura.5"
-  desc "An ancient Motif-based toolbar for X11"
+  desc "A cute cat that chases your cursor"
   homepage "http://www.daidouji.com/oneko"
   url "http://www.daidouji.com/oneko/distfiles/oneko-#{version}.tar.gz"
   sha256 "2c2e05f1241e9b76f54475b5577cd4fb6670de058218d04a741a04ebd4a2b22f"
