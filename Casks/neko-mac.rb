@@ -4,7 +4,7 @@ cask "neko-mac" do
   url "https://github.com/mdonoughe/neko-mac/releases/download/v#{version}/Neko-#{version}.dmg"
   name "Neko"
   desc "Oneko in Cocoa"
-  homepage "hhttps://github.com/mdonoughe/neko-mac"
+  homepage "https://github.com/mdonoughe/neko-mac"
 
   app "Neko.app"
 end
