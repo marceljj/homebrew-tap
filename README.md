@@ -116,6 +116,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
+- [oneko](http://www.daidouji.com/oneko) - v1.2.sakura.5, (c) 1999, Kiichiroh Mukose
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
