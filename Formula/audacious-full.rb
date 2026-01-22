@@ -29,6 +29,7 @@ class AudaciousFull < Formula
   depends_on "jack"
   depends_on "json-glib"
   depends_on "lame"
+  depends_on "libarchive"
   depends_on "libbs2b"
   depends_on "libcue"
   depends_on "libmodplug"
