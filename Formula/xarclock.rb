@@ -24,7 +24,7 @@ class Xarclock < Formula
       end
       
       system "xmkmf"
-      system "make"
+      system "make", "xarclock"
       bin.install "xarclock"
       
       doc.install "README"
