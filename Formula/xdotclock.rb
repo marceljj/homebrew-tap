@@ -1,7 +1,7 @@
 class Xdotclock < Formula
   version "0.1.0"
   desc "A simple digital clock for X Windows"
-  homepage "https://x11cp.org/apps/xinvest"
+  homepage "https://x11cp.org/apps/xdotclock"
   url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
   license "GPL-2.0"
 
