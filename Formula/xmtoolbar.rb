@@ -4,7 +4,8 @@ class Xmtoolbar < Formula
   homepage "https://x11cp.org/apps/xmtoolbar"
   url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
   license :public_domain
-  
+
+  depends_on "libx11"
   depends_on "openmotif"
 
   def install
