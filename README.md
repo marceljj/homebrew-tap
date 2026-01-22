@@ -101,6 +101,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [xmoontool](https://x11cp.org/apps/xmoontool) - v3.0.1, (c) 1991, John Walker
 - [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - v1.2, (c) 1996, Thomas Zwettler
 - [xtt](https://x11cp.org/apps/xtt) - v1.0, (c) 1995, Matthew Chapman
+- [xzoom](https://x11cp.org/apps/xzoom) - v0.3-23, (c) 2008, Itai Nahshon
 
 ## Utilities
 - [bmk](https://trmusson.dreamhosters.com/programs.html#bmk) - v1.3, (c) 2018, Tim Musson
