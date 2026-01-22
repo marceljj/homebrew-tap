@@ -8,13 +8,13 @@ class Xinvest < Formula
   depends_on "imake" => :build
   depends_on "libx11"
   depends_on "libxext"
-  depends_on "libxmu"
   depends_on "libxpm"
   depends_on "libxt"
   depends_on "openmotif"
 
   def install
     Dir.chdir("src/xinvest") do
+      system "touch", "xinvest.man"
       inreplace "drawing.c", "static firsttime", "int static firsttime"
       inreplace "Imakefile", "-fcommon", "-fcommon -w"
       inreplace "portfolio.c", "<values.h>", "<float.h>"
