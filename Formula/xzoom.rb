@@ -1,0 +1,23 @@
+class Xzoom < Formula
+  version "1.2"
+  desc "A magnifier for X11, allowing for portions of windows or the desktop to be magnified"
+  homepage "https://x11cp.org/apps/xzoom"
+  url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
+  license "xzoom"
+  
+  depends_on "libx11"
+
+  def install
+    Dir.chdir("src/xzoom") do
+      inreplace "xzoom.c", "<stdlib.h>", "<stdlib.h>\n#include <unistd.h"
+    
+      system "make"
+      bin.install "xzoom"
+      man1.install "xzoom.man" => "xzoom.1x"
+    end
+  end
+
+  test do
+    system "false"
+  end
+end
