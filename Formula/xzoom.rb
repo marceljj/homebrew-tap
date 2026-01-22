@@ -10,7 +10,8 @@ class Xzoom < Formula
   def install
     Dir.chdir("src/xzoom") do
       inreplace "xzoom.c", "<stdlib.h>", "<stdlib.h>\n#include <unistd.h"
-    
+
+      system "xmkmf"
       system "make"
       bin.install "xzoom"
       man1.install "xzoom.man" => "xzoom.1x"
