@@ -22,7 +22,7 @@ class Xinvest < Formula
       inreplace "xinvest.c", "<unistd.h>", "<unistd.h>\n#include <stdlib.h>"
 
       system "xmkmf"
-      system "make", "xinvest"
+      system "make"
       bin.install "Xinvest"
       (lib/"X11/app-defaults").install "Xinvest.ad" => "Xinvest"
       doc.install "CHANGES"
