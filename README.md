@@ -73,6 +73,8 @@ brew tap marceljj/tap
 - [dopewars](https://dopewars.sourceforge.io) - v1.6.2, (c) 2023, Ben Webb
 - [gtktetris](https://github.com/wader/gtktetris) - v2025.05, (c) 2025, Mattias Wadman
 - [Neverball](https://neverball.org) - v1.7.0-alpha.3, (c) 2024, Neverball
+- [oneko](http://www.daidouji.com/oneko) - v1.2.sakura.5, (c) 1999, Kiichiroh Mukose
+- [xcowsay](http://www.doof.me.uk/xcowsay) - v1.6, (c) 2022, Nick Gasson
 
 ## Web Browsers
 - [Links](https://links.twibright.com) - v2.30, (c) 2024, Twibright Labs
@@ -117,12 +119,10 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
-- [oneko](http://www.daidouji.com/oneko) - v1.2.sakura.5, (c) 1999, Kiichiroh Mukose
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
 - [udu](https://github.com/gnualmalki/udu) - v0.6.91, (c) 2025, Ali Almalki
-- [xcowsay](http://www.doof.me.uk/xcowsay) - v1.6, (c) 2022, Nick Gasson
 
 ## Libraries
 - [c++-gtk-utils](https://cxx-gtk-utils.sourceforge.net) - v2.2.20, (c) 2021, Chris Vine
