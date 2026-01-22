@@ -21,6 +21,10 @@ class Oneko < Formula
     system "make"
     bin.install "oneko"
     man6.install "oneko.man" => "oneko.6"
+
+    doc.install "README"
+    doc.install "README-NEW"
+    doc.install "README-SUPP"
   end
 
   test do
