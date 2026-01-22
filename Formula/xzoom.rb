@@ -1,5 +1,5 @@
 class Xzoom < Formula
-  version "1.2"
+  version "0.3-23"
   desc "A magnifier for X11, allowing for portions of windows or the desktop to be magnified"
   homepage "https://x11cp.org/apps/xzoom"
   url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
