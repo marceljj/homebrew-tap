@@ -28,6 +28,6 @@ class Oneko < Formula
   end
 
   test do
-    system "false"
+    system "oneko", "-h"
   end
 end
