@@ -6,6 +6,7 @@ class Mgdiff < Formula
   license :public_domain
 
   depends_on "imake" => :build
+  depends_on "libx11"
   depends_on "openmotif"
 
   def install
