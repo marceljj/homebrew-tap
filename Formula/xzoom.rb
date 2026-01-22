@@ -14,6 +14,10 @@ class Xzoom < Formula
       system "make"
       bin.install "xzoom"
       man1.install "xzoom.man" => "xzoom.1x"
+      
+      doc.install "copyright"
+      doc.install "changelog"
+      doc.install "README.orig"
     end
   end
 
