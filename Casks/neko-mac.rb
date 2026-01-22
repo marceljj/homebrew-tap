@@ -6,5 +6,5 @@ cask "neko-mac" do
   desc "Oneko in Cocoa"
   homepage "hhttps://github.com/mdonoughe/neko-mac"
 
-  app "Neko.app"
+  app "Neko.app", target: "Neko.app"
 end
