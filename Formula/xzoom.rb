@@ -4,7 +4,8 @@ class Xzoom < Formula
   homepage "https://x11cp.org/apps/xzoom"
   url "https://codeberg.org/x11cp/x11cp.git", branch: "main"
   license "xzoom"
-  
+
+  depends_on "imake" => :build
   depends_on "libx11"
 
   def install
