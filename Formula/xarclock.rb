@@ -7,6 +7,9 @@ class Xarclock < Formula
 
   depends_on "imake" => :build
   depends_on "libx11"
+  depends_on "libxaw"
+  depends_on "libxmu"
+  depends_on "libxt"
   
   def install
     Dir.chdir("src/xarclock") do
