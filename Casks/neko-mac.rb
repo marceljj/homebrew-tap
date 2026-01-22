@@ -1,6 +1,6 @@
 cask "neko-mac" do
   version "1.1"
-  sha256 "7fea2eb9de6a4694e56da9f7750f8f002d272891908b730020122b22beb59c0c"
+  sha256 "ed3a93bb988754bc7a5f6af49e5af0b935d6f80190fa2ab1148d7abb9a5f1fd6"
   url "https://github.com/mdonoughe/neko-mac/releases/download/v#{version}/Neko-#{version}.dmg"
   name "Neko"
   desc "Oneko in Cocoa"
