@@ -7,4 +7,8 @@ cask "neko-mac" do
   homepage "https://github.com/mdonoughe/neko-mac"
 
   app "Neko.app"
+
+  caveats do
+      requires_rosetta
+  end
 end
