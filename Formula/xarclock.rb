@@ -9,7 +9,7 @@ class Xarclock < Formula
   depends_on "libx11"
   
   def install
-    Dir.chdir("src/xdotclock") do
+    Dir.chdir("src/xarclock") do
       inreplace "ARClock.c" do |s|
         s.gsub! "static erase_hands(), round();", "int static erase_hands(), round();"
         s.gsub! "register i, j;", "int register i, j;"
