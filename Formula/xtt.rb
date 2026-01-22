@@ -6,6 +6,7 @@ class Xtt < Formula
   license :public_domain
 
   depends_on "imake" => :build
+  depends_on "libx11"
 
   def install
     Dir.chdir("src/xtt") do
