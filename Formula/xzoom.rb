@@ -7,6 +7,8 @@ class Xzoom < Formula
 
   depends_on "imake" => :build
   depends_on "libx11"
+  depenends_on "libxext"
+  depends_on "libxt"
 
   def install
     Dir.chdir("src/xzoom") do
