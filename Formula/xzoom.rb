@@ -6,7 +6,6 @@ class Xzoom < Formula
   license "xzoom"
 
   depends_on "imake" => :build
-  depends_on "xorgproto" => :build
   depends_on "libx11"
   depends_on "libxext"
   depends_on "libxt"
