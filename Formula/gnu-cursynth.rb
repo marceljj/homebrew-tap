@@ -8,11 +8,8 @@ class GnuCursynth < Formula
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
+  depends_on "gettext" => :build
   depends_on "pkgconf" => :build
-
-  on_macos do
-    depends_on "gettext"
-  end
 
   def install
     system "autoreconf", "-fi"
