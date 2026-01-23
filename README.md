@@ -94,7 +94,7 @@ brew tap marceljj/tap
 - [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, (c) 2025, Abhinav Prasai
 - [vtwm](http://www.vtwm.org) - v5.5.0, (c) 2018, Tom LaStrange, Jim Fulton
 
-## Old X11 software
+## X11 Conservancy Project
 _Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org)._
 - [bclock](https://x11cp.org/apps/bclock) - v1.0, (c) 1997, Ivo van Geel
 - [mgdiff](https://x11cp.org/apps/mgdiff) - v1.0, (c) 1994, Daniel Williams
