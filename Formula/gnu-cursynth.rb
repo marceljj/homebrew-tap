@@ -11,10 +11,6 @@ class GnuCursynth < Formula
   depends_on "gettext" => :build
   depends_on "pkgconf" => :build
 
-  on_linux do
-    depends_on "gcc" => :build
-  end
-
   def install
     system "autoreconf", "-fi"
     system "./configure", *std_configure_args
