@@ -2,7 +2,7 @@ class Xabacus < Formula
   version "8.9.2"
   desc "An abacus for X11"
   homepage "https://www.sillycycle.com/abacus.html"
-  url "https://www.sillycycle.com/abacus/xabacus-8.9.2.tar.xz"
+  url "http://www.sillycycle.com/abacus/xabacus-#{version}.tar.xz"
   sha256 "45f092219b006e6a15f93d9d3b585a5dc139ccef8bf590b6de31aab2fba1fb8e"
   license "MIT"
 
