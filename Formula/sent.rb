@@ -12,7 +12,7 @@ class Sent < Formula
   def install
     inreplace "config.mk" do |s|
       s.gsub! "PREFIX = /usr/local", "PREFIX = #{prefix}"
-      s.gsub! "-I${X11INC}", "-I$(brew --prefix)/include"
+      s.gsub! "-I${X11INC}", "-I$(brew --prefix)/include -I$(brew --prefix)/include/freetype2"
       s.gsub! "-L${X11LIB}", "-L$(brew --prefix)/lib"
     end
     
