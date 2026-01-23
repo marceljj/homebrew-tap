@@ -11,7 +11,7 @@ class Sent < Formula
   
   def install
     inreplace "config.mk" do |s|
-      s.gsub! "PREFIX = /usr/local", "PREFIX = #{PREFIX}"
+      s.gsub! "PREFIX = /usr/local", "PREFIX = #{prefix}"
       s.gsub! "-I${X11INC}", "-I#{incdir}"
       s.gsub! "-L${X11LIB}", "-L#{libdir}"
     end
