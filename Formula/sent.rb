@@ -7,6 +7,7 @@ class Sent < Formula
   license "ISC"
 
   depends_on "farbfeld"
+  depends_on "freetype"
   depends_on "libx11"
   
   def install
