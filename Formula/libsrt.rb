@@ -11,9 +11,7 @@ class Libsrt < Formula
   depends_on "m4" => :build
   
   def install
-    system "autoreconf", "-fi"
-    system "./configure", *std_configure_args
-    system "make"
+    system "make", "-f", "Makefile.posix"
     system "make", "install"
   end
 
