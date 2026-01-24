@@ -8,6 +8,7 @@ class Libsrt < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
+  depends_on "m4" => :build
   
   def install
     system "autoreconf", "-fi"
