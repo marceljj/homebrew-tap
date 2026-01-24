@@ -3,7 +3,7 @@ class Libfragmentzip < Formula
   desc "A library allowing to download single files from a remote zip archive"
   homepage "https://github.com/tihmstar/libfragmentzip"
   url "https://github.com/tihmstar/libfragmentzip/archive/refs/tags/#{version}.tar.gz"
-  sha256 "4859dce6ce4e16addda962fa65a51aa050d7644e1e74b665d04550fcc1ffc055"
+  sha256 "93ab1d7bbef79ad4fe3205eb7d7daa19338e1e72d433059413750674ba0cfe90"
   license "LGPL-3.0"
 
   depends_on "autoconf" => :build
