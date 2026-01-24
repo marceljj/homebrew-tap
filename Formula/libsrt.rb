@@ -6,6 +6,7 @@ class Libsrt < Formula
   license "BSD-3-Clause"
   
   depends_on "autoconf" => :build
+  depends_on "automake" => :build
   
   def install
     system "autoreconf", "-fi"
