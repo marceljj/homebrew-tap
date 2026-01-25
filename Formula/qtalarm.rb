@@ -7,7 +7,7 @@ class Qtalarm< Formula
   license "GPL-3.0"
 
   depends_on "qtbase" => :build
-  depends_on "qt@5"
+  depends_on "qt"
   
   def install
     system "qmake"
