@@ -4,7 +4,7 @@ class Cogl < Formula
   homepage "https://gitlab.gnome.org/Archive/cogl"
   url "https://gitlab.gnome.org/Archive/cogl/-/archive/#{version}/cogl-#{version}.tar.gz"
   sha256 "bf36baf14e6aa0388e4c4addf8c35a154f1c2252986dbae06e5c6f6187b531c4"
-  license "all_of: ["BSD-3-Clause", "MIT", "SGI-B-2.0"]"
+  license all_of: ["BSD-3-Clause", "MIT", "SGI-B-2.0"]
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
