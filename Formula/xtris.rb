@@ -16,7 +16,16 @@ class Xtris < Formula
     end
     
     system "make"
-    system "make", "install"
+    bin.install "xtbot"
+    bin.install "xtris"
+    bin.install "xtserv"
+    man6.install "xtbot.6"
+    man6.install "xtris.6"
+    man6.install "xtserv.6"
+    doc.install "ChangeLog"
+    doc.install "COPYING"
+    doc.install "PROTOCOL"
+    doc.install "README"
   end
 
   test do
