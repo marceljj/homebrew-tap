@@ -22,7 +22,7 @@ class Cogl < Formula
   depends_on "libxext"
   depends_on "libxfixes"
   depends_on "libxrandr"
-  depends_on "mesa"
+
   depends_on "pango"
 
   def install
