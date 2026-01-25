@@ -1,5 +1,5 @@
 class Uxplay < Formula
-  desc 'AirPlay Unix mirroring server'
+  desc "AirPlay Unix mirroring server"
   version "1.72.3"
   homepage "https://github.com/FDH2/UxPlay"
   url "https://github.com/FDH2/UxPlay/archive/refs/tags/v#{version}.tar.gz"
