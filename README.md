@@ -75,6 +75,7 @@ brew tap marceljj/tap
 - [Neverball](https://neverball.org) - v1.7.0-alpha.3, (c) 2024, Neverball
 - [oneko](http://www.daidouji.com/oneko) - v1.2.sakura.5, (c) 1999, Kiichiroh Mukose
 - [xcowsay](http://www.doof.me.uk/xcowsay) - v1.6, (c) 2022, Nick Gasson
+- [xtris](https://ftp.netbsd.org/pub/pkgsrc/distfiles/xtris-1.15.tar.gz) - v1.15, (c) 1997, Roger Espel Llima
 
 ## Web Browsers
 - [Links](https://links.twibright.com) - v2.30, (c) 2024, Twibright Labs
