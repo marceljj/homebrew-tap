@@ -3,7 +3,7 @@ class Clutter < Formula
   desc "An open source software library for creating fast, compelling, portable, and dynamic graphical user interfaces"
   homepage "https://gitlab.gnome.org/Archive/clutter"
   url "https://gitlab.gnome.org/Archive/clutter/-/archive/#{version}/clutter-#{version}.tar.gz"
-  sha256 "bf36baf14e6aa0388e4c4addf8c35a154f1c2252986dbae06e5c6f6187b531c4"
+  sha256 "3451552bb870aa8bf3ad69885c093b7be1e337c6859271f8445d42b8a093171a"
   license "LGPL-2.1"
 
   depends_on "meson" => :build
