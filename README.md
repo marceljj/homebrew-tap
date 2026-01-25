@@ -29,6 +29,7 @@ brew tap marceljj/tap
 - [Nibbles](https://gitlab.gnome.org/GNOME/gnome-nibbles) - v4.4.2, (c) 2025, The GNOME Project
 - [Ptyxis](https://gitlab.gnome.org/chergert/ptyxis) - v49.2, (c) 2023, Christian Hergert
 - [Robots](https://gitlab.gnome.org/GNOME/gnome-robots) - v41.2, (c) 2025, Mark Rae
+- [Text Editor](https://gitlab.gnome.org/GNOME/gnome-text-editor) - v49.1, (c) 2026, The GNOME Project
 - [Tour](https://apps.gnome.org/Tour) - v49.0, (c) 2025, Bilal Elmoussaoui
 
 ## GNU Software
