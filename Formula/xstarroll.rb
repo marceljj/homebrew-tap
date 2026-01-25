@@ -3,7 +3,7 @@ class Xstarroll < Formula
   desc "A scrolling science fiction program for X11"
   homepage "https://kozos.jp/myfreesoft/#5"
   url "https://kozos.jp/myfreesoft/xstarroll-#{version}.tar.gz"
-  sha256 "5791b30795382a18536201c95c686f62ade6975fc4e63c651bff36226c933d68"
+  sha256 "c2a83cb6dc70bc578ab821142032d4e2e284701d241936bfd4c7c35f61c9205a"
   license :cannot_represent
 
   depends_on "libx11"
