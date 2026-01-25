@@ -1,9 +1,9 @@
 class GnomeTextEditor < Formula
-  version "49.0"
+  version "49.1"
   desc "A simple text editor focused on a pleasing default experience"
   homepage "https://apps.gnome.org/TextEditor"
   url "https://gitlab.gnome.org/GNOME/gnome-text-editor/-/archive/#{version}/gnome-text-editor-#{version}.tar.gz"
-  sha256 "fadb4a1ab60de56ef1aa1eaf88fc27a0d9e3520c28026f587a36f5b4d69e8b2c"
+  sha256 "913b207ee58c09f52e9fcd9d1f7058bab503ed466c928196edc37ce6750cd5c6"
   license "GPL-3.0"
 
   depends_on "desktop-file-utils" => :build
