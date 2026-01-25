@@ -16,8 +16,8 @@ class Xstarroll < Formula
     inreplace "Makefile" do |s|
       s.gsub! "XSTARROLL_PREFIX = /usr/X11R6", "XSTARROLL_PREFIX = #{prefix}"
       s.gsub! "${XSTARROLL_PREFIX}/man/man1", "${XSTARROLL_PREFIX}/share/man/man1"
-      s.gsub! "-I/usr/X11R6/include", "-I#{Formula["libx11"].opt_include} -I#{Formula["libx11"].opt_include} -I#{Formula["libxaw"].opt_include} -I#{Formula["libxmu"].opt_include} -I#{Formula["libxpm"].opt_include} -I#{Formula["libxt"].opt_include}"
-      s.gsub! "-L/usr/X11R6/lib", "-L#{Formula["libx11"].opt_lib} -L#{Formula["libx11"].opt_lib} -L#{Formula["libxaw"].opt_lib} -L#{Formula["libxmu"].opt_lib} -L#{Formula["libxpm"].opt_lib} -L#{Formula["libxt"].opt_lib}"
+      s.gsub! "-I/usr/X11R6/include", "-I#{Formula["libx11"].opt_include} -I#{Formula["libxaw"].opt_include} -I#{Formula["libxmu"].opt_include} -I#{Formula["libxpm"].opt_include} -I#{Formula["libxt"].opt_include}"
+      s.gsub! "-L/usr/X11R6/lib", "-L#{Formula["libx11"].opt_lib} -L#{Formula["libxaw"].opt_lib} -L#{Formula["libxmu"].opt_lib} -L#{Formula["libxpm"].opt_lib} -L#{Formula["libxt"].opt_lib}"
     end
     inreplace "xstarroll.c" do |s|
       s.gsub! "#include<stdlib.h>", "#include<stdlib.h>\n#include<unistd.h>"
