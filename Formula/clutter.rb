@@ -9,6 +9,7 @@ class Clutter < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
+  depends_on "at-spi2-core"
   depends_on "cairo"
   depends_on "cogl"
   depends_on "glib"
