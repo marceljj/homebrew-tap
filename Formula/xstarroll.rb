@@ -28,8 +28,8 @@ class Xstarroll < Formula
     system "make"
     bin.install "xstarroll"
     man6.install "xstarroll.man" => "xstarroll.6"
-    doc.install "COPYRIGHT.euc"
-    doc.install "README.euc"
+    doc.install "COPYRIGHT.euc" => "COPYRIGHT"
+    doc.install "README.euc" => "README"
 
     inreplace "sample11.sh", "./xstarroll", "xstarroll"
     inreplace "sample12.sh", "./xstarroll", "xstarroll"
