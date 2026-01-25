@@ -23,10 +23,11 @@ class Xstarroll < Formula
       s.gsub! "#include<stdlib.h>", "#include<stdlib.h>\n#include<unistd.h>"
       s.gsub! "static y", "int static y"
     end
+    inreplace "xstarroll.man", "XSTARROLL 1", "XSTARROLL 6"
     
     system "make"
     bin.install "xstarroll"
-    man1.install "xstarroll.man" => "xstarroll.1"
+    man6.install "xstarroll.man" => "xstarroll.6"
     doc.install "COPYRIGHT.euc"
     doc.install "README.euc"
 
