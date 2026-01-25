@@ -10,8 +10,6 @@ class Xtris < Formula
   
   def install
     inreplace "Makefile" do |s|
-      s.gsub! "BINDIR = /usr/local/bin", "BINDIR = #{prefix}/bin"
-      s.gsub! "MANDIR = /usr/local/man", "BINDIR = #{prefix}/share/man"
       s.gsub! "XLIBS = -lX11", "XLIBS = -lX11 -L#{Formula["libx11"].opt_lib} -I#{Formula["libx11"].opt_include}"
     end
     
