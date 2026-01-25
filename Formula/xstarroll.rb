@@ -30,6 +30,6 @@ class Xstarroll < Formula
   end
 
   test do
-    system "false"
+    system "xstarroll", "-h"
   end
 end
