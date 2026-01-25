@@ -3,7 +3,7 @@ class Photoqt < Formula
   version "5.1"
   homepage "https://photoqt.org"
   url "https://photoqt.org/downloads/source/photoqt-#{version}.tar.gz"
-  sha256 "a2f41c5481c2c3c8f125c38f8142a99d69b21d727be816616b66dd96af9a9c63"
+  sha256 "1904f4243ba1aed421f6ee51d830489585841ec489f1cbc3a77fb4b3a2348876"
   license "GPL-2.0-or-later"
 
   depends_on "cmake" => :build
