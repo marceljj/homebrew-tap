@@ -25,7 +25,8 @@ class Xstarroll < Formula
     end
     
     system "make"
-    system "make", "install"
+    bin.install "xstarroll"
+    man1.install "xstaroll.man" => "xstarroll.1"
   end
 
   test do
