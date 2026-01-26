@@ -35,6 +35,12 @@ class SucklessSt < Formula
 
     system "make", "PREFIX=#{prefix}"
     system "make", "install", "PREFIX=#{prefix}"
+    
+    doc.install "FAQ"
+    doc.install "LEGACY"
+    doc.install "LICENSE"
+    doc.install "README"
+    doc.install "TODO"
   end
 
   test do
