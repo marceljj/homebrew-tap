@@ -5,7 +5,6 @@ _I do not host any package source data here, all casks and formulae use upstream
 
 ## Add repository to Homebrew
 
-
 ```
 brew tap marceljj/tap
 ```
