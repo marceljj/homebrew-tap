@@ -6,10 +6,7 @@ class Uemacs < Formula
 
   depends_on "pkgconf" => :build
   depends_on "hunspell"
-
-  on_macos do
-    depends_on "ncurses"
-  end
+  depends_on "ncurses"
   
   def install
     system "make", "BINDIR=#{bin}", "LIBDIR=#{share}"
