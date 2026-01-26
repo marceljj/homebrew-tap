@@ -17,12 +17,22 @@ class SucklessSt < Formula
   conflicts_with "st", because: "both install `st` binaries"
 
   def install
+    on_macos do
+      inreplace "config.mk" do |s|
+        s.gsub! "LIBS = -L$(X11LIB) -lm -lrt", "LIBS = -L#{Formula["libx11"].opt_lib} -L#{Formula["libxft"].opt_lib} -L#{Formula["libpng"].opt_lib} -lm"
+      end
+    end
+    on_linux do
+      inreplace "config.mk" do |s|
+        s.gsub! "LIBS = -L$(X11LIB)", "LIBS = -L#{Formula["libx11"].opt_lib} -L#{Formula["libxft"].opt_lib} -L#{Formula["libpng"].opt_lib}"
+      end
+    end
+    
     inreplace "config.mk" do |s|
       s.gsub! "PREFIX = /usr/local", "PREFIX = #{prefix}"
       s.gsub! "INCS = -I$(X11INC)", "INCS = -I#{Formula["libx11"].opt_include} -I#{Formula["libxft"].opt_include} -I#{Formula["libpng"].opt_include}\libpng16"
-      s.gsub! "LIBS = -L$(X11LIB)", "LIBS = -L#{Formula["libx11"].opt_lib} -L#{Formula["libxft"].opt_lib} -L#{Formula["libpng"].opt_lib}"
     end
-    
+
     system "make", "PREFIX=#{prefix}"
     system "make", "install", "PREFIX=#{prefix}"
   end
