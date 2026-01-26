@@ -46,6 +46,7 @@ brew tap marceljj/tap
 ## Suckless Software
 - [farbfeld](https://tools.suckless.org/farbfeld) - v4, (c) 2018, Laslo Hunhold
 - [lchat](https://tools.suckless.org/lchat) - v1.0, (c) 2022, Jan Klemkow
+- [tabbed](https://tools.suckless.org/tabbed) - v0.9 (c) 2025, Enno Borland, Connor Lane Smith, Cristoph Lohmann
 
 ## Ringdove EDA Suite - (c) 2025, Ringdove
 - [camv-rnd](http://www.repo.hu/projects/camv-rnd) - v1.1.6
