@@ -12,7 +12,7 @@ class Uemacs < Formula
     system "make", "BINDIR=#{bin}", "LIBDIR=#{share}"
     bin.install "em"
     share.install "emacs.hlp"
-    share.install "emacs.rc" => ".emacsrc"
+    share.install "emacs.rc"
   end
 
   test do
