@@ -4,6 +4,13 @@ class Uemacs < Formula
   homepage "https://github.com/torvalds/uemacs"
   url "https://github.com/torvalds/uemacs.git", branch: "master"
 
+  depends_on "pkgconf" => :build
+  depends_on "hunspell"
+
+  on_macos do
+    depends_on "ncurses"
+  end
+  
   def install
     system "make", "BINDIR=#{bin}", "LIBDIR=#{share}"
     bin.install "em"
