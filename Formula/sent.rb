@@ -9,6 +9,7 @@ class Sent < Formula
   depends_on "farbfeld"
   depends_on "fontconfig"
   depends_on "freetype"
+  depends_on "imagemagick"
   depends_on "libx11"
   depends_on "libxft"
   
