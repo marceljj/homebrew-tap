@@ -13,6 +13,7 @@ class Tabbed < Formula
   def install
     inreplace "Makefile" do |s|
       s.gsub! "TABBED_CFLAGS = -I/usr/X11R6/include -I/usr/include/freetype2", "TABBED_CFLAGS = -I#{Formula["libx11"].opt_include} -I#{Formula["libxt"].opt_include} -I#{Formula["freetype"].opt_include}/freetype2"
+      s.gsub! "TABBED_LDFLAGS = -L/usr/X11R6/lib", "TABBED_LDFLAGS = -L#{Formula["libx11"].opt_lib} -L#{Formula["libxt"].opt_lib} -L#{Formula["freetype"].opt_lib}"
     end
     
     system "make", "PREFIX=#{prefix}"
