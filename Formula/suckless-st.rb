@@ -1,4 +1,4 @@
-class St < Formula
+class SucklessSt < Formula
   version "0.9.3"
   desc "A simple generic tabbed frontend to xembed-aware applications"
   homepage "https://tools.suckless.org/st"
@@ -12,6 +12,9 @@ class St < Formula
   depends_on "libpng"
   depends_on "libx11"
   depends_on "libxft"
+
+  conflicts_with "schemathesis", because: "both install `st` binaries"
+  conflicts_with "st", because: "both install `st` binaries"
 
   def install
     inreplace "config.mk" do |s|
