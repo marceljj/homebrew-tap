@@ -1,7 +1,7 @@
 class SucklessSt < Formula
   version "0.9.3"
   desc "A simple terminal implementation for X"
-  homepage "https://tools.suckless.org/st"
+  homepage "https://st.suckless.org"
   url "https://dl.suckless.org/st/st-#{version}.tar.gz"
   sha256 "9ed9feabcded713d4ded38c8cebf36a3b08f0042ef7934a0e2b2409da56e649b"
   license all_of: ["MIT", "X11"]
