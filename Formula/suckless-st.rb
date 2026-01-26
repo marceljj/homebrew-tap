@@ -33,8 +33,8 @@ class SucklessSt < Formula
       s.gsub! "INCS = -I$(X11INC)", "INCS = -I#{Formula["libx11"].opt_include} -I#{Formula["libxft"].opt_include} -I#{Formula["libpng"].opt_include}\libpng16"
     end
 
-    system "make", "PREFIX=#{prefix}"
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make"
+    system "make", "install"
     
     doc.install "FAQ"
     doc.install "LEGACY"
