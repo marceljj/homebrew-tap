@@ -14,7 +14,7 @@ brew tap marceljj/tap
 - [iloader](https://github.com/nab138/iloader) - v1.1.6, (c) 2026, Nicholas Sharp
 - [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
 - [Neko](https://github.com/mdonoughe/neko-mac) - v1.1, (c) 2015, Matthew Donoughe
-- [OmniWeb6](https://omnistaging.omnigroup.com/omniweb) - v636.0.8, (c) 2026, The Omni Group
+- [OmniWeb 6](https://omnistaging.omnigroup.com/omniweb) - v636.0.8, (c) 2026, The Omni Group
 - [Sideloadly](https://sideloadly.io) - v0.60.0, (c) 2026, Sideloadly
 - [Super Mario 64 Coop Deluxe](https://sm64coopdx.com) - v1.4.1, (c) 2025, Coop Deluxe
 - [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Developers
