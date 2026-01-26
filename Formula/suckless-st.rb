@@ -7,8 +7,8 @@ class SucklessSt < Formula
   license all_of: ["MIT", "X11"]
 
   depends_on "pkgconf" => :build
-  depends_on "fontconfig" => :build
   depends_on "freetype"
+  depends_on "fontconfig"
   depends_on "libpng"
   depends_on "libx11"
   depends_on "libxft"
