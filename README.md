@@ -1,7 +1,7 @@
 # Marcel's UNIX Repository
 _Currently providing [Homebrew](https://brew.sh) packages for various macOS/X11/UNIX/BSD/GNU/Linux software. Formulae are designed for macOS, but should work with Linux._
 
-_I do not host any package source data here, all casks and formulae use upstream source code._
+_I do not host any package source data here, all casks and formulae use upstream data._
 
 ## Add repository to Homebrew
 
