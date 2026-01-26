@@ -1,8 +1,8 @@
 class SucklessSt < Formula
   version "0.9.3"
-  desc "A simple generic tabbed frontend to xembed-aware applications"
+  desc "A simple terminal implementation for X"
   homepage "https://tools.suckless.org/st"
-  url "https://dl.suckless.org/tools/st-#{version}.tar.gz"
+  url "https://dl.suckless.org/st/st-#{version}.tar.gz"
   sha256 "0acf87457b7419e66fbfa3a9cec95ffb46d254c6b88b5e4bb7cc18c3a92008a8"
   license all_of: ["MIT", "X11"]
 
