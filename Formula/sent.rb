@@ -3,7 +3,7 @@ class Sent < Formula
   desc "A simple plaintext presentation tool"
   homepage "https://tools.suckless.org/sent"
   url "https://dl.suckless.org/tools/sent-#{version}.tar.gz"
-  sha256 "9ed9feabcded713d4ded38c8cebf36a3b08f0042ef7934a0e2b2409da56e649b"
+  sha256 "7bf3de9311ce291ff36adf5315b78fa72373e3ab80ca71387fb5884bcbd7be33"
   license "ISC"
 
   depends_on "farbfeld"
