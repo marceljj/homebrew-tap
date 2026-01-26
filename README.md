@@ -60,7 +60,6 @@ brew tap marceljj/tap
 - [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, (c) 2016, JadedTuna
 - [L3afpad](https://github.com/stevenhoneyman/l3afpad) - v0.8.18.1.11, (c) 2014, Steven Honeyman
 - [Leafpad](https://github.com/tarot231/leafpad) - v0.8.19, (c) 2010, Tarot Osuji
-- [uemacs](https://github.com/torvalds/uemacs) - v4.0.15, (c) 2018, Linus Torvalds
 
 ## Chat Clients
 - [EPIC6](https://www.epicsol.org) - v0.0.1, (c) 2025, EPIC Software Labs
