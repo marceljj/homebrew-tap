@@ -2,7 +2,7 @@ class Gtkd < Formula
   version "3.11.0"
   desc "D binding and OO wrapper of GTK+"
   homepage "https://gtkd.org/"
-  url "https://github.com/gtkd-developers/GtkD/archive/refs/tags/v#{version.tar.gz"
+  url "https://github.com/gtkd-developers/GtkD/archive/refs/tags/v#{version}.tar.gz"
   sha256 "123"
   license "LGPL-3.0-or-later"
 
