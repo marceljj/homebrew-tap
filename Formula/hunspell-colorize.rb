@@ -9,7 +9,7 @@ class HunspellColorize < Formula
   depends_on "hunspell"
   
   def install
-    inreplace "Makefile", "$(HOME)/bin", "#{bin}"
+    inreplace "Makefile", "$(HOME)/bin", "#{prefix}/bin"
   end
   
   system "make"
