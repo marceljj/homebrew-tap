@@ -1,6 +1,6 @@
 class LibgnomeGamesSupport < Formula
   version "2.0.2"
-  desc "A small library for playing system sounds"
+  desc "A small library intended for internal use by GNOME Games, but it may be used by others"
   homepage "https://gitlab.gnome.org/GNOME/libgnome-games-support"
   url "https://gitlab.gnome.org/GNOME/libgnome-games-support/-/archive/#{version}/libgnome-games-support-#{version}.tar.gz"
   sha256 "bf36baf14e6aa0388e4c4addf8c35a154f1c2252986dbae06e5c6f6187b531c4"
