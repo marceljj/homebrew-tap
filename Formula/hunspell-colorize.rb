@@ -9,11 +9,12 @@ class HunspellColorize < Formula
   depends_on "hunspell"
   
   def install
-    inreplace "Makefile", "$(HOME)/bin", "#{prefix}/bin"
+    inreplace "Makefile", "$(HOME)/bin", "#{bin}"
+    system "make"
+    system "make", "install"
+    doc.install "LICENSE"
+    doc.install "README.md"
   end
-  
-  system "make"
-  system "make", "install"
 
   test do
     system "false"
