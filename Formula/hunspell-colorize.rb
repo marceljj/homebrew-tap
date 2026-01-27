@@ -7,6 +7,7 @@ class HunspellColorize < Formula
 
   depends_on "pkgconf" => :build
   depends_on "hunspell"
+  depends_on "less"
   
   def install
     system "make"
