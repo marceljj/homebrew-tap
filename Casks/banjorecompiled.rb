@@ -8,5 +8,4 @@ cask "banjorecompiled" do
 
   app "BanjoRecompiled.app"
   
-  end
 end
