@@ -3,7 +3,7 @@ class Gtkd < Formula
   desc "D binding and OO wrapper of GTK+"
   homepage "https://gtkd.org/"
   url "https://github.com/gtkd-developers/GtkD/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "123"
+  sha256 "c5de7ef0d955c06a35bc979858e2b67c17919294a7aabe36fd593b79c46e5928"
   license "LGPL-3.0-or-later"
 
   depends_on "ldc" => :build
