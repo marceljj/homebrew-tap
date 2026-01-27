@@ -1,4 +1,4 @@
-class Macfree< Formula
+class Macfree < Formula
   version "1.1"
   desc "Disable Gatekeeper protection for a given macOS application"
   homepage "https://github.com/marceljj/macfree"
