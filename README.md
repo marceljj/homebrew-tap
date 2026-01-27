@@ -123,6 +123,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [gtk2fontsel](https://gtk2fontsel.sourceforge.net) - v0.1, (c) 2013, Jason Petrone
 - [gtk-chtheme](http://plasmasturm.org/code/gtk-chtheme) - v0.3.1, (c) 2008, Aristotle Pagaltzis
 - [GtkHash](https://gtkhash.org) - v1.5, (c) 2022, GtkHash
+- [HunspellColorize](https://github.com/torvalds/HunspellColorize) - v2026.01, (c) 2026, Linus Torvalds
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
 - [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
