@@ -9,7 +9,7 @@ class DicomRs < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", *std_cargo_args
+    system "cargo", "build", "--locked", "--release"
     
     bin.install "target/release/dicom-dictionary-builder"
     bin.install "target/release/dicom-dump"
