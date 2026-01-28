@@ -10,7 +10,7 @@ class IdevicePair < Formula
   depends_on "libusbmuxd"
 
   def install
-    system "cargo", "build", "--offline", "--release"
+    system "cargo", "build", "--release"
     bin.install "target/release/idevice_pair"
     doc.install "README.md"
   end
