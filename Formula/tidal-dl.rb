@@ -10,7 +10,7 @@ class TidalDl < Formula
 
   depends_on "ffmpeg"
   depends_on "pyqt@5"
-  depends_on "python@3"
+  depends_on "python@3.14"
 
   def install
     virtualenv_install_with_resources
