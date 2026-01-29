@@ -23,7 +23,7 @@ class GftpGtk < Formula
     
     inreplace "src/meson.build", "output: 'gftp',", "output: 'gftp-gtk',"
     
-    system "meson", "setup", "build", *std_meson_args
+    system "meson", "setup", "build", *args, *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
