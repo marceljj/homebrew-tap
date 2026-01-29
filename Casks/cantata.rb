@@ -8,6 +8,6 @@ cask "cantata" do
   homepage "https://github.com/nullobsi/cantata"
 
   app "Cantata.app"
-  binary "#{appdir}/Cantata.app/Contents/MacOS/Cantata" => "cantata"
+  binary "#{appdir}/Cantata.app/Contents/MacOS/Cantata", target: "cantata"
   binary "#{appdir}/Cantata.app/Resources/scripts/cantata-dynamic"
 end
