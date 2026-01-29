@@ -19,8 +19,8 @@ class GftpGtk < Formula
       -Dgtk3=true
     ]
 
-    inreplace "doc/gftp.desktop", "Exec=gftp", "Exec=gftp-gtk"
-    inreplace "doc/meson.build", "install_man('gftp.1')", "install_man('gftp-gtk.1')"
+    inreplace "docs/gftp.desktop", "Exec=gftp", "Exec=gftp-gtk"
+    inreplace "docs/meson.build", "install_man('gftp.1')", "install_man('gftp-gtk.1')"
     inreplace "src/meson.build", "output: 'gftp',", "output: 'gftp-gtk',"
     system.mv "doc/gftp.1", "doc/gftp-gtk.1"
     
