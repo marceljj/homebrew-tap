@@ -123,7 +123,6 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [efax](https://github.com/galippi/efax) - v0.9, (c) 1999, Ed Casas, G. Liptak
 - [emu2](https://github.com/dmsc/emu2) - v2025.11, (c) 2025, dmsc
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, eepykate
-- [gFTP](http://www.gftp.org) - v2.9.1b-2025.12, (c) 2025, Brian Masney
 - [gtk2fontsel](https://gtk2fontsel.sourceforge.net) - v0.1, (c) 2013, Jason Petrone
 - [gtk-chtheme](http://plasmasturm.org/code/gtk-chtheme) - v0.3.1, (c) 2008, Aristotle Pagaltzis
 - [GtkHash](https://gtkhash.org) - v1.5, (c) 2022, GtkHash
