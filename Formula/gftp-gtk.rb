@@ -14,6 +14,7 @@ class GftpGtk < Formula
   def install
     ENV["DESTDIR"] = "/"
 
+    inreplace "meson.build", "project('gftp',", "project('gftp-gtk',"
     inreplace "docs/gftp.desktop", "Exec=gftp", "Exec=gftp-gtk"
     inreplace "docs/meson.build", "install_man('gftp.1')", "install_man('gftp-gtk.1')"
     inreplace "src/meson.build", "output: 'gftp',", "output: 'gftp-gtk',"
