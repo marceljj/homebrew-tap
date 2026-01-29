@@ -25,7 +25,22 @@ class Mtpaint < Formula
       intl
       man
     ]
-    
+
+    (prefix/"_conf.txt").write <<~EOS
+      CC = /usr/bin/gcc -Wall  -Wno-pointer-sign -Wno-int-to-pointer-cast -Wno-string>
+      EXEEXT =
+      MT_VERSION=mtPaint #{version}
+      MT_DATE=2020-12-31
+      MT_PREFIX="#{prefix}"
+      MT_DATAROOT="#{prefix}/share"
+      MT_LANG_DEST="#{prefix}/share/locale"
+      MT_MAN_DEST="#{prefix}/share/man"
+      LDFLAG =    -lgif -lopenjp2 -lwebp -ltiff -ljpeg -lpng -lz -lm -lintl -L/opt/ho>
+      CFLAG =  -DU_GIF -DU_JP2=2 -DU_WEBP -DU_TIFF -DU_JPEG -DU_NLS -DMT_LANG_DEST='">
+      subdirs = src po doc
+      BIN_INSTALL="#{prefix}/bin"
+      SET_RANDSEED = -frandom-seed=$*
+    EOS
     system "./configure", *args, *std_configure_args
     system "make"
     system "make", "install"
