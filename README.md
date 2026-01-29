@@ -13,6 +13,7 @@ brew tap marceljj/tap
 _Game recompilations include no copyrighted code. Legally obtained game files must be provided._
 - [BanjoRecompiled](https://github.com/BanjoRecomp/BanjoRecomp) - v1.0.0, (c) 2026, BanjoRecomp
 - [Cantata](https://github.com/nullobsi/cantata) - v3.4.0, (c) 2025, nullobsi
+- [Flappy Bird](https://github.com/brandonplank/flappybird) - v4.3, (c) 2022, Brandon Plank
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
 - [iloader](https://github.com/nab138/iloader) - v1.1.6, (c) 2025, Nicholas Sharp
 - [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
