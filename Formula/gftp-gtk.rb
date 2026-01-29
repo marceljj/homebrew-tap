@@ -1,9 +1,8 @@
 class GftpGtk < Formula
-  version "2.9.1b"
+  version "2.9.1b-2025"
   desc "A free multithreaded file transfer client for *NIX based machines"
   homepage "http://www.gftp.org"
-  url "https://github.com/masneyb/gftp/archive/refs/tags/#{version}.tar.gz"
-  sha256 "fb134d5479a6b81251b9d37be7264fb8be6edb07bce98569e0e0ba9570587fd6"
+  url "https://github.com/masneyb/gftp.git", branch: "master"
   license "MIT"
 
   depends_on "meson" => :build
