@@ -46,6 +46,9 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 - [Miscfiles](https://www.gnu.org/software/miscfiles) - v1.5, (c) 2010, Free Software Foundation, Inc.
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
+## Enlightenment Software
+- [ephoto](https://git.enlightenment.org/enlightenment/ephoto) - v1.6.0, (c) 2024, Stephen Houston
+
 ## Suckless Software
 - [farbfeld](https://tools.suckless.org/farbfeld) - v4, (c) 2018, Laslo Hunhold
 - [lchat](https://tools.suckless.org/lchat) - v1.0, (c) 2022, Jan Klemkow
@@ -73,7 +76,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 
 ## Servers
 - [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - v0.21.0, (c) 2025, mk6i
-- [UxPlay](https://github.com/FDH2/UxPlay) - v1.72.3, (c) 2025, FDH2
+- [UxPlay](https://github.com/FDH2/UxPlay) - v1.73, (c) 2026, FDH2
 
 ## Games
 - [Chrząszcz](https://sourceforge.net/projects/chrzaszcz) - v0.1.3, (2023), Paweł Biernacki
