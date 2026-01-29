@@ -34,6 +34,12 @@ class GftpGtk < Formula
     system Formula["gtk+3"].opt_bin/"gtk3-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
   end
 
+  def caveats
+      <<~EOS
+        The binary has been installed as "gftp-gtk" to avoid conflict with the "inetutils" package.
+      EOS
+  end
+
   test do
     system "false"
   end
