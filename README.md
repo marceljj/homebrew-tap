@@ -48,6 +48,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 
 ## Enlightenment Software
 - [ephoto](https://git.enlightenment.org/enlightenment/ephoto) - v1.6.0, (c) 2024, Stephen Houston
+- [evisum](https://git.enlightenment.org/enlightenment/evisum) - v0.6.4, (c) 2026, Alastair Poole
 
 ## Suckless Software
 - [farbfeld](https://tools.suckless.org/farbfeld) - v4, (c) 2018, Laslo Hunhold
