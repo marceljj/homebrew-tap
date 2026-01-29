@@ -1,10 +1,10 @@
-class Ecrire < Formula
-  version "0.2.0"
-  desc "A text editor written using the core EFL"
-  homepage "https://git.enlightenment.org/enlightenment/ecrire"
-  url "https://download.enlightenment.org/rel/apps/ecrire/ecrire-#{version}.tar.xz"
-  sha256 "d964598790d5b26767e21b7dbc09ca16867f530d50fa363c7694fd3c50995fdf"
-  license "GPL-3.0"
+class Evisum < Formula
+  version "0.6.4"
+  desc "A powerful, efficient, and feature-rich process and system monitor"
+  homepage "https://git.enlightenment.org/enlightenment/evisum"
+  url "https://download.enlightenment.org/rel/apps/evisum/evisum-#{version}.tar.xz"
+  sha256 "865ca8b565137c32a412302f0eb944ef1604306ed792c0a0dd7f5792c75c6bf8"
+  license "ISC"
 
   depends_on "meson" => :build
   depends_on "ninja" => :build
