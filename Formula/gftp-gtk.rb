@@ -9,29 +9,24 @@ class GftpGtk < Formula
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
   depends_on "glib"
-  depends_on "gtk+3"
+  depends_on "gtk+"
 
   def install
     ENV["DESTDIR"] = "/"
-    
-    args = %w[
-      -Dgtk2=false
-      -Dgtk3=true
-    ]
 
     inreplace "docs/gftp.desktop", "Exec=gftp", "Exec=gftp-gtk"
     inreplace "docs/meson.build", "install_man('gftp.1')", "install_man('gftp-gtk.1')"
     inreplace "src/meson.build", "output: 'gftp',", "output: 'gftp-gtk',"
     system "mv", "docs/gftp.1", "docs/gftp-gtk.1"
     
-    system "meson", "setup", "build", *args, *std_meson_args
+    system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
 
   def post_install
     system Formula["glib"].opt_bin/"glib-compile-schemas", HOMEBREW_PREFIX/"share/glib-2.0/schemas"
-    system Formula["gtk+3"].opt_bin/"gtk3-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
+    system Formula["gtk+"].opt_bin/"gtk2-update-icon-cache", "-qtf", HOMEBREW_PREFIX/"share/icons/hicolor"
   end
 
   def caveats
