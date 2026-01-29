@@ -9,5 +9,5 @@ cask "cantata" do
 
   app "Cantata.app"
   binary "#{appdir}/Cantata.app/Contents/MacOS/Cantata", target: "cantata"
-  binary "#{appdir}/Cantata.app/Resources/scripts/cantata-dynamic"
+  binary "#{appdir}/Cantata.app/Contents/Resources/scripts/cantata-dynamic"
 end
