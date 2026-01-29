@@ -1,4 +1,4 @@
-class TidalDL < Formula
+class TidalDl < Formula
   include Language::Python::Virtualenv
 
   version "2022.08.29.1"
