@@ -11,7 +11,7 @@ class IdevicePair < Formula
 
   def install
     system "cargo", "build", "--release"
-    bin.install "target/release/idevice_pair"
+    bin.install "target/release/idevice_pair" => "idevice-pair"
     doc.install "README.md"
   end
 
