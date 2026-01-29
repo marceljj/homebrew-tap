@@ -22,7 +22,6 @@ class GftpGtk < Formula
     inreplace "docs/gftp.desktop", "Exec=gftp", "Exec=gftp-gtk"
     inreplace "docs/meson.build", "install_man('gftp.1')", "install_man('gftp-gtk.1')"
     inreplace "src/meson.build", "output: 'gftp',", "output: 'gftp-gtk',"
-    system.mv "doc/gftp.1", "doc/gftp-gtk.1"
     
     system "meson", "setup", "build", *args, *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
