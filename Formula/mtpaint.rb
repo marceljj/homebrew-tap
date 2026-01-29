@@ -7,13 +7,26 @@ class Mtpaint < Formula
   license "GPL-3.0"
 
   depends_on "pkgconf" => :build
+  depends_on "giflib"
   depends_on "glib"
   depends_on "gtk+3"
-  
-  uses_from_macos "ncurses"
+  depends_on "jpeg-turbo"
+  depends_on "libtiff"
+  depends_on "openjpeg"
+  depends_on "webp"
 
   def install
-    system "./configure", *std_configure_args
+    args = %w[
+      GIF
+      jpeg
+      jp2v2
+      tiff
+      webp
+      intl
+      man
+    ]
+    
+    system "./configure", *args, *std_configure_args
     system "make"
     system "make", "install"
   end
