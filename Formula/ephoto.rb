@@ -2,7 +2,8 @@ class Ephoto < Formula
   version "1.6.0"
   desc "A comprehensive image viewer written using the core EFL"
   homepage "https://git.enlightenment.org/enlightenment/ephoto"
-  url "https://git.enlightenment.org/enlightenment/ephoto.git", branch: "master"
+  url "https://download.enlightenment.org/rel/apps/ephoto/ephoto-#{version}.tar.xz"
+  sha256 "36bc73f3ce1bf9c606630d0031d1629a115911e78b796fd1f90322b5886670d3"
   license "BSD-2-Clause"
 
   depends_on "meson" => :build
