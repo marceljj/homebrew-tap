@@ -1,9 +1,9 @@
 class Uxplay < Formula
   desc "AirPlay Unix mirroring server"
-  version "1.72.3"
+  version "1.73"
   homepage "https://github.com/FDH2/UxPlay"
   url "https://github.com/FDH2/UxPlay/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "a2f41c5481c2c3c8f125c38f8142a99d69b21d727be816616b66dd96af9a9c63"
+  sha256 "52e62f7e4603ad9bf88ccc55a555d3560b09dc0ddff8116bcf83885f7df4a0bc"
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
