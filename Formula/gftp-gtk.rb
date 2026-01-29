@@ -1,5 +1,5 @@
 class GftpGtk < Formula
-  version "2.9.1b-2025"
+  version "2.9.1b-2025.12"
   desc "A free multithreaded file transfer client for *NIX based machines"
   homepage "http://www.gftp.org"
   url "https://github.com/masneyb/gftp.git", branch: "master"
@@ -10,8 +10,6 @@ class GftpGtk < Formula
   depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gtk+3"
-  
-  uses_from_macos "ncurses"
 
   def install
     ENV["DESTDIR"] = "/"
@@ -20,8 +18,11 @@ class GftpGtk < Formula
       -Dgtk2=false
       -Dgtk3=true
     ]
-    
+
+    inreplace "doc/gftp.desktop", "Exec=gftp", "Exec=gftp-gtk"
+    inreplace "doc/meson.build", "install_man('gftp.1')", "install_man('gftp-gtk.1')"
     inreplace "src/meson.build", "output: 'gftp',", "output: 'gftp-gtk',"
+    system.mv "doc/gftp.1", "doc/gftp-gtk.1"
     
     system "meson", "setup", "build", *args, *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
