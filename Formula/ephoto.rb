@@ -18,13 +18,7 @@ class Ephoto < Formula
   def install
     ENV["DESTDIR"] = "/"
 
-    on_macos do
-      system "meson", "setup", "build", "-Dclink_args=-L#{Formula["gettext"].opt_lib", *std_meson_args
-    end
-    on_linux do
-      system "meson", "setup", "build", *std_meson_args
-    end
-    
+    system "meson", "setup", "build", "-Dclink_args=-L#{Formula["gettext"].opt_lib", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
   end
