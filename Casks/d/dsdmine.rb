@@ -9,7 +9,7 @@ cask "dsdmine" do
   
   depends_on arch: :arm64
 
-  app "Cantata.app"
+  app "dsdmine.app"
   binary "#{appdir}/dsdmine.app/Contents/MacOS/dsdmine"
   binary "#{appdir}/dsdmine.app/Contents/MacOS/dsdmine", target: "minesweeper"
 end
