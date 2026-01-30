@@ -1,4 +1,4 @@
-class GnuCursynth < Formula
+class Cursynth < Formula
   version "1.4"
   desc "A polyphonic music synthesizer that runs graphically inside your terminal"
   homepage "https://www.gnu.org/software/cursynth"
