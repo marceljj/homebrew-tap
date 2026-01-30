@@ -3,7 +3,7 @@ class Entice < Formula
   desc "A simple image viewer, based on the EFL"
   homepage "https://git.enlightenment.org/vtorri/entice"
   url "https://git.enlightenment.org/vtorri/entice/releases/download/v#{version}/entice-#{version}.tar.gz"
-  sha256 "123"
+  sha256 "962301f9e6b531ecdcaf87e99c8423779a7339e9bdec5b67acf94ed249054e11"
   license "BSD-2-Clause"
 
   depends_on "meson" => :build
