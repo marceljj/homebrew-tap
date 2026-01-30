@@ -1,4 +1,4 @@
-class Spy < Formula
+class DSpy < Formula
   version "50.alpha"
   desc "Inspect peers on a D-Bus connection"
   homepage "https://gitlab.gnome.org/GNOME/d-spy"
