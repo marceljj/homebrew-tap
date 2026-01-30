@@ -1,4 +1,4 @@
-class GnuGxmessage < Formula
+class Gxmessage < Formula
   version "3.4.3"
   desc "An xmessage clone for GTK based desktops"
   homepage "https://trmusson.dreamhosters.com/programs.html#gxmessage"
