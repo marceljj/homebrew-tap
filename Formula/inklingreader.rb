@@ -1,4 +1,4 @@
-class GnuInklingreader < Formula
+class Inklingreader < Formula
   desc "An attempt to create a GNU-friendly version of the Wacom Inkling SketchManager"
   version "0.8"
   homepage "https://www.gnu.org/software/inklingreader"
