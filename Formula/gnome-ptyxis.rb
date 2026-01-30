@@ -1,4 +1,4 @@
-class GnomePtyxis < Formula
+class Ptyxis < Formula
   version "49.2"
   desc "A terminal for a container-oriented desktop"
   homepage "https://gitlab.gnome.org/chergert/ptyxis"
@@ -22,7 +22,6 @@ class GnomePtyxis < Formula
     system "meson", "setup", "build", *std_meson_args
     system "meson", "compile", "-C", "build", "--verbose"
     system "meson", "install", "-C", "build"
-    bin.install_symlink bin/"ptyxis" => "gnome-ptyxis"
   end
 
   def post_install
