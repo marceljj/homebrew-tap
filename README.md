@@ -67,6 +67,34 @@ _Expect many bugs when using with macOS, EFL support is very unstable._
 - [route-rnd](http://www.repo.hu/projects/pcb-rnd) - v0.9.3
 - [sch-rnd](http://www.repo.hu/projects/sch-rnd) - v1.0.10
 
+## X11 Window Managers
+- [9wm](https://github.com/9wm/9wm) - v1.4.2, (c) 2022, David Hogan
+- [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
+- [bspwm](https://github.com/baskerville/bspwm) - v0.9.12 , (c) 2025, Bastien Dejean
+- [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
+- [FVWM3](https://www.fvwm.org) - v1.1.4, (c) 2025, FVWM Organization
+- [JWM](https://joewing.net/projects/jwm/) - v2.4.6, (c) 2025, Joe Wingbermuehle
+- [NsCDE](https://github.com/NsCDE/NsCDE) - v2.3, (c) 2024, NsCDE
+- [pekwm](https://www.pekwm.se) - v0.4.1, (c) 2025, Claes Nästén
+- [Ratpoison](https://www.nongnu.org/ratpoison) - v1.4.9, (c) 2017, Jérémie Courrèges-Anglas
+- [tinywm](http://incise.org/tinywm.html) - v2014.04, (c) 2014, Nick Welch
+- [sowm](https://github.com/dylanaraps/sowm) - v1.6, (c) 2020, Dylan Araps
+- [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, (c) 2025, Abhinav Prasai
+- [vtwm](http://www.vtwm.org) - v5.5.0, (c) 2018, Tom LaStrange, Jim Fulton
+
+## X11 Conservancy Project
+_Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org)._
+- [bclock](https://x11cp.org/apps/bclock) - v1.0, (c) 1997, Ivo van Geel
+- [mgdiff](https://x11cp.org/apps/mgdiff) - v1.0, (c) 1994, Daniel Williams
+- [vgp](https://x11cp.org/apps/vgp) - v1.1, (c) 1995, Frederick A. Niles
+- [xarclock](https://x11cp.org/apps/xarclock) - v1.0, (c) 1995, Jaime Garcia Ghirelli
+- [xdotclock](https://x11cp.org/apps/xdotclock) - v0.1.0, (c) 2003, Haran Shivanan
+- [Xinvest](https://x11cp.org/apps/xinvest) - v2.5.1, (c) 1997, Mark Buser
+- [xmoontool](https://x11cp.org/apps/xmoontool) - v3.0.1, (c) 1991, John Walker
+- [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - v1.2, (c) 1996, Thomas Zwettler
+- [xtt](https://x11cp.org/apps/xtt) - v1.0, (c) 1995, Matthew Chapman
+- [xzoom](https://x11cp.org/apps/xzoom) - v0.3-23, (c) 1996, Itai Nahshon
+
 ## Text Editors
 - [gtk-notepad](https://github.com/JadedTuna/gtk-notepad) - v2016.08, (c) 2016, JadedTuna
 - [L3afpad](https://github.com/stevenhoneyman/l3afpad) - v0.8.18.1.11, (c) 2014, Steven Honeyman
@@ -95,34 +123,6 @@ _Expect many bugs when using with macOS, EFL support is very unstable._
 
 ## Web Browsers
 - [Links](https://links.twibright.com) - v2.30, (c) 2024, Twibright Labs
-
-## X11 Window Managers
-- [9wm](https://github.com/9wm/9wm) - v1.4.2, (c) 2022, David Hogan
-- [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
-- [bspwm](https://github.com/baskerville/bspwm) - v0.9.12 , (c) 2025, Bastien Dejean
-- [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
-- [FVWM3](https://www.fvwm.org) - v1.1.4, (c) 2025, FVWM Organization
-- [JWM](https://joewing.net/projects/jwm/) - v2.4.6, (c) 2025, Joe Wingbermuehle
-- [NsCDE](https://github.com/NsCDE/NsCDE) - v2.3, (c) 2024, NsCDE
-- [pekwm](https://www.pekwm.se) - v0.4.1, (c) 2025, Claes Nästén
-- [Ratpoison](https://www.nongnu.org/ratpoison) - v1.4.9, (c) 2017, Jérémie Courrèges-Anglas
-- [tinywm](http://incise.org/tinywm.html) - v2014.04, (c) 2014, Nick Welch
-- [sowm](https://github.com/dylanaraps/sowm) - v1.6, (c) 2020, Dylan Araps
-- [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, (c) 2025, Abhinav Prasai
-- [vtwm](http://www.vtwm.org) - v5.5.0, (c) 2018, Tom LaStrange, Jim Fulton
-
-## X11 Conservancy Project
-_Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org)._
-- [bclock](https://x11cp.org/apps/bclock) - v1.0, (c) 1997, Ivo van Geel
-- [mgdiff](https://x11cp.org/apps/mgdiff) - v1.0, (c) 1994, Daniel Williams
-- [vgp](https://x11cp.org/apps/vgp) - v1.1, (c) 1995, Frederick A. Niles
-- [xarclock](https://x11cp.org/apps/xarclock) - v1.0, (c) 1995, Jaime Garcia Ghirelli
-- [xdotclock](https://x11cp.org/apps/xdotclock) - v0.1.0, (c) 2003, Haran Shivanan
-- [Xinvest](https://x11cp.org/apps/xinvest) - v2.5.1, (c) 1997, Mark Buser
-- [xmoontool](https://x11cp.org/apps/xmoontool) - v3.0.1, (c) 1991, John Walker
-- [xmtoolbar](https://x11cp.org/apps/xmtoolbar) - v1.2, (c) 1996, Thomas Zwettler
-- [xtt](https://x11cp.org/apps/xtt) - v1.0, (c) 1995, Matthew Chapman
-- [xzoom](https://x11cp.org/apps/xzoom) - v0.3-23, (c) 1996, Itai Nahshon
 
 ## Utilities
 - [bmk](https://trmusson.dreamhosters.com/programs.html#bmk) - v1.3, (c) 2018, Tim Musson
