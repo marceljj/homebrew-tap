@@ -1,4 +1,4 @@
-class GnuMiscfiles < Formula
+class Miscfiles < Formula
   desc "A collection of files including country codes, airport codes, currency information, and so on"
   version "1.5"
   homepage "https://www.gnu.org/software/inklingreader"
