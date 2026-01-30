@@ -10,6 +10,4 @@ cask "dsdmine" do
   depends_on arch: :arm64
 
   app "dsdmine.app"
-  binary "#{appdir}/dsdmine.app/Contents/MacOS/dsdmine"
-  binary "#{appdir}/dsdmine.app/Contents/MacOS/dsdmine", target: "minesweeper"
 end
