@@ -1,4 +1,4 @@
-class GnuMotti < Formula
+class Motti < Formula
   version "3.1.1"
   desc "Conquer enemies' capitals by occupying and encircling their territories"
   homepage "https://www.gnu.org/software/motti"
