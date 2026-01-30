@@ -165,4 +165,4 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [HexChat OTR](https://github.com/TingPing/hexchat-otr) - v0.2.2, (c) 2021, Patrick TingPing
 
 ---
-_Please [let me know](https://github.com/marceljj/homebrew-tap/issues) if you encounter any issues or have any requests for the repository._
+_Please let me know if you encounter any [issues](https://github.com/marceljj/homebrew-tap/issues) or have any [requests](https://github.com/marceljj/homebrew-tap/pulls) for the repository._
