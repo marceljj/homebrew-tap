@@ -1,4 +1,4 @@
-class GnuMarst < Formula
+class Marst < Formula
   version "2.8"
   desc "An Algol-to-C translator"
   homepage "https://www.gnu.org/software/marst"
