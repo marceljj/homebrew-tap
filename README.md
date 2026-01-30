@@ -164,6 +164,5 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## Plugins
 - [HexChat OTR](https://github.com/TingPing/hexchat-otr) - v0.2.2, (c) 2021, Patrick TingPing
 
-
 ---
 _Please let me know if you encounter any issues or have any requests for the repository._
