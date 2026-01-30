@@ -47,6 +47,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
 ## Enlightenment Software
+- [entice](https://git.enlightenment.org/vtorri/entice) - v0.0.1, (c) 2024, Vincent Torri
 - [ephoto](https://git.enlightenment.org/enlightenment/ephoto) - v1.6.0, (c) 2024, Stephen Houston
 - [evisum](https://git.enlightenment.org/enlightenment/evisum) - v0.6.4, (c) 2026, Alastair Poole
 
