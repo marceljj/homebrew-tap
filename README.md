@@ -133,7 +133,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [HunspellColorize](https://github.com/torvalds/HunspellColorize) - v2026.01, (c) 2026, Linus Torvalds
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
 - [idevice_pair](https://github.com/jkcoxson/idevice_pair) - v0.1.9, (c) 2025, Jackson Coxson
-- [macfree](https://github.com/marceljj/macfree) - v1.0, (c) 2025, Marcel Jagielko
+- [macfree](https://github.com/marceljj/macfree) - v1.1, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
 - [QTalarm](https://github.com/CountMurphy/QTalarm) - v3.0.1, (c) 2025, CountMurphy
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
