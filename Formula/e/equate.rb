@@ -9,7 +9,6 @@ class Equate < Formula
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
   depends_on "efl"
-end
 
   def install
     ENV["DESTDIR"] = "/"
