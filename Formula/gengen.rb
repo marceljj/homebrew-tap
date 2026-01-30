@@ -1,4 +1,4 @@
-class GnuGengen < Formula
+class Gengen < Formula
   version "git-1.4.3"
   desc "A tool to generate a C++ class (or C functions) for generating text"
   homepage "https://git.savannah.gnu.org/git/gengen"
