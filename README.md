@@ -48,6 +48,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 
 ## Enlightenment Software
 _Expect many bugs when using with macOS, EFL support is very unstable._
+- [elimine](https://git.enlightenment.org/vtorri/entice) - v2025.08, (c) 2025, Vincent Torri
 - [entice](https://git.enlightenment.org/vtorri/entice) - v0.0.1, (c) 2024, Vincent Torri
 - [ephoto](https://git.enlightenment.org/enlightenment/ephoto) - v1.6.0, (c) 2024, Stephen Houston
 - [evisum](https://git.enlightenment.org/enlightenment/evisum) - v0.6.4, (c) 2026, Alastair Poole
