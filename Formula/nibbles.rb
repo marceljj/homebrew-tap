@@ -1,4 +1,4 @@
-class GnomeNibbles < Formula
+class Nibbles < Formula
   version "4.4.2"
   desc "GNOME Nibbles game"
   homepage "https://gitlab.gnome.org/GNOME/gnome-nibbles"
