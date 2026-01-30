@@ -1,4 +1,4 @@
-class GnuGcal < Formula
+class Gcal < Formula
   version "4.1"
   desc "A program for calculating and printing calendars"
   homepage "https://www.gnu.org/software/gcal"
