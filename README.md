@@ -73,6 +73,7 @@ _Expect many bugs when using with macOS, EFL support is very unstable._
 - [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
 - [bspwm](https://github.com/baskerville/bspwm) - v0.9.12 , (c) 2025, Bastien Dejean
 - [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
+- [Enlightenment 16](http://www.enlightenment.org/e16) - v1.0.31, (c) 2025, Carsten Haitzler, Geoff Harrison, and Kim Woelders
 - [FVWM3](https://www.fvwm.org) - v1.1.4, (c) 2025, FVWM Organization
 - [JWM](https://joewing.net/projects/jwm/) - v2.4.6, (c) 2025, Joe Wingbermuehle
 - [NsCDE](https://github.com/NsCDE/NsCDE) - v2.3, (c) 2024, NsCDE
