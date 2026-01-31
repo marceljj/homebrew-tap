@@ -5,16 +5,11 @@ class E16 < Formula
   url "https://sourceforge.net/projects/enlightenment/files/e16/#{version}/e16-#{version}.tar.gz"
   sha256 "4b2255d43eab66dddd4599096d82948927d28997c0ce445dcc65528f682efe91"
   license "MIT"
-  
-  resource "ttf-bitstream-vera" do
-    version "1.10"
-    url "https://download.gnome.org/sources/ttf-bitstream-vera/#{version}/ttf-bitstream-vera-#{version}.tar.gz"
-    sha256 "3a84126ce11ef404d1453438e35450b9e0838220d262059e56cd8496ac6f5d15"
-  end
 
   depends_on "pkgconf" => :build
   depends_on "dbus"
   depends_on "freetype"
+  depends_on "imlib2"
   depends_on "libsndfile"
   depends_on "libsm"
   depends_on "libx11"
