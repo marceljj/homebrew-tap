@@ -25,7 +25,7 @@ class E16 < Formula
   uses_from_macos "curl"
 
   def install
-    system "curl", "-o", "https://download.gnome.org/sources/ttf-bitstream-vera/1.10/ttf-bitstream-vera-1.10.tar.gz"
+    system "curl", "https://download.gnome.org/sources/ttf-bitstream-vera/1.10/ttf-bitstream-vera-1.10.tar.gz"
     system "tar", "-xzvf", "ttf-bitstream-vera-1.10.tar.gz", "ttf-bitstream-vera-1.10/Vera.ttf", "ttf-bitstream-vera-1.10/VeraBd.ttf"
     system "mv", "ttf-bitstream-vera-1.10/*", "fonts"
     system "./configure", *std_configure_args
