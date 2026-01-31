@@ -1,6 +1,6 @@
 class E16 < Formula
   version "1.0.31"
-  desc "A window manager for the X11 windowing system"
+  desc "Enlightenment 16 window manager for X11"
   homepage "https://www.enlightenment.org/e16"
   url "https://sourceforge.net/projects/enlightenment/files/e16/#{version}/e16-#{version}.tar.gz"
   sha256 "4b2255d43eab66dddd4599096d82948927d28997c0ce445dcc65528f682efe91"
