@@ -26,7 +26,7 @@ class E16 < Formula
 
   def install
     system "curl", "-s", "https://download.gnome.org/sources/ttf-bitstream-vera/1.10/ttf-bitstream-vera-1.10.tar.gz", "|", "tar", "-xzvf", "-", "ttf-bitstream-vera-1.10/Vera.ttf", "ttf-bitstream-vera-1.10/VeraBd.ttf"
-    system "mv", "ttf-bitstream-vera-1.10/Vera*", "fonts"
+    system "mv", "ttf-bitstream-vera-1.10/*", "fonts"
     system "./configure", *std_configure_args
     system "make"
     system "make", "install"
