@@ -23,6 +23,7 @@ class AudaciousFull < Formula
   depends_on "flac"
   depends_on "fluid-synth"
   depends_on "gdk-pixbuf"
+  depends_on "gettext"
   depends_on "glib"
   depends_on "gtk+3"
   depends_on "jack"
@@ -53,10 +54,6 @@ class AudaciousFull < Formula
 
   uses_from_macos "curl"
   uses_from_macos "zlib"
-
-  on_macos do
-    depends_on "gettext"
-  end
 
   on_linux do
     depends_on "alsa-lib"
