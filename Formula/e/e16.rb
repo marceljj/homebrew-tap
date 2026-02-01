@@ -34,6 +34,6 @@ class E16 < Formula
   end
 
   test do
-    system "false"
+    system "e16", "-V"
   end
 end
