@@ -23,7 +23,12 @@ class E16 < Formula
   depends_on "pulseaudio"
 
   def install
-    system "./configure", *std_configure_args
+    on_macos do
+      system "./configure", "--enable-sound-pulse", "--with-sound-player=\"/usr/bin/afplay %s\"", *std_configure_args
+    end
+    on_linux do
+      system "./configure", "--enable-sound-pulse", *std_configure_args
+    end
     system "make"
     system "make", "install"
   end
