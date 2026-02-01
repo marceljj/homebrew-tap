@@ -22,6 +22,7 @@ class E16 < Formula
   depends_on "libxxf86vm"
   depends_on "pango"
   depends_on "pulseaudio"
+  depends_on "xmlto"
 
   def install
     on_macos do
