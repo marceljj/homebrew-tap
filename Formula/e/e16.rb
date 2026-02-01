@@ -21,8 +21,6 @@ class E16 < Formula
   depends_on "libxrandr"
   depends_on "libxxf86vm"
   depends_on "pulseaudio"
-  
-  uses_from_macos "curl"
 
   def install
     system "./configure", *std_configure_args
