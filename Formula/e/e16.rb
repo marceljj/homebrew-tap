@@ -6,6 +6,7 @@ class E16 < Formula
   sha256 "4b2255d43eab66dddd4599096d82948927d28997c0ce445dcc65528f682efe91"
   license "MIT"
 
+  depends_on "asciidoc" => :build
   depends_on "pkgconf" => :build
   depends_on "dbus"
   depends_on "freetype"
