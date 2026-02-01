@@ -25,7 +25,7 @@ class E16 < Formula
 
   def install
     on_macos do
-      system "./configure", "--enable-sound-pulse", "--with-sound-player=\"/usr/bin/afplay %s\"", *std_configure_args
+      system "./configure", "--enable-sound-pulse", "--with-sound-player=/usr/bin/afplay %s", *std_configure_args
     end
     on_linux do
       system "./configure", "--enable-sound-pulse", *std_configure_args
