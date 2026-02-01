@@ -25,11 +25,10 @@ class E16 < Formula
 
   def install
     on_macos do
-      system "./configure", "--enable-sound-pulse", "--with-sound-player=/usr/bin/afplay %s", *std_configure_args
+      inreplace "configure", "aplay -q", "afplay"
     end
-    on_linux do
-      system "./configure", "--enable-sound-pulse", *std_configure_args
-    end
+    
+    system "./configure", "--enable-sound-pulse", *std_configure_args
     system "make"
     system "make", "install"
   end
