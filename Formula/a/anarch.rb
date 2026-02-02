@@ -6,7 +6,7 @@ class Anarch < Formula
   license "CC0-1.0"
 
   def install
-    inreplace "make.sh", "-std=c99", "$(sdl2-config --cflags --libs)"
+    inreplace "make.sh", "-std=c99", "-I#{Formula["sdl2"].opt_include} $(sdl2-config --libs)"
     system "./make.sh", "sdl"
     bin.install "anarch"
     
