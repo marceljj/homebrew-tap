@@ -15,9 +15,7 @@ class Neverball < Formula
   depends_on "sdl2_net"
   depends_on "sdl2_ttf"
   
-  on_macos do
-    depends_on "curl"
-  end
+  uses_from_macos "curl"
   
   def install
     inreplace "share/font.c", "<SDL_ttf.h>", "<SDL2/SDL_ttf.h>"
