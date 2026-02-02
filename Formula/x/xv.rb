@@ -25,9 +25,9 @@ class Xv < Formula
   depends_on "zstd"
   
   def install
-    system "cmake", "-S", ".", "-B", "build", *std_cmake_args
-    system "cmake", "--build", "build"
-    system "cmake", "--install", "build"
+    system "cmake", "-S", ".", "-B", "build-cmake", *std_cmake_args
+    system "cmake", "--build", "build-cmake"
+    system "cmake", "--install", "build-cmake"
   end
 
   test do
