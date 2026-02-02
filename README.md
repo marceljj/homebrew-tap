@@ -20,6 +20,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 - [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
 - [LoadViz](https://github.com/walles/loadviz) - v1.2.4, (c) 2023, Johan Walles
 - [Neko](https://github.com/mdonoughe/neko-mac) - v1.1, (c) 2015, Matthew Donoughe
+- [OldUnreal](https://www.oldunreal.com) - v227k_13, (c) 2026, The OldUnreal Team
 - [OmniWeb 6](https://omnistaging.omnigroup.com/omniweb) - v636.0.8, (c) 2026, The Omni Group
 - [Sideloadly](https://sideloadly.io) - v0.60.0, (c) 2026, Sideloadly
 - [Super Mario 64 Coop Deluxe](https://sm64coopdx.com) - v1.4.1, (c) 2025, Coop Deluxe
