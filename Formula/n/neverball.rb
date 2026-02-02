@@ -7,7 +7,7 @@ class Neverball < Formula
   license "GPL-2.0-or-later"
 
   depends_on "pkgconf" => :build
-  depends_on "curl"
+  depends_on "gettext"
   depends_on "jpeg-turbo"
   depends_on "libpng"
   depends_on "libvorbis"
@@ -16,7 +16,7 @@ class Neverball < Formula
   depends_on "sdl2_ttf"
   
   on_macos do
-    depends_on "gettext"
+    depends_on "curl"
   end
   
   def install
