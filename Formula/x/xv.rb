@@ -21,6 +21,7 @@ class Xv < Formula
   depends_on "libxdmcp"
   depends_on "libxrandr"
   depends_on "webp"
+  depends_on "zstd"
   
   def install
     system "cmake", "-S", ".", "-B", "build", *std_cmake_args
