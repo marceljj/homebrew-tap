@@ -10,9 +10,15 @@ class Xv < Formula
   depends_on "ninja" => :build
   depends_on "jasper"
   depends_on "jpeg-turbo"
+  depends_on "libdeflate"
+  depends_on "libexif"
+  depends_on "libmd"
   depends_on "libpng"
   depends_on "libtiff"
   depends_on "libx11"
+  depends_on "libxau"
+  depends_on "libxcb"
+  depends_on "libxdmcp"
   depends_on "libxrandr"
   depends_on "webp"
   
