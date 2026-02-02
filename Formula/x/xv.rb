@@ -20,6 +20,7 @@ class Xv < Formula
   depends_on "libxcb"
   depends_on "libxdmcp"
   depends_on "libxrandr"
+  depends_on "libxt"
   depends_on "webp"
   depends_on "zstd"
   
