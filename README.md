@@ -78,6 +78,7 @@ _Expect many bugs when using with macOS, EFL support is very unstable._
 - [Enlightenment 16](http://www.enlightenment.org/e16) - v1.0.31, (c) 2025, Carsten Haitzler, Geoff Harrison, and Kim Woelders
 - [FVWM3](https://www.fvwm.org) - v1.1.4, (c) 2025, FVWM Organization
 - [JWM](https://joewing.net/projects/jwm/) - v2.4.6, (c) 2025, Joe Wingbermuehle
+- [Karmen](https://karmen.sourceforge.net) - v0.15, (c) 2008, Johan Veenhuizen
 - [NsCDE](https://github.com/NsCDE/NsCDE) - v2.3, (c) 2024, NsCDE
 - [pekwm](https://www.pekwm.se) - v0.4.1, (c) 2025, Claes Nästén
 - [Ratpoison](https://www.nongnu.org/ratpoison) - v1.4.9, (c) 2017, Jérémie Courrèges-Anglas
