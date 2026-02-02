@@ -21,7 +21,6 @@ class Xv < Formula
   depends_on "libxdmcp"
   depends_on "libxrandr"
   depends_on "webp"
-  depends_on "zlib"
   depends_on "zstd"
   
   def install
