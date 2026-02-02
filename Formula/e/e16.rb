@@ -20,6 +20,7 @@ class E16 < Formula
   depends_on "libxft"
   depends_on "libxinerama"
   depends_on "libxrandr"
+  depends_on "libxrender"
   depends_on "libxxf86vm"
   depends_on "pango"
   depends_on "pulseaudio"
