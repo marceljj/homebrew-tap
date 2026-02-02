@@ -7,5 +7,4 @@ cask "banjorecompiled" do
   homepage "https://github.com/BanjoRecomp/BanjoRecomp"
 
   app "BanjoRecompiled.app"
-  
 end
