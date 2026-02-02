@@ -4,7 +4,7 @@ class Xv < Formula
   homepage "https://xv.trilon.com"
   url "https://github.com/jasper-software/xv/releases/download/v#{version}/xv-3.10a-js-#{version}.tar.gz"
   sha256 "bfd0df563a7d5e6632fd22a4789d6a2e5ec24c83027d058a563eebc6dc74ca9c"
-  license :cannot_represent
+  license "XV"
 
   depends_on "cmake" => :build
   depends_on "ninja" => :build
