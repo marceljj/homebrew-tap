@@ -8,6 +8,7 @@ class Ggwave < Formula
 
   depends_on "cmake" => :build
   depends_on "ninja" => :build
+  depends_on "ggsock"
   depends_on "sdl2"
   
   def install
