@@ -12,9 +12,9 @@ class Xv < Formula
   depends_on "jpeg-turbo"
   depends_on "libpng"
   depends_on "libtiff"
-  depends_on "libwebp"
   depends_on "libx11"
   depends_on "libxrandr"
+  depends_on "webp"
   
   def install
     system "cmake", "-S", ".", "-B", "build", *std_cmake_args
