@@ -148,6 +148,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
 - [udu](https://github.com/gnualmalki/udu) - v0.6.91, (c) 2025, Ali Almalki
+- [XV](https://xv.trilon.com) - v6.1.0, (c) 2025, John Bradley
 
 ## Libraries
 - [c++-gtk-utils](https://cxx-gtk-utils.sourceforge.net) - v2.2.20, (c) 2021, Chris Vine
