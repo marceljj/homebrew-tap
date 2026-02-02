@@ -86,6 +86,7 @@ _Expect many bugs when using with macOS, EFL support is very unstable._
 - [sowm](https://github.com/dylanaraps/sowm) - v1.6, (c) 2020, Dylan Araps
 - [sxwm](https://mallocd.com/projects/sxwm.html) - v1.7, (c) 2025, Abhinav Prasai
 - [vtwm](http://www.vtwm.org) - v5.5.0, (c) 2018, Tom LaStrange, Jim Fulton
+- [Wind](https://windwm.sourceforge.net) - v1.5, (c) 2014, Johan Veenhuizen
 
 ## X11 Conservancy Project
 _Source code for these packages is provided by the [X11 Conservancy Project](https://x11cp.org)._
