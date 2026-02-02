@@ -3,7 +3,7 @@ class Karmen < Formula
   desc "A Window Manager for X"
   homepage "https://karmen.sourceforge.net"
   url "https://downloads.sourceforge.net/project/karmen/karmen/#{version}/karmen-#{version}.tar.gz"
-  sha256 "7eebdef9b14a4f56242764d102c5a30507a97967f1507457e44ec4b775762e42"
+  sha256 "29b7fa1da581d3a22d6db82ce6b6b6e396be9b6b0af2091b8c043040e6e2b980"
   license "MIT"
 
   depends_on "libx11"
