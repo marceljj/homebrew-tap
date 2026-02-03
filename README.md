@@ -18,6 +18,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
 - [iloader](https://github.com/nab138/iloader) - v1.1.6, (c) 2025, Nicholas Sharp
 - [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
+- [KolourPaint](https://apps.kde.org/kolourpaint) - v1236, (c) 2026, KDE e.V.
 - [LoadViz](https://github.com/walles/loadviz) - v1.2.4, (c) 2023, Johan Walles
 - [Neko](https://github.com/mdonoughe/neko-mac) - v1.1, (c) 2015, Matthew Donoughe
 - [OldUnreal](https://www.oldunreal.com) - v227k_13, (c) 2026, The OldUnreal Team
