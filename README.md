@@ -155,7 +155,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 
 ## Libraries
 - [c++-gtk-utils](https://cxx-gtk-utils.sourceforge.net) - v2.2.20, (c) 2021, Chris Vine
-- [gsound](https://gitlab.gnome.org/GNOME/gsound) - v1.0.3, (c) 2021, The GNOME Project
+- [gsound*](https://gitlab.gnome.org/GNOME/gsound) - v1.0.3, (c) 2021, The GNOME Project
 - [libbacktrace](https://github.com/ianlancetaylor/libbacktrace) - v2025.11, (c) 2025, Ian Lance Taylor
 - [libdockapp](https://www.dockapps.net/libdockapp) - v0.6.4, (c) 2003, Alfredo K. Kojima
 - [libdstr](https://flaterco.com/util) - v1.0, (c) 2013, Dave Flater
@@ -168,6 +168,8 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [libsmacker](https://libsmacker.sourceforge.net) - v1.1.1r35, (c) 2020, Greg Kennedy
 - [libxaw3dxft](https://t2linux.com/packages/libxaw3dxft) - v1.6.4, (c) 2025, Libxaw3dxft Authors
 - [xcb-util-xrm](https://github.com/Airblader/xcb-util-xrm) - v1.3, (c) 2018, Ingo Bürk
+
+_* macOS: only provided as a dependency for other packages, does not actually work_
 
 ## Plugins
 - [HexChat OTR](https://github.com/TingPing/hexchat-otr) - v0.2.2, (c) 2021, Patrick TingPing
