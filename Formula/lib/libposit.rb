@@ -8,7 +8,8 @@ class Libposit < Formula
 
   def install
     inreplace "config.mk", "/usr/local", "#{prefix}"
-    
+
+    system "./configure"
     system "make"
     system "make", "install"
   end
