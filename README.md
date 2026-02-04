@@ -133,6 +133,9 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 ## Web Browsers
 - [Links](https://links.twibright.com) - v2.30, (c) 2024, Twibright Labs
 
+## Java Software
+- [Opcion](https://opcion.sourceforge.net) - v1.1.1, (c) 2007, Paul Chiu
+
 ## Utilities
 - [3d-ascii-viewer](https://github.com/autopawn/3d-ascii-viewer) - v1.4.0, (c) 2023, autopawn
 - [ae_fspanel](https://packages.debian.org/source/stable/aewm++-goodies) - v1.0, (c) 2002, Frank Hale
@@ -151,7 +154,6 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [idevice_pair](https://github.com/jkcoxson/idevice_pair) - v0.1.9, (c) 2025, Jackson Coxson
 - [macfree](https://github.com/marceljj/macfree) - v1.1, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
-- [Opcion](https://opcion.sourceforge.net) - v1.1.1, (c) 2007, Paul Chiu
 - [QTalarm](https://github.com/CountMurphy/QTalarm) - v3.0.1, (c) 2025, CountMurphy
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
