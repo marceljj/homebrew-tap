@@ -9,15 +9,21 @@ class Aewmxx < Formula
   depends_on "libx11"
   depends_on "libxext"
 
+  uses_from_macos "curl" => :build
+
   def install
     inreplace "Makefile" do |s|
       s.gsub! "prefix   = /usr", "prefix   = #{prefix}"
       s.gsub! "-I$/usr/X11R6", "-I#{Formula["libx11"].opt_include} -I#{Formula["libxext"].opt_include}"
       s.gsub! "-L/usr/X11R6/lib", "-L#{Formula["libx11"].opt_lib} -L#{Formula["libxext"].opt_lib}"
     end
-    
+
+    system "curl", "-O", "https://manpages.debian.org/trixie/aewm++/x-window-manager.1.en.gz"
     system "make"
     system "make", "install"
+    man1.install "x-window-manager.1.gz" => "aewm++.1.gz"
+    doc.install "LICENSE"
+    doc.install "README"
   end
 
   test do
