@@ -74,11 +74,12 @@ _Expect many bugs when using with macOS, EFL support is very unstable._
 
 ## X11 Window Managers
 - [9wm](https://github.com/9wm/9wm) - v1.4.2, (c) 2022, David Hogan
-- [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
+- [aewm++](https://github.com/frankhale/aewmpp) - v1.0, 2010, Frank Hale
 - [bspwm](https://github.com/baskerville/bspwm) - v0.9.12 , (c) 2025, Bastien Dejean
 - [cwm](https://github.com/leahneukirchen/cwm) - v7.4, (c) 2024, Leah Neukirchen
 - [Enlightenment 16](http://www.enlightenment.org/e16) - v1.0.31, (c) 2025, Carsten Haitzler, Geoff Harrison, and Kim Woelders
 - [FVWM3](https://www.fvwm.org) - v1.1.4, (c) 2025, FVWM Organization
+- [i3](https://i3wm.org) - v4.25, (c) 2025, Michael Stapelberg
 - [JWM](https://joewing.net/projects/jwm/) - v2.4.6, (c) 2025, Joe Wingbermuehle
 - [Karmen](https://karmen.sourceforge.net) - v0.15, (c) 2008, Johan Veenhuizen
 - [NsCDE](https://github.com/NsCDE/NsCDE) - v2.3, (c) 2024, NsCDE
@@ -134,6 +135,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 
 ## Utilities
 - [3d-ascii-viewer](https://github.com/autopawn/3d-ascii-viewer) - v1.4.0, (c) 2023, autopawn
+- [ae_fspanel](https://packages.debian.org/source/stable/aewm++-goodies) - v1.0, (c) 2002, Frank Hale
 - [birthday](https://sourceforge.net/projects/birthday) - v1.6.2, (c) 2006, Andy Mortimer
 - [bmk](https://trmusson.dreamhosters.com/programs.html#bmk) - v1.3, (c) 2018, Tim Musson
 - [Curveball](https://github.com/MightyBurger/curveball) - v1.0.0, (c) 2025, Jordan Johnson
