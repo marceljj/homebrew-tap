@@ -11,7 +11,7 @@ brew tap marceljj/tap
 
 ## macOS Casks
 _Game recompilations include no copyrighted code. Legally obtained game files must be provided._
-- [BanjoRecompiled](https://github.com/BanjoRecomp/BanjoRecomp) - v1.0.0, (c) 2026, BanjoRecomp
+- [BanjoRecompiled](https://github.com/BanjoRecomp/BanjoRecomp) - v1.0.1, (c) 2026, BanjoRecomp
 - [Bubblemon](http://walles.github.io/bubblemon) - v0.11.0, (c) 2020, Johan Walles
 - [Cantata](https://github.com/nullobsi/cantata) - v3.4.0, (c) 2025, nullobsi
 - [dsdmine](https://github.com/DragonSWDev/dsdmine) - v2.1 (c) 2024, DragonSWDev
