@@ -1,4 +1,4 @@
-class AewFspanel < Formula
+class AeFspanel < Formula
   version "1.0"
   desc "A tiny panel that lists all your windows"
   homepage "https://packages.debian.org/source/stable/aewm++-goodies"
