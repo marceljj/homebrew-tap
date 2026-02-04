@@ -21,7 +21,7 @@ class Aewmxx < Formula
     system "curl", "-O", "https://manpages.debian.org/trixie/aewm++/x-window-manager.1.en.gz"
     system "make"
     system "make", "install"
-    man1.install "x-window-manager.1.gz" => "aewm++.1.gz"
+    man1.install "x-window-manager.1.en.gz" => "aewm++.1.gz"
     doc.install "LICENSE"
     doc.install "README"
   end
