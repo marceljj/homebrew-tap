@@ -166,8 +166,10 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [libhx](https://inai.de/projects/libhx) - v5.2, (c) 2025, Jan Engelhardt
 - [libinotify-kqueue](https://github.com/libinotify-kqueue/libinotify-kqueue) - v20240724, (c) 2024, Dmitry Matveev
 - [libixp](https://code.google.com/archive/p/libixp) - v2025.12, (c) 2025, Anselm R. Garbe, Kris Maglione
+- [libposit](https://github.com/takum-arithmetic/libposit) - v1.0.2, (c) 2025, Laslo Hunhold
 - [librnd](http://www.repo.hu/projects/librnd) - v4.4.0 (c) 2025, Ringdove
 - [libsmacker](https://libsmacker.sourceforge.net) - v1.1.1r35, (c) 2020, Greg Kennedy
+- [libtakum](https://takum.org) - v2.0.0, (c) 2025, Laslo Hunhold
 - [libxaw3dxft](https://t2linux.com/packages/libxaw3dxft) - v1.6.4, (c) 2025, Libxaw3dxft Authors
 - [xcb-util-xrm](https://github.com/Airblader/xcb-util-xrm) - v1.3, (c) 2018, Ingo Bürk
 
