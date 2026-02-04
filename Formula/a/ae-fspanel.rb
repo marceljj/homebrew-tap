@@ -12,13 +12,12 @@ class AeFspanel < Formula
   def install
     Dir.chdir("ae_fspanel-1.0") do
       inreplace "Makefile" do |s|
-        s.gsub! "prefix   = /usr", "prefix   = #{prefix}"
         s.gsub! "-I/usr/X11R6/include", "-I#{Formula["libx11"].opt_include} -I#{Formula["libxpm"].opt_include}"
         s.gsub! "-L/usr/X11R6/lib", "-L#{Formula["libx11"].opt_lib} -L#{Formula["libxpm"].opt_lib}"
       end
 
       system "make"
-      system "make", "install"
+      bin.install "ae_fspanel"
       doc.install "Changelog"
       doc.install "COPYING"
       doc.install "README"
