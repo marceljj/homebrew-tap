@@ -133,6 +133,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Links](https://links.twibright.com) - v2.30, (c) 2024, Twibright Labs
 
 ## Utilities
+- [3d-ascii-viewer](https://github.com/autopawn/3d-ascii-viewer) - v1.4.0, (c) 2023, autopawn
 - [bmk](https://trmusson.dreamhosters.com/programs.html#bmk) - v1.3, (c) 2018, Tim Musson
 - [Curveball](https://github.com/MightyBurger/curveball) - v1.0.0, (c) 2025, Jordan Johnson
 - [DICOM-rs](https://dicom-rs.github.io) - v0.9.0, (c) 2025, DICOM-rs Project
