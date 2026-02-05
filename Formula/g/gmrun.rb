@@ -3,7 +3,7 @@ class Gmrun < Formula
   desc "A run utiliy featuring a slim design and bash style auto-completion"
   homepage "https://github.com/wdlkmpx/gmrun"
   url "https://github.com/wdlkmpx/gmrun/releases/download/#{version}/gmrun-#{version}.tar.xz"
-  sha256 "db4e1655fc58f31e5770a17dfca4e6c89028ad8b2c8e043febc87a0beedeef05"
+  sha256 "eaeb68c4ef9da383b0966420fdf1515eb86654673463dfc70124c880dbadf800"
   license "ISC"
 
   depends_on "pkgconf" => :build
