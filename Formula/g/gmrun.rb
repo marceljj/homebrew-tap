@@ -7,6 +7,8 @@ class Gmrun < Formula
   license "ISC"
 
   depends_on "pkgconf" => :build
+  depends_on "glib"
+  depends_on "gtk+3"
   
   def install
     system "./configure", *std_configure_args
