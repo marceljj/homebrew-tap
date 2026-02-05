@@ -144,7 +144,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [Curveball](https://github.com/MightyBurger/curveball) - v1.0.0, (c) 2025, Jordan Johnson
 - [DICOM-rs](https://dicom-rs.github.io) - v0.9.0, (c) 2025, DICOM-rs Project
 - [efax](https://github.com/galippi/efax) - v0.9, (c) 1999, Ed Casas, G. Liptak
-- [emu2](https://github.com/dmsc/emu2) - v2026.01, (c) 2025, dmsc
+- [emu2](https://github.com/dmsc/emu2) - v2026.01, (c) 2026, dmsc
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, eepykate
 - [gmrun](https://github.com/wdlkmpx/gmrun) - v1.4w, (c) 2022, wdlkmpx
 - [gtk2fontsel](https://gtk2fontsel.sourceforge.net) - v0.1, (c) 2013, Jason Petrone
