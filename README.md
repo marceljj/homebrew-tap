@@ -113,7 +113,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [EPIC6](https://www.epicsol.org) - v0.0.1, (c) 2025, EPIC Software Labs
 - [HexChat](https://hexchat.github.io) - v2.16.2, (c) 2024, HexChat
 
-## Audio Players
+## Audio Software
 - [Audacious](https://audacious-media-player.org) - v4.5.1, (c) 2025, Audacious
 - [nrsc5](https://github.com/theori-io/nrsc5) - v3.1.0, (c) 2025, Theori
 
