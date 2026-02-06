@@ -13,12 +13,16 @@ class Nrsc5 < Formula
   depends_on "libao"
   
   def install
-    system "cmake", "-S", ".", "-B", "build", *std_cmake_args
+    args = %w[
+      -DBUILD_DOC=ON
+    ]
+    
+    system "cmake", "-S", ".", "-B", "build", *args, *std_cmake_args
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
   end
 
   test do
-    system "false"
+    system "nrsc5", "-v"
   end
 end
