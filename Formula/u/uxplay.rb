@@ -7,7 +7,6 @@ class Uxplay < Formula
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
-  depends_on "ninja" => :build
   depends_on "pkgconf" => :build
   depends_on "glib"
   depends_on "gstreamer"
