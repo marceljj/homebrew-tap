@@ -15,7 +15,7 @@ class Nrsc5 < Formula
   depends_on "libao"
   
   def install
-    inreplace "src/main.c", ", version", ", #{version}"
+    inreplace "src/main.c", ", version", ", \"#{version}\""
     args = %w[
       -DBUILD_DOC=ON
     ]
