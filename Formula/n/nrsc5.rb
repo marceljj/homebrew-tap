@@ -6,6 +6,7 @@ class Nrsc5 < Formula
   sha256 "66a1d199e92fd7b9464d55ece633757cb9d1daf37d4d80e0f4f8f63da089295e"
   license "GPL-3.0-or-later"
 
+  depends_on "git" => :build
   depends_on "cmake" => :build
   depends_on "doxygen" => :build
   depends_on "pkgconf" => :build
@@ -21,6 +22,7 @@ class Nrsc5 < Formula
     system "cmake", "-S", ".", "-B", "build", *args, *std_cmake_args
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
+    doc.install Dir["build/doc_doxygen"]
   end
 
   test do
