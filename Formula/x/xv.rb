@@ -7,7 +7,6 @@ class Xv < Formula
   license "XV"
 
   depends_on "cmake" => :build
-  depends_on "ninja" => :build
   depends_on "jasper"
   depends_on "jpeg-turbo"
   depends_on "libdeflate"
