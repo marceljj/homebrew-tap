@@ -22,6 +22,17 @@ class Nrsc5 < Formula
     system "cmake", "-S", ".", "-B", "build", *args, *std_cmake_args
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
+
+    (bin/"radio-fm").write <<~EOS
+      #!/bin/sh
+
+      nrsc5 $! 0
+    EOS
+    (bin/"radio-am").write <<~EOS
+      #!/bin/sh
+
+      nrsc5 --am $! 0
+    EOS
     doc.install Dir["build/doc_doxygen/html"]
   end
 
