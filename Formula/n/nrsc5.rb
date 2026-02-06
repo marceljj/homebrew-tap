@@ -15,6 +15,7 @@ class Nrsc5 < Formula
   depends_on "libao"
   
   def install
+    inreplace "doc/Doxyfile.in", "@GIT_COMMIT_HASH@", "#{version}"
     inreplace "src/main.c", ", version", ", \"#{version}\""
     args = %w[
       -DBUILD_DOC=ON
