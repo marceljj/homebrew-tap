@@ -26,12 +26,12 @@ class Nrsc5 < Formula
     (bin/"radio-fm").write <<~EOS
       #!/bin/sh
 
-      nrsc5 $! 0
+      nrsc5 $1 0
     EOS
     (bin/"radio-am").write <<~EOS
       #!/bin/sh
 
-      nrsc5 --am $! 0
+      nrsc5 --am $1 0
     EOS
     doc.install Dir["build/doc_doxygen/html"]
   end
