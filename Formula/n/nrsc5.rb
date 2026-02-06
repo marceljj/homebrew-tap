@@ -7,8 +7,8 @@ class Nrsc5 < Formula
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
-  depends_on "git" => :build
   depends_on "doxygen" => :build
+  depends_on "git" => :build
   depends_on "pkgconf" => :build
   depends_on "fftw"
   depends_on "librtlsdr"
