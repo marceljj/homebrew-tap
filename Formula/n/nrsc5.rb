@@ -22,7 +22,7 @@ class Nrsc5 < Formula
     system "cmake", "-S", ".", "-B", "build", *args, *std_cmake_args
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
-    doc.install Dir["build/doc_doxygen"]
+    doc.install Dir["build/doc_doxygen/html"]
   end
 
   test do
