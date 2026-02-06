@@ -7,12 +7,14 @@ class Nrsc5 < Formula
   license "GPL-3.0-or-later"
 
   depends_on "cmake" => :build
+  depends_on "doxygen" => :build
   depends_on "pkgconf" => :build
   depends_on "fftw"
   depends_on "librtlsdr"
   depends_on "libao"
   
   def install
+    inreplace "src/main.c", "revision %s\n", version);", "revision %s\n", "#{version");"
     args = %w[
       -DBUILD_DOC=ON
     ]
