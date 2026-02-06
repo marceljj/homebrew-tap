@@ -15,6 +15,7 @@ class Nrsc5 < Formula
   depends_on "libao"
   
   def install
+    inreplace "src/main.c", "printf(\"nrsc5 revision %s\n\", version);", "printf(\"nrsc5 revision 3\n\"
     args = %w[
       -DBUILD_DOC=ON
     ]
@@ -23,15 +24,15 @@ class Nrsc5 < Formula
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
 
-    (bin/"radio-fm").write <<~EOS
-      #!/bin/sh
-
-      nrsc5 $1 0
-    EOS
     (bin/"radio-am").write <<~EOS
       #!/bin/sh
 
       nrsc5 --am $1 0
+    EOS
+    (bin/"radio-fm").write <<~EOS
+      #!/bin/sh
+
+      nrsc5 $1 0
     EOS
     doc.install Dir["build/doc_doxygen/html"]
   end
