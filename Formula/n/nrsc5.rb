@@ -35,7 +35,7 @@ class Nrsc5 < Formula
 
       nrsc5 $1 0
     EOS
-    doc.install Dir["build/doc_doxygen/html"]
+    doc.install "build/doc_doxygen/html"
   end
 
   test do
