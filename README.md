@@ -147,6 +147,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [efax](https://github.com/galippi/efax) - v0.9, (c) 1999, Ed Casas, G. Liptak
 - [emu2](https://github.com/dmsc/emu2) - v2026.01, (c) 2026, dmsc
 - [fet.sh](https://github.com/eepykate/fet.sh) - v1.0, (c) 2022, eepykate
+- [fsel](https://github.com/Mjoyufull/fsel) - v3.0.0, (c) 2026, Mjoyufull
 - [gmrun](https://github.com/wdlkmpx/gmrun) - v1.4w, (c) 2022, wdlkmpx
 - [gtk2fontsel](https://gtk2fontsel.sourceforge.net) - v0.1, (c) 2013, Jason Petrone
 - [gtk-chtheme](http://plasmasturm.org/code/gtk-chtheme) - v0.3.1, (c) 2008, Aristotle Pagaltzis
