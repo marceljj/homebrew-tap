@@ -9,11 +9,11 @@ class Xcowsay < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "fontconfig" => :build
-  depends_on "gettext" => :build
   depends_on "pkgconf" => :build
   depends_on "dbus"
   depends_on "dbus-glib"
   depends_on "fortune"
+  depends_on "gettext"
   depends_on "glib"
   depends_on "gtk+3"
 
