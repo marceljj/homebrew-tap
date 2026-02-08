@@ -6,6 +6,7 @@ class Pins < Formula
   sha256 "f8fa2ec262e45c9ab9da0a57489c5be71dd31073ac22d9505f78c941aa343f83"
   license "GPL-3.0"
 
+  depends_on "desktop-file-utils" => :build
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
