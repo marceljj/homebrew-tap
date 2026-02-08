@@ -13,9 +13,12 @@ class Xcowsay < Formula
   depends_on "dbus"
   depends_on "dbus-glib"
   depends_on "fortune"
-  depends_on "gettext"
   depends_on "glib"
   depends_on "gtk+3"
+
+  on_macos do
+    depends_on "gettext"
+  end
 
   def install
     inreplace "src/xcowfortune", "env PATH=$PATH fortune | env PATH=$PATH DISPLAY=$DISPLAY xcowsay $@", "fortune | xcowsay $@"
