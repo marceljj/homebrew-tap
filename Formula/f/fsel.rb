@@ -17,9 +17,9 @@ class Fsel < Formula
     doc.install "README.md"
     doc.install "USAGE.md"
 
-    doc("/toml").install "color_examples.toml"
-    doc("/toml").install "config.toml"
-    doc("/toml").install "keybinds.toml"
+    (doc/"toml").install "color_examples.toml"
+    (doc/"toml").install "config.toml"
+    (doc/"toml").install "keybinds.toml"
   end
 
   def caveats
@@ -28,7 +28,7 @@ class Fsel < Formula
         #{doc}/toml/config.toml
 
       To enable it, copy it to ~/.config/fsel:
-        cp #{doc}/toml/config.toml ~/.config/fsel/
+        cp #{doc}/toml/config.toml ~/.config/fsel/config.toml
     EOS
   end
 
