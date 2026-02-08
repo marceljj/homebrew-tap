@@ -13,10 +13,10 @@ class Fsel < Formula
     system "cargo", "build", "--locked", "--release"
     bin.install "target/release/fsel"
     man1.install "fsel.1"
+    
     doc.install "LICENSE"
     doc.install "README.md"
     doc.install "USAGE.md"
-
     (doc/"toml").install "color_examples.toml"
     (doc/"toml").install "config.toml"
     (doc/"toml").install "keybinds.toml"
