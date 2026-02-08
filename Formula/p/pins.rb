@@ -10,6 +10,8 @@ class Pins < Formula
   depends_on "meson" => :build
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
+  depends_on "dbus"
+  depends_on "dbus-glib"
   depends_on "glib"
   depends_on "gtk4"
   depends_on "libadwaita"
