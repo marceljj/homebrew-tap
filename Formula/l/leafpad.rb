@@ -7,9 +7,9 @@ class Leafpad < Formula
   
   depends_on "autoconf" => :build
   depends_on "automake" => :build
-  depends_on "gettext" => :build
   depends_on "intltool" => :build
   depends_on "pkgconf" => :build
+  depends_on "gettext"
   depends_on "glib"
   depends_on "gtk+"
 
