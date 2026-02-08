@@ -10,7 +10,7 @@ class Fsel < Formula
   depends_on "chafa"
 
   def install
-    system "cargo", "build", "--locked", "--release"
+    system "cargo", "build", *std_cargo_args
     bin.install "target/release/fsel"
     man1.install "fsel.1"
     doc.install "LICENSE"
