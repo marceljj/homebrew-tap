@@ -28,11 +28,12 @@ class Fsel < Formula
         #{doc}/toml/config.toml
 
       To enable it, copy it to ~/.config/fsel:
+        mkdir ~/.config/fsel
         cp #{doc}/toml/config.toml ~/.config/fsel/config.toml
     EOS
   end
 
   test do
-    system "false"
+    system "fsel", "-V"
   end
 end
