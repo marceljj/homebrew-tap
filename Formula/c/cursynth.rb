@@ -9,8 +9,11 @@ class Cursynth < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "pkgconf" => :build
-  depends_on "gettext"
 
+  on_macos do
+    depends_on "gettext"
+  end
+  
   def install
     system "autoreconf", "-fi"
     system "./configure", *std_configure_args
