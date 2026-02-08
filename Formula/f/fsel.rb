@@ -16,6 +16,20 @@ class Fsel < Formula
     doc.install "LICENSE"
     doc.install "README.md"
     doc.install "USAGE.md"
+
+    doc("/toml").install "color_examples.toml"
+    doc("/toml").install "config.toml"
+    doc("/toml").install "keybinds.toml"
+  end
+
+  def caveats
+    <<~EOS
+      The default configuration file for fsel is located at:
+        #{doc}/toml/config.toml
+
+      To enable it, copy it to ~/.config/fsel:
+        cp #{doc}/toml/config.toml ~/.config/fsel/
+    EOS
   end
 
   test do
