@@ -10,6 +10,8 @@ class Pins < Formula
   depends_on "ninja" => :build
   depends_on "pkgconf" => :build
   depends_on "gettext"
+  depends_on "glib"
+  depends_on "gtk+4"
 
   def install
     ENV["DESTDIR"] = "/"
