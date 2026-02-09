@@ -6,9 +6,10 @@ class Tvision < Formula
   license "MIT"
 
   depends_on "cmake" => :build
+
+  uses_from_macos "ncurses"
   
   on_linux do
-    depends_on "ncurses"
     depends_on "xclip"
   end
   
