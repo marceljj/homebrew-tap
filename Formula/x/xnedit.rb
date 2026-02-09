@@ -17,7 +17,7 @@ class Xnedit < Formula
   def install
     inreplace "Makefile", "$(DESTDIR)$(PREFIX)/share/icons/xnedit.png", "$(DESTDIR)$(PREFIX)/share/icons/hicolor/96x96/xnedit.png"
     on_macos do
-      system "make", "-f", "makesfiles/Makefile.macos-homebrew", "PREFIX=#{prefix}"
+      system "make", "-f", "makefiles/Makefile.macos-homebrew", "PREFIX=#{prefix}"
     end
     on_linux do
       system "make", "linux", "PREFIX=#{prefix}"
