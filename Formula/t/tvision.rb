@@ -16,6 +16,14 @@ class Tvision < Formula
     system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
+
+    bin.install "build/hello" => "tvhello"
+    bin.install "build/mmenu"
+    bin.install "build/palette"
+    bin.install "build/tvdir"
+    bin.install "build/tvforms"
+    doc.install "COPYRIGHT"
+    doc.install "README.md"
   end
 
   test do
