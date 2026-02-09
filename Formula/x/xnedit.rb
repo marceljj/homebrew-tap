@@ -16,6 +16,7 @@ class Xnedit < Formula
 
   def install
     inreplace "Makefile", "$(DESTDIR)$(PREFIX)/share/icons/xnedit.png", "$(DESTDIR)$(PREFIX)/share/icons/hicolor/96x96/xnedit.png"
+    inreplace "util/fontsel.c", "<fontconfig/fontconfig.h>", "<fontconfig/fontconfig.h>\n#include <freetype2/ft2build.h>"
     on_macos do
       system "make", "macos", "PREFIX=#{prefix}"
     end
