@@ -15,7 +15,7 @@ class Xnedit < Formula
   depends_on "openmotif"
 
   def install
-    inreplace "$(DESTDIR)$(PREFIX)/share/icons/xnedit.png", "$(DESTDIR)$(PREFIX)/share/icons/hicolor/96x96/xnedit.png"
+    inreplace "Makefile", "$(DESTDIR)$(PREFIX)/share/icons/xnedit.png", "$(DESTDIR)$(PREFIX)/share/icons/hicolor/96x96/xnedit.png"
     on_macos do
       system "make", "macos", "PREFIX=#{prefix}"
     end
