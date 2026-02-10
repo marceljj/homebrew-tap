@@ -9,7 +9,7 @@ class Hygg < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", *std_cargo_args
+    system "cargo", "build", "--locked", "--release"
     bin.install "target/release/hygg"
     doc.install Dir["docs/*"]
   end
