@@ -154,6 +154,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [GtkHash](https://gtkhash.org) - v1.5, (c) 2022, GtkHash
 - [HunspellColorize](https://github.com/torvalds/HunspellColorize) - v2026.01, (c) 2026, Linus Torvalds
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
+- [hygg](https://terminaltrove.com/hygg) - v0.1.19, (c) 2025, Ragnar Kruse
 - [idevice_pair](https://github.com/jkcoxson/idevice_pair) - v0.1.9, (c) 2025, Jackson Coxson
 - [macfree](https://github.com/marceljj/macfree) - v1.1, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
