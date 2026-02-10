@@ -17,6 +17,8 @@ class Tvision < Formula
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
 
+    bin.install "build/genparts" => "tvgenparts"
+    bin.install "build/genphone" => "tvgenphone"
     bin.install "build/hello" => "tvhello"
     bin.install "build/mmenu"
     bin.install "build/palette"
