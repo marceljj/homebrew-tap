@@ -7,7 +7,7 @@ class Libslack < Formula
   license "GPL-2.0-or-later"
 
   def install
-    system "./configure", *std_configure_args
+    system "./configure", "--prefix=#{prefix}"
     system "make"
     system "make", "install"
   end
