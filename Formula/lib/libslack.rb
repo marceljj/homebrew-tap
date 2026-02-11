@@ -7,7 +7,10 @@ class Libslack < Formula
   license "GPL-2.0-or-later"
 
   def install
-    inreplace "libslack-config.pod", "Uninstall libslack", "Uninstall libslack (disabled)"
+    inreplace "libslack-config.pod" do |s|
+      s.gsub! "Uninstall libslack", "Uninstall libslack (disabled)"
+      s.gsub! "Uninstall I<libslack>.", "Uninstall I<libslack>. Disabled - use your package manager to uninstall."
+    end
     inreplace "libslack-config.t" do |s|
       s.gsub! "Uninstall libslack", "Uninstall libslack (disabled)"
       s.gsub! "-u|--uninstall|uninstall) uninstall;;", "-u|--uninstall|uninstall) echo 'Disabled: use package manager to uninstall';;"
