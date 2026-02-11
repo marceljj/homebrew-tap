@@ -7,7 +7,12 @@ class Libslack < Formula
   license "GPL-2.0-or-later"
 
   def install
-    inreplace "libslack-config.t", "-u|--uninstall|uninstall) uninstall;;", "-u|--uninstall|uninstall) echo 'Uninstallation without Homebrew is disabled';;"
+    inreplace "libslack-config.pod", "Uninstall libslack", "Uninstall libslack (disabled)"
+    inreplace "libslack-config.t" do |s|
+      s.gsub! "Uninstall libslack", "Uninstall libslack (disabled)"
+      s.gsub! "-u|--uninstall|uninstall) uninstall;;", "-u|--uninstall|uninstall) echo 'Uninstallation without Homebrew is disabled';;"
+    end
+    
     system "./configure", "--prefix=#{prefix}"
     system "make"
     system "make", "install"
