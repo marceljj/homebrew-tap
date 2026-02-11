@@ -51,6 +51,10 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 - [Miscfiles](https://www.gnu.org/software/miscfiles) - v1.5, (c) 2010, Free Software Foundation, Inc.
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
 
+## Qt Software
+- [QSSTV](https://github.com/tomtastic/QSSTV) - v10.0.0, (c) 2025, Tom Matthews
+- [QTalarm](https://github.com/CountMurphy/QTalarm) - v3.0.1, (c) 2025, CountMurphy
+
 ## Enlightenment Software
 _Expect many bugs when using with macOS, EFL support is very unstable._
 - [elimine](https://git.enlightenment.org/vtorri/entice) - v2025.08, (c) 2025, Vincent Torri
@@ -159,7 +163,6 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [macfree](https://github.com/marceljj/macfree) - v1.1, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
 - [Pins](https://github.com/fabrialberio/Pins) - v2.4.5, (c) 2026, Fabrizio Alberio
-- [QTalarm](https://github.com/CountMurphy/QTalarm) - v3.0.1, (c) 2025, CountMurphy
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
