@@ -1,4 +1,4 @@
-class Qtalarm< Formula
+class Qtalarm < Formula
   version "3.0.1"
   desc "A nifty alarm clock written in QT"
   homepage "https://github.com/CountMurphy/QTalarm"
