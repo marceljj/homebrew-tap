@@ -25,6 +25,7 @@ class Qsstv < Formula
     (share/"applications").install "qsstv.desktop"
     doc.install "LICENSE"
     doc.install "README.md"
+  end
 
   test do
     system "false"
