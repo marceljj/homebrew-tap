@@ -19,9 +19,9 @@ class Qtalarm < Formula
       bin.install "qtalarm"
     end
     
-    (share/"icons/16x16/apps").install "Icons/1349069370_Alarm_Clock16.png" => "QTalarm.png"
-    (share/"icons/24x24/apps").install "Icons/1349069370_Alarm_Clock24.png" => "QTalarm.png"
-    (share/"icons/48x48/apps").install "Icons/1349069370_Alarm_Clock.png" => "QTalarm.png"
+    (share/"icons/hicolor/16x16/apps").install "Icons/1349069370_Alarm_Clock16.png" => "QTalarm.png"
+    (share/"icons/hicolor/24x24/apps").install "Icons/1349069370_Alarm_Clock24.png" => "QTalarm.png"
+    (share/"icons/hicolor/48x48/apps").install "Icons/1349069370_Alarm_Clock.png" => "QTalarm.png"
     (share/"applications/qtalarm.desktop").write <<~EOS
       [Desktop Entry]
       Encoding=UTF-8
