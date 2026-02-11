@@ -6,6 +6,7 @@ class Libslack < Formula
   sha256 "10561805042cf6c28476af110b886c4b695b4f38a119390acbb63996170b1cac"
   license "GPL-2.0-or-later"
 
+  depends_on "perl" => :build
   depends_on "wget"
 
   def install
