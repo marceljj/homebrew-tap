@@ -10,7 +10,7 @@ class Libslack < Formula
     inreplace "libslack-config.pod", "Uninstall libslack", "Uninstall libslack (disabled)"
     inreplace "libslack-config.t" do |s|
       s.gsub! "Uninstall libslack", "Uninstall libslack (disabled)"
-      s.gsub! "-u|--uninstall|uninstall) uninstall;;", "-u|--uninstall|uninstall) echo 'Uninstallation without Homebrew is disabled';;"
+      s.gsub! "-u|--uninstall|uninstall) uninstall;;", "-u|--uninstall|uninstall) echo 'Disabled: use package manager to uninstall';;"
     end
     
     system "./configure", "--prefix=#{prefix}"
