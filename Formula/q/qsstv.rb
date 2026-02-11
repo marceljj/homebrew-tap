@@ -11,6 +11,10 @@ class Qsstv < Formula
   depends_on "hamlib"
   depends_on "openjpeg"
   depends_on "qt"
+
+  on_linux do
+    depends_on "pulseaudio"
+  end
   
   def install
     system "qmake"
@@ -23,6 +27,7 @@ class Qsstv < Formula
     end
     
     (share/"applications").install "qsstv.desktop"
+    (share/"icons/hicolor/128x128/apps").install "src/icons/qsstv.png"
     doc.install "LICENSE"
     doc.install "README.md"
   end
