@@ -8,8 +8,11 @@ class Idevicerestore < Formula
 
   depends_on "pkgconf" => :build
   depends_on "libimobiledevice"
+  depends_on "libimobiledevice-glue"
   depends_on "libirecovery"
   depends_on "libplist"
+  depends_on "libtatsu"
+  depends_on "libusb"
   depends_on "libzip"
 
   def install
