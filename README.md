@@ -161,6 +161,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [hxtools](https://inai.de/projects/hxtools) - v20251011, (c) 2025, Jan Engelhardt
 - [hygg](https://terminaltrove.com/hygg) - v0.1.19, (c) 2025, Ragnar Kruse
 - [idevice_pair](https://github.com/jkcoxson/idevice_pair) - v0.1.9, (c) 2025, Jackson Coxson
+- [idevicerestore](https://github.com/libimobiledevice/idevicerestore) - v1.0.0, (c) 2020, Joshua Hill, Martin Szulecki, Nikias Bassen
 - [macfree](https://github.com/marceljj/macfree) - v1.1, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
 - [Pins](https://github.com/fabrialberio/Pins) - v2.4.5, (c) 2026, Fabrizio Alberio
