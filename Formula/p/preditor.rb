@@ -7,7 +7,7 @@ class Preditor < Formula
   license "MIT"
 
   depends_on "pkgconf" => :build
-  depends_on "gdk-pixbug"
+  depends_on "gdk-pixbuf"
   depends_on "glib"
   depends_on "gtk+3"
   
