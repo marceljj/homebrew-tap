@@ -1,6 +1,6 @@
 class Intlfonts < Formula
   version "1.4.2"
-  desc "GNU International Fonts"
+  desc "GNU International Fonts for Emacs"
   homepage "https://ftp.gnu.org/gnu/intlfonts"
   url "https://ftp.gnu.org/gnu/intlfonts/intlfonts-#{version}.tar.gz"
   license "GPL-3.0-or-later"
