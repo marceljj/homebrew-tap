@@ -9,7 +9,6 @@ class Idevicerestore < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
   depends_on "pkgconf" => :build
-  depends_on "curl"
   depends_on "git"
   depends_on "libimobiledevice"
   depends_on "libimobiledevice-glue"
@@ -20,7 +19,9 @@ class Idevicerestore < Formula
   depends_on "libzip"
   depends_on "openssl@3"
   depends_on "readline"
-  depends_on "zlib"
+
+  uses_from_macos "curl"
+  uses_from_macos "zlib"
 
   def install
     system "./autogen.sh"
