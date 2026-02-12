@@ -7,6 +7,14 @@ class Idevicerestore < Formula
   license "LGPL-3.0"
 
   depends_on "pkgconf" => :build
+  depends_on "libimobiledevice"
+  depends_on "libimobiledevice-glue"
+  depends_on "libirecovery"
+  depends_on "libplist"
+  depends_on "libtatsu"
+  depends_on "libusb"
+  depends_on "libzip"
+  depends_on "readline"
 
   def install
     system "./configure", *std_configure_args
