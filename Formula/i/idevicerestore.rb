@@ -16,7 +16,6 @@ class Idevicerestore < Formula
   depends_on "libirecovery"
   depends_on "libplist"
   depends_on "libtatsu"
-  depends_on "libtool"
   depends_on "libusbmuxd"
   depends_on "libzip"
   depends_on "openssl@3"
