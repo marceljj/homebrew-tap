@@ -12,8 +12,10 @@ class Preditor < Formula
   depends_on "gtk+3"
   
   def install
-    system "make", "release", "PREFIX=#{prefix}"
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make", "release"
+    bin.install "preditor"
+    (share/"applications").install "packaging/preditor.desktop"
+    doc.install "README.md"
   end
 
   test do
