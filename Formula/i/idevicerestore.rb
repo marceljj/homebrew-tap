@@ -7,6 +7,7 @@ class Idevicerestore < Formula
   license "LGPL-3.0"
 
   depends_on "pkgconf" => :build
+  depends_on "libirecovery"
 
   def install
     system "./configure", *std_configure_args
