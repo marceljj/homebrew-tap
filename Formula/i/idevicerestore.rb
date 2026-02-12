@@ -14,6 +14,7 @@ class Idevicerestore < Formula
   depends_on "libtatsu"
   depends_on "libusb"
   depends_on "libzip"
+  depends_on "readline"
 
   def install
     system "./configure", *std_configure_args
