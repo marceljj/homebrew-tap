@@ -1,6 +1,6 @@
 class Idevicerestore < Formula
   version "git-2025.11"
-  desc "Generate pair records for iOS and save them"
+  desc "Restore/upgrade firmware of iOS devices"
   homepage "https://github.com/libimobiledevice/idevicerestore"
   url "https://github.com/libimobiledevice/idevicerestore.git", branch: "master"
   license "LGPL-3.0"
@@ -9,14 +9,21 @@ class Idevicerestore < Formula
   depends_on "automake" => :build
   depends_on "libtool" => :build
   depends_on "pkgconf" => :build
+  depends_on "curl"
+  depends_on "git"
   depends_on "libimobiledevice"
   depends_on "libimobiledevice-glue"
   depends_on "libirecovery"
   depends_on "libplist"
   depends_on "libtatsu"
+  depends_on "libtool"
   depends_on "libusb"
+  depends_on "libusbmuxd"
   depends_on "libzip"
+  depends_on "openssl@3"
   depends_on "readline"
+
+  uses_from_macos "zlib"
 
   def install
     system "./autogen.sh"
