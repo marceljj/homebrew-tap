@@ -163,6 +163,7 @@ _Source code for these packages is provided by the [X11 Conservancy Project](htt
 - [macfree](https://github.com/marceljj/macfree) - v1.1, (c) 2025, Marcel Jagielko
 - [mkatr](https://github.com/dmsc/mkatr) - v2024.09, (c) 2024, dmsc
 - [Pins](https://github.com/fabrialberio/Pins) - v2.4.5, (c) 2026, Fabrizio Alberio
+- [preditor](https://github.com/rabfulton/preditor) - v0.1.2, (c) 2026, rabfulton
 - [Srain](https://srain.silverrainz.me) - v1.8.1, (c) 2025, Shengyu Zhang
 - [stiv](https://github.com/radare/tiv) - v2023.01, (c) 2023, Radare
 - [Typesetter](https://typesetter.trowell.net) - v0.8.3, (c) 2025, Haydn Trowell
