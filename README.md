@@ -47,6 +47,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 - [Gengen](https://www.gnu.org/software/gengen) - v1.4.3, (c) 2021, Lorenzo Bettini
 - [gxmessage](https://trmusson.dreamhosters.com/programs.html#gxmessage) - v3.4.3, (c) 2015, Timothy Musson
 - [InklingReader](https://www.gnu.org/software/inklingreader) - v0.8, (c) 2014, Roel Janssen
+- [Intlfonts](https://ftp.gnu.org/gnu/intlfonts) - v1.4.2, (c) 2021, Free Software Foundation, Inc.
 - [MARST](https://www.gnu.org/software/marst) - v2.8, (c) 2025, Andrew Makhorin
 - [Miscfiles](https://www.gnu.org/software/miscfiles) - v1.5, (c) 2010, Free Software Foundation, Inc.
 - [Motti](https://www.gnu.org/software/motti) - v3.1.1, (c) 2019, Sebastien Diaz
