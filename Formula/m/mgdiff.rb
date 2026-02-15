@@ -10,6 +10,7 @@ class Mgdiff < Formula
   depends_on "openmotif"
 
   def install
+    inreplace "src/mgdiff/mgdiff.man", "MGDIFF 1", "MGDIFF 1x"
     Dir.chdir("src/mgdiff") do
       system "xmkmf"
       system "make"
