@@ -14,7 +14,7 @@ class Mgdiff < Formula
       system "xmkmf"
       system "make"
       bin.install "mgdiff"
-      man1.install "mgdiff.man" => "mgdiff.1"
+      man1.install "mgdiff.man" => "mgdiff.1x"
       (etc/"X11/app-defaults").install "Mgdiff.ad" => "Mgdiff"
     end
   end
