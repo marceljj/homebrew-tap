@@ -6,5 +6,5 @@ cask "macprogramguide" do
   desc "Frontend for SchedulesDirect"
   homepage "https://coolmacsoftware.com/mpgmain.html"
 
-  app "MacProgramGuide"
+  app "MacProgramGuide1/MacProgramGuide"
 end
