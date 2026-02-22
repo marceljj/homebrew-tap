@@ -15,6 +15,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 - [Bubblemon](http://walles.github.io/bubblemon) - v0.11.0, (c) 2020, Johan Walles
 - [Cantata](https://github.com/nullobsi/cantata) - v3.4.0, (c) 2025, nullobsi
 - [dsdmine](https://github.com/DragonSWDev/dsdmine) - v2.1 (c) 2024, DragonSWDev
+- [ErsatzTV](https://ersatztv.org) - v26.2.0, (c) 2026, Jason Dove
 - [Gophie](https://gophie.org) - v1.1, (c) 2020, Jan Kammerath
 - [iloader](https://github.com/nab138/iloader) - v1.1.6, (c) 2025, Nicholas Sharp
 - [iNFekt NFO Viewer](https://infekt.ws) - v2.0.0-alpha1, (c) 2025, Syndicode
