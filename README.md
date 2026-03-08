@@ -25,6 +25,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 - [OldUnreal](https://www.oldunreal.com) - v227k_13, (c) 2026, The OldUnreal Team
 - [OmniWeb 6](https://omnistaging.omnigroup.com/omniweb) - v636.0.8, (c) 2026, The Omni Group
 - [Sideloadly](https://sideloadly.io) - v0.60.0, (c) 2026, Sideloadly
+- [sshfs](https://github.com/libfuse/sshfs) - v3.7.5, (c) 2025, libfuse
 - [Super Mario 64 Coop Deluxe](https://sm64coopdx.com) - v1.4.1, (c) 2025, Coop Deluxe
 - [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Developers
 - [XQuartz (beta)](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
