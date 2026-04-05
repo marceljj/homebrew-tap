@@ -28,7 +28,7 @@ _Game recompilations include no copyrighted code. Legally obtained game files mu
 - [sshfs](https://github.com/libfuse/sshfs) - v3.7.5, (c) 2025, libfuse
 - [Super Mario 64 Coop Deluxe](https://sm64coopdx.com) - v1.4.1, (c) 2025, Coop Deluxe
 - [UZDoom](https://github.com/UZDoom/UZDoom) - v4.14.3, (c) 2025, UZDoom Developers
-- [XQuartz (beta)](https://www.xquartz.org/releases/XQuartz-2.8.6_beta2) - v2.8.6_beta2, (c) 2023, The X.Org Foundation, Jeremy Huddleston Sequoia
+- [XQuartz (beta)](https://www.xquartz.org/releases/XQuartz-2.8.6_beta4) - v2.8.6_beta4, (c) 2026, The X.Org Foundation, Jeremy Huddleston Sequoia
 
 ## GNOME Software
 - [2048](https://gitlab.gnome.org/GNOME/gnome-2048) - v50.alpha.2, (c) 2025, The GNOME Project
